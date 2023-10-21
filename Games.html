@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Youth Games - Games</title>
+        <link rel="stylesheet" href="Styles.css">
+        <link rel="stylesheet" href="GamesStyle.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="icon" href="resources/YouthFireFavicon.png" type="icon">
+        <script src="Scripts.js" defer  ></script>
+            
+    </head>
+    <body class="body" onload="addGames(), SetUp()">
+
+        <!-- the sidebar and related elements -->
+        <nav class="sidebar" id="sidebar">
+            <!-- the top section of the sidebar -->
+            <div class="sidebar-top">
+                <div class="sidebarbtn">
+                    <i class="bx bx-expand"></i>
+                    <i class="bx bx-collapse"></i>
+                </div>
+
+                <ul class="SideList">
+                    <li class="SideBtn">
+                        <a href="index.html">
+                            <i class='bx bxs-home' ></i>
+                            <Span class="sidetext">Home Page</Span>
+                        </a>
+                    </li>
+                   
+                    <li class="SideBtn">
+                        <a href="Games.html">
+                            <i class='bx bxs-dice-3'></i>
+                            <Span class="sidetext">Games</Span>
+                        </a>
+                    </li>
+                    
+                    <li class="SideBtn">
+                        <a href="GameSurvey.html">
+                            <i class='bx bxs-message-detail' ></i>
+                            <Span class="sidetext">Survey</Span>
+                        </a>
+                    </li>
+
+                    <li class="SideBtn">      
+                        <a href="Tools.html">
+                            <i class='bx bxs-wrench' ></i>
+                            <Span class="sidetext">Tools</Span>
+                        </a>
+                    </li>
+
+                    <li class="SideBtn">      
+                        <a href="#">
+                            <i class='bx bxs-edit'></i>
+                            <Span class="sidetext">Change Log</Span>
+                        </a>
+                    </li>
+                </ul>
+            
+             </div>
+             <!-- the bottom section of the sidebar -->
+             <div class="sidebar-bottom">
+                <div class="settings-btn">
+                    <i class='bx bxs-cog' ></i>
+                </div>
+                
+                <div class="mode-switch">
+                    <i class='bx bxs-sun' ></i>
+                    <i class='bx bxs-moon' ></i>
+                </div> 
+            
+        </nav>
+ 
+
+        <div class="HeaderBar"> 
+
+            <div class="Icon">
+                <img src="resources/YouthFireLogo.png">
+            </div>
+
+        </div>
+
+        <div class="page">
+            <div class="pageHeader">
+
+                <div class="search-box">
+
+                    <i class='bx bx-search'></i>
+                    <input type="search" placeholder="Search Games..." class="searchBar">
+                    
+                    <span class="search-results"></span>
+
+
+                </div>
+
+                <div class="filter-box">
+                    <div class="filter-button-items">
+                        <span>Filters</span>
+                        <div class="filter-button">
+                            <i class='bx bxs-chevron-down-circle'></i>
+                            <i class='bx bxs-chevron-up-circle'></i>
+                        </div>
+                        
+                    </div>
+                    <div class="filter-drop-down-box">
+                        <ul>
+                            <li>
+                                <div class="filter-drop-down-item" onclick="ActivateFilter(event, 'All')" >
+                                    <span>All</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="filter-drop-down-item" onclick="ActivateFilter(event, 'outdoor')" >
+                                    <span>Outdoor</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="filter-drop-down-item" onclick="ActivateFilter(event, 'indoor')">
+                                    <span>Indoor</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="filter-drop-down-item" onclick="ActivateFilter(event, 'outdoorandindoor')">
+                                    <span>Outdoor / Indoor</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="filter-drop-down-item" onclick="ActivateFilter(event, 'event')">
+                                    <span>Event Games</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="filter-drop-down-item" onclick="ActivateFilter(event, 'team')">
+                                    <span>Team Games</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="filter-drop-down-item" onclick="ActivateFilter(event, 'new')">
+                                    <span>New Games</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="filter-drop-down-item" onclick="ActivateFilter(event, 'noprep')">
+                                    <span>No Preperation</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="filter-drop-down-item" onclick="ActivateFilter(event, 'infinite')">
+                                    <span>Infinite</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="filter-drop-down-item" onclick="ActivateFilter(event, 'ball')">
+                                    <span>Played With A Ball</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="filter-drop-down-item" onclick="ActivateFilter(event, 'annual')">
+                                    <span>Annual Games</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="filter-drop-down-item" onclick="ActivateFilter(event, 'gettoknowyou')">
+                                    <span>Get To Know You</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="filter-drop-down-item" onclick="ActivateFilter(event, 'seanssd')">
+                                    <span>Sean's Sword Drills</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <div class="container">
+            </div>
+           
+
+        </div>
+        <div class="page-footer">
+            <span>2023 - Upper Room Youth Ministry</span>
+        </div>
+
+    </body>
+</html>

@@ -1,0 +1,972 @@
+[
+    {
+        "Name": "Angry Birds IRL*",
+        "Bubble": "New!",
+        "Rating": "3",
+        "NumRatings": "4",
+        "GamePic": "resources/gamepic4.png",
+        "Details":[
+            "Outdoor / Indoor",
+            "Group Size 12+",
+            "Team Game",
+            "Event",
+            "Requires: Cardboard Boxes, A Large Sling Shot, Small Objects To Count As Points, And Projectiles",
+            "Competitive Rating: ★★★☆☆"
+        ],
+        "Filters":[
+            "indoor",
+            "event",
+            "team",
+            "new"
+        ],
+        "Description":[
+            {
+                "Header": "Selecting The Teams",
+                "Text": "Everyone is divided into 3-4 teams of at least 3 people each."
+            },
+            {
+                "Header": "Starting",
+                "Text": "Team 1 goes to the starting position and the other teams go 20-30 feet away and finds a clear area to start setting up the boxes. They stack the boxes and place items one them two count as points. "
+            },
+            {
+                "Header": "Firing",
+                "Text": "When they are done team 1 gets 5 shots to try to knock down the boxes and get points. 2 of team 1's players will hold the large sling shot on the sides and someone else from their team will put a projectile in the sling, aim, and fire (optionally and if the teams have 4 people each, the teams can have someone from their team walk up to the boxes and help to direct their aim). If they knock any of the items off the boxes they get points (some items may be worth more than others). Then it is the next team's turn."
+            },
+            {
+                "Header": "Determining Victory",
+                "Text": "After all teams have had their chance to both set up the boxes, and to fire the sling shot, the team with the most points wins (if there is a tie the tied teams may have a sudden death round)."
+            }
+        ]
+       
+    },
+    {
+        "Name": "Assassin",
+        "Bubble": "",
+        "Rating": "3",
+        "NumRatings": "4",
+        "GamePic": "resources/gamepic.png",
+        "Details":[
+            "Outdoor / Indoor",
+            "Group Size 12+",
+            "Requires: 1 Close Pin And 1 Piece Of Paper Per Player",
+            "Competitive Rating: ★★★★☆"
+        ],
+        "Filters":[
+            "outdoorandindoor"
+        ],
+        "Description": [
+            {
+                "Header": "Preparation",
+                "Text": "Everyone's names are written down on pieces of paper, the papers are shuffled and everyone is given one of those pieces of paper with a name of one of the other players on it (the name can not be their name), a close pin in put on the back of their shirt, then they have 10 seconds to spread out."
+            },
+            {
+                "Header": "Main Game",
+                "Text": "Then each person has to seek after the person who's name is on their paper and grab their close pin. When they do, they get the paper and all the close pins of the one they tagged, and the person whos close pin they grabbed is eliminated. At the end of the game the one with the most close pins wins."
+            }
+        ] 
+        
+    },
+    {
+        "Name": "Bippity Bop Bop",
+        "Bubble": "",
+        "Rating": "2",
+        "NumRatings": "4",
+        "GamePic": "resources/gamepic.png",
+        "Details":[
+            "Outdoor / Indoor",
+            "Group Size 12+",
+            "Competitive Rating: ★★☆☆☆"
+        ],
+        "Filters":[
+            "outdoorandindoor"
+        ],
+        "Description": "Everyone forms a circle with 1 person in the middle. The 1 in the middle steps up to someone and can say “Bippity Bop Bop” if the other person says bop before they finish they are safe and the 1 in the middle goes to someone else. If they say “Bippity Bop Bop” and the other person doesn't say anything then the 1 in the middle takes there place and they are now the one in the middle. If someone says bop at anytime and the 1 in the middle did NOT say “Bippity Bop Bop” then they swap spots with the one in the middle."
+        
+    },
+    {
+        "Name": "Bird Nests",
+        "Bubble": "",
+        "Rating": "2.5",
+        "NumRatings": "4",
+        "GamePic": "resources/gamepic.png",
+        "Details":[
+            "Outdoor / Indoor",
+            "Group Size 12+",
+            "Competitive Rating: ★★★☆☆"
+        ],
+        "Filters":[
+            "outdoorandindoor"
+        ],
+        "Description": [
+            {
+                "Header": "Preparation",
+                "Text": "Everyone finds a partner (boys with boys and girls with girls) and gets into 2 circles, an outer circle 'The Nests', and an inner circle 'The Birds'. One Partner will be in the outer circle and the other will be in the inner circle."
+            },
+            {
+                "Header": "Main Game",
+                "Text": "Someone starts playing music and both circles start walking in opposite rotation. When the music stops everyone has to find their partner, and 'The Birds' have to sit on the knee of 'The Nests'."
+            },
+            {
+                "Header": "Elimination",
+                "Text": "The last team to sit down is eliminated and the game goes on until there is one team left. The last team in wins!"
+            }
+        ]
+        
+    },
+    {
+        "Name": "Black Magic",
+        "Bubble": "",
+        "Rating": "1.5",
+        "NumRatings": "4",
+        "GamePic": "resources/gamepic13.png",
+        "Details":[
+            "Indoor",
+            "Group Size 12+",
+            "Competitive Rating: ★★☆☆☆"
+        ],
+        "Filters":[
+            "indoor"
+        ],
+        "Description": "???"
+        
+    },
+    {
+        "Name": "Blob Tag",
+        "Bubble": "",
+        "Rating": "3",
+        "NumRatings": "4",
+        "GamePic": "resources/gamepic.png",
+        "Details":[
+            "Outdoor",
+            "Group Size 12+",
+            "Competitive Rating: ★★★☆☆"
+        ],
+        "Filters":[
+            "outdoor"
+        ],
+        "Description": "Like tag but when you get tagged you link up with the group that tagged you. If your group gets to 4 people you split into 2 groups of 2 people each. The game continues until there is only 1 person not In a group. The 1 who is left wins."
+        
+    },
+    {
+        "Name": "Capture The Flag*",
+        "Rating": "5",
+        "NumRatings": "4",
+        "GamePic": "resources/gamepic2.png",
+        "Details":[
+            "Outdoor",
+            "Team Game",
+            "Group Size 20+",
+            "Event",
+            "Annual",
+            "Requires: 2 Flags And Enough Wrist Bands For Everyone (Both In Team Colors",
+            "Competitive Rating: ★★★★★"
+        ],
+        "Filters":[
+            "outdoor",
+            "team",
+            "event",
+            "annual"
+        ],
+        "Description": [
+            {
+                "Header": "Preparation",
+                "Text": "Everyone is divided into two large teams of 10+ players each, both teams also get a flag, and optionally wrist bands of their team color. Then the play area is decided with blue team on one side, red team on the other, and possibly a safe zone in the middle. Ideally you would want to find a large semi-open grassy area, but not so large that its hard to get from one side to the other. Both teams also find a location for their jail, and for their team's flag."
+            },
+            {
+                "Header": "Team Roles",
+                "Text": "Each team choses some Flag Guards,  Jail Guards, and Scouts. The Flag Guards protect the flag from the other team, but they do have to stand 10 or 20 feet away from the flag itself. The Jail Guards make sure that any captured players don't get rescued, but some times jail breaks are unavoidable. The Scouts go out into the field to find the location of the opposing team's flag, and attempt to capture it."
+            },
+            {
+                "Header": "The Safe Zone (Optional)",
+                "Text": "The Safe Zone is a small region in between both teams areas. If it is decided that there will be a Safe Zone then if players in the safe can't be tagged by either side. But as soon as they exit the Safe Zone they may not be safe anymore."
+            },
+            {
+                "Header": "Going To Jail",
+                "Text": "When someone enters the other teams area they can be tagged, and if they get tagged they have to go to that teams jail and stay there until either a team mate breaks them out of jail or a Jailbreak occurs. If someone is rescued from jail, they along with the person that rescued them have a free pass back to there teams area, and can not be tagged as they walk back to their side."
+            },
+            {
+                "Header": "Jailbreak!",
+                "Text": "If both sides have a lot of players in jail, a Jailbreak may be decided upon. When a Jailbreak occurs everyone in both side's jails is set free and have a free pass back to there teams area, and can not be tagged as they walk back to their side."
+            },
+            {
+                "Header": "Capturing The Flag",
+                "Text": "If a team captures the opposing teams flag they must carry the flag all the way back to their flag's starting location. They can pass the flag to other team mates or run the flag all the way back themselves. If they make it all the way back without getting tagged their team wins."
+            }
+        ]
+        
+    },
+    {
+        "Name": "Capture The Flag Mini",
+        "Rating": "0",
+        "NumRatings": "4",
+        "GamePic": "resources/gamepic3.png",
+        "Details":[
+            "Outdoor",
+            "Team Game",
+            "Group Size 14+",
+            "Requires: 10-14 Small Objects (Usually Pool Noodles)",
+            "Competitive Rating: ★★★★☆"
+        ],
+        "Filters":[
+            "outdoor",
+            "team"
+        ],
+        "Description": "Coming Soon..."
+        
+    },
+    {
+        "Name": "Charades",
+        "Rating": "0",
+        "NumRatings": "4",
+        "GamePic": "resources/gamepic.png",
+        "Details":[
+            "Outdoor / Indoor",
+            "Group Size 8+",
+            "Competitive Rating: ★★★☆☆"
+        ],
+        "Filters":[
+            "outdoorandindoor"
+        ],
+        "Description": [
+            {
+                "Header": "Solo Game",
+                "Text": "Everyone sits down and each person individually takes turns walking up and taking a card that says what they are supposed to describe. Then they have to describe what was on the card within a set amount of time and without speaking, instead using hand motions and facial expressions. If the audience correctly guesses what was on the card they get a point. At the end the person with the most points wins."
+            },
+            {
+                "Header": "Team Game",
+                "Text": "Everyone is divided into two equally sized teams and sits down. Each team takes turns sending one of their team mates up to take a card that says what they are supposed to describe. The team mate has to describe to his/her team what was on the card within a set amount of time and without speaking, instead using hand motions and facial expressions. If their team correctly guesses what was on the card their team gets a point. At the end the team with the most points wins."
+            }
+        ]
+        
+    },
+    {
+        "Name": "Concentration",
+        "Rating": "0",
+        "NumRatings": "4",
+        "GamePic": "resources/gamepic.png",
+        "Details":[
+            "Outdoor / Indoor",
+            "Infinite",
+            "Group Size 12+",
+            "Competitive Rating: ★★☆☆☆"
+        ],
+        "Filters":[
+            "outdoorandindoor",
+            "infinite"
+        ],
+        "Description": [
+            {
+                "Header": "Set Up",
+                "Text": "Everyone sits in a circle and is numbered off from 1 to the total number of players in the circle. Player #1 is the leader and when everyone is ready they start the pattern."
+            },
+            {
+                "Header": "The Pattern",
+                "List": [
+                    {
+                        "Text": "Slap legs twice"
+                    },
+                    {
+                        "Text": "Clap twice"
+                    },
+                    {
+                        "Text": "Left hand flick"
+                    },
+                    {
+                        "Text": "Right hand flick"
+                    }
+
+                ]
+            },
+            {
+                "Header":"Continuing",
+                "Text": "During the pattern, as they do the flicks #1 will say something like '1,  5'(1 standing for their number, and 5 standing for the persons number they are passing to). Then on the next pattern #5 will have to say something like '5, 3'. If anyone fails to say the numbers on time with the beat of the flicks or if anyone speaks out of turn, they get moved to the back of the line and the groups numbers may shift."
+            }
+            
+        ]
+        
+    },
+    {
+        "Name": "Concentration 64",
+        "Rating": "0",
+        "NumRatings": "4",
+        "GamePic": "resources/gamepic.png",
+        "Details":[
+            "Outdoor / Indoor",
+            "Infinite",
+            "Group Size 12+",
+            "Competitive Rating: ★★☆☆☆"
+        ],
+        "Filters":[
+            "outdoorandindoor",
+            "infinite"
+        ],
+        "Description": "Coming Soon..."
+        
+    },
+    {
+        "Name": "Dodge Ball",
+        "Rating": "0",
+        "NumRatings": "4",
+        "GamePic": "resources/gamepic14.png",
+        "Details":[
+            "Outdoor",
+            "Group Size 12+",
+            "Competitive Rating: ★★★★☆"
+        ],
+        "Filters":[
+            "outdoor",
+            "ball"
+        ],
+        "Description": "Coming Soon..."
+        
+    },
+    {
+        "Name": "Dragon Tail",
+        "Rating": "0",
+        "NumRatings": "4",
+        "GamePic": "resources/gamepic.png",
+        "Details":[
+            "Outdoor",
+            "Team Game",
+            "Group Size 12+",
+            "Requires: Long Ribbon Like Things For The Dragon Tails",
+            "Competitive Rating: ★★★☆☆"
+        ],
+        "Filters":[
+            "outdoor",
+            "team"
+        ],
+        "Description": "Everyone is divided into 2+ groups ideally 6 people in each group and the players link arms with the others in their group. The front of the chain of players is the Head of the dragon and the back is the Tail. The Head can't do anything but steer the dragon, and the Tail gets a tail of some kind attached to their back. Everyone in the middle of the dragon has to try to steal the other team/s tails, and can use their hands (as long as they don't unlink from the group) and feet to get it. If the tail is pulled off, the person at the back of that dragon is eliminated and the tail is put on the new person at the back of the dragon. The game continues until there is only 1 dragon still standing."
+        
+    },
+    {
+        "Name": "Duck Duck Goose",
+        "Rating": "0",
+        "NumRatings": "4",
+        "GamePic": "resources/gamepic.png",
+        "Details":[
+            "Outdoor / Indoor",
+            "Infinite",
+            "Group Size 12+",
+            "Competitive Rating: ★★☆☆☆"
+        ],
+        "Filters":[
+            "outdoorandindoor",
+            "infinite"
+        ],
+        "Description": "Everyone sits in a circle and one person gets up and walks around the circle tapping each person they pass saying “Duck” or “Goose” as they tap them. If they say “Goose” they start running around the circle and the person they tapped gets up and tries to tag them. If they run all the way round the circle and sit down in the empty spot before getting tagged they are safe and the one trying to tag them is it."
+        
+    }, 
+    {
+        "Name": "Earthquake Eviction",
+        "Rating": "0",
+        "NumRatings": "4",
+        "GamePic": "resources/gamepic.png",
+        "Details":[
+            "Outdoor",
+            "Infinite",
+            "Group Size 12+",
+            "Competitive Rating: ★★☆☆☆"
+        ],
+        "Filters":[
+            "outdoor",
+            "infinite"
+        ],
+        "Description": "Coming Soon..."
+        
+    },
+    {
+        "Name": "Flip The Rug",
+        "Rating": "0",
+        "NumRatings": "4",
+        "GamePic": "resources/gamepic.png",
+        "Details":[
+            "Indoor",
+            "Group Size 16+",
+            "Requires: 1 Large Rug",
+            "Competitive Rating: ★☆☆☆☆"
+        ],
+        "Filters":[
+            "indoor"
+        ],
+        "Description": "Everyone gets on the rug and we try to flip it without getting off. If someone falls off the rug the game restarts (optional)."
+        
+    },
+    {
+        "Name": "Freeze Tag",
+        "Rating": "0",
+        "NumRatings": "4",
+        "GamePic": "resources/gamepic.png",
+        "Details":[
+            "Outdoor",
+            "Group Size 14+",
+            "Competitive Rating: ★★★★☆"
+        ],
+        "Filters":[
+            "outdoor"
+        ],
+        "Description": "Like tag but when you are tagged instead of becoming It, you are frozen until one of your team members tags you to unfreeze you. If the person who is It Freezes everyone they win."
+        
+    },
+    {
+        "Name": "Fresher Tag",
+        "Rating": "0",
+        "NumRatings": "4",
+        "GamePic": "resources/gamepic.png",
+        "Details":[
+            "Outdoor",
+            "Team Game",
+            "Group Size 16+",
+            "Competitive Rating: ★★★★☆"
+        ],
+        "Filters":[
+            "outdoor",
+            "team"
+        ],
+        "Description": "Coming Soon..."
+        
+    },
+    {
+        "Name": "Frogger",
+        "Rating": "0",
+        "NumRatings": "4",
+        "GamePic": "resources/gamepic.png",
+        "Details":[
+            "Outdoor / Indoor",
+            "Group Size 16+",
+            "Competitive Rating: ★★☆☆☆"
+        ],
+        "Filters":[
+            "outdoorandindoor"
+        ],
+        "Description": "Everyone stands in a circle and 1 person is chosen to stand in the middle. The person in the middle then leaves the room while the rest of the group chooses someone the be It. The middle person then comes back into the room and the game begins. The goal of the person in the middle is to figure out who of the group is It within 3 guesses, while the goal of the one who is It is the eliminate all standing players. They eliminate players by looking at the one they want to eliminate and sticking their tongue out (or by proforming any other recognizable action), the player will then fall to the floor dramatically."
+        
+    },
+    {
+        "Name": "Heads Up 7up",
+        "Rating": "0",
+        "NumRatings": "4",
+        "GamePic": "resources/gamepic6.png",
+        "Details":[
+            "Indoor",
+            "Infinite",
+            "Group Size 20+",
+            "Competitive Rating: ★☆☆☆☆"
+        ],
+        "Filters":[
+            "indoor",
+            "infinite"
+        ],
+        "Description": "Every one sits down anywhere they like and then 7 people are chosen and come up in front of the rest of the group. Then everyone closes their eyes and puts their thumb up, and the 7 will walk around the room and tap on one person's thumb. The 7 then return to the middle, everyone opens their eyes, and those whos thumbs were tapped stand up. Then the ones who stood up guess who tapped their thumb, if they get it right they take the place in the 7 of the one tapped their thumb."
+        
+    },
+    {
+        "Name": "Hide And Seek",
+        "Rating": "0",
+        "NumRatings": "4",
+        "GamePic": "resources/gamepic.png",
+        "Details":[
+            "Outdoor / Indoor",
+            "Group Size 16+",
+            "Competitive Rating: ★★☆☆☆"
+        ],
+        "Filters":[
+            "outdoorandindoor"
+        ],
+        "Description": "Someone is chosen to be the seeker and then they start counting to some number (usually 30). Everyone else runs and tries to find a hiding spot. When the seeker has finished counting they can begin seeking. If a hider is spotted (optionally tagged also) they are eliminated, the last person to be found (or if they were never found) wins."
+        
+    },
+    {
+        "Name": "Hide And Seek Base",
+        "Rating": "0",
+        "NumRatings": "4",
+        "GamePic": "resources/gamepic.png",
+        "Details":[
+            "Outdoor / Indoor",
+            "Group Size 16+",
+            "Competitive Rating: ★★☆☆☆"
+        ],
+        "Filters":[
+            "outdoorandindoor"
+        ],
+        "Description": "Coming Soon..."
+        
+    },
+    {
+        "Name": "Human Knot",
+        "Rating": "0",
+        "NumRatings": "4",
+        "GamePic": "resources/gamepic.png",
+        "Details":[
+            "Outdoor",
+            "Team Game",
+            "Group Size 16+",
+            "Competitive Rating: ★★☆☆☆"
+        ],
+        "Filters":[
+            "outdoor",
+            "team"
+        ],
+        "Description": "Everyone is divided into groups of about 12 people each and gets into circles. everyone links arms with someone else (in their own group), but not the people directly next to them. The groups must now use teamwork to undo the “Human Knot” they have made."
+        
+    },
+    {
+        "Name": "Infection Tag",
+        "Rating": "0",
+        "NumRatings": "4",
+        "GamePic": "resources/gamepic.png",
+        "Details":[
+            "Outdoor",
+            "Group Size 14+",
+            "Competitive Rating: ★★★★★"
+        ],
+        "Filters":[
+            "outdoor"
+        ],
+        "Description": "Someone is chosen to be “It” and everyone else has a few seconds to run. Then the person who is “It” tries to tag everyone else. If you get tagged, you are infected and are “It” also."
+        
+    },
+    {
+        "Name": "Link Tag",
+        "Rating": "0",
+        "NumRatings": "4",
+        "GamePic": "resources/gamepic.png",
+        "Details":[
+            "Outdoor",
+            "Group Size 14+",
+            "Competitive Rating: ★★★☆☆"
+        ],
+        "Filters":[
+            "outdoor"
+        ],
+        "Description": "Everyone gets into groups of three and links arms except for one runner and one tagger. If the runner links arms with a group, the person on the opposite end of the group becomes the new runner (groups can only be three people). If the tagger tags the runner they swap roles. (tag backs are allowed and encouraged)"
+        
+    },
+    {
+        "Name": "Murder In The Dark*",
+        "Rating": "0",
+        "NumRatings": "4",
+        "GamePic": "resources/gamepic5.png",
+        "Details":[
+            "Indoor",
+            "Event",
+            "Annual ",
+            "Group Size 20+",
+            "Played In The Dark",
+            "Requires: 1 Deck Of Cards",
+            "Competitive Rating: ★★★☆☆"
+        ],
+        "Filters":[
+            "indoor",
+            "event",
+            "annual"
+        ],
+        "Description": "In preparation for the game everyone lines up and is given a card, and depending on what that card is they are assigned a unique role to play. The roles are as following: Ace = Murderer, 10 = Romeo/Juliet, 9 of Spades = Cult Leader, All Other 9s = Cult Follower, Joker = Town Psycho, Queen = Medic, 1–8 = Innocent. The Murderers' goal is to eliminate everyone else while still keeping their role hidden. In order for the Murderers to kill another player they tap them on the shoulder, then the player they killed drops dead and can say nothing for the duration of the game. If somebody is a Romeo/Juliet and either of them dies they both perish “Dramatically”. If somebody is the Cult Leader and they die all of the Cult Followers die. The Town Psycho is a very unique role, during the voting time they may eliminate any player they choose, with the cost of their own life. The Medic can insure the safety of one person per round. Innocents can't do anything but avoid the Murderers.When the game starts the lights are turned off and everyone begins to wander around the building. If a dead body is found the person who found it yells “DEAD BODY!”, the lights are turned back on and everyone heads to the meeting room. Once in the room the role/s of the dead body/s are reveled, then a vote is taken to eliminate one or more people, in hopes of eliminating the Murderers. When the voting begins suspects are accused and a reason is given for the accusation. It is then the accused suspects turn to present their defense. After all accusations and defenses have been given, then the vote is taken. Then the game repeats until either the Murderers are eliminated or they win."
+        
+    },
+    {
+        "Name": "Musical Chairs",
+        "Rating": "0",
+        "NumRatings": "4",
+        "GamePic": "resources/gamepic.png",
+        "Details":[
+            "Indoor",
+            "Group Size 10+",
+            "Requires: 1 Less Chairs Than The Total Players",
+            "Competitive Rating: ★★★☆☆"
+        ],
+        "Filters":[
+            "indoor"
+        ],
+        "Description": "Chairs are set up in a circle (one less than the total player count). Then somebody starts playing music and everyone else walks around the chairs until the music stops. When the music stops everyone sits down and the person who did not sit down is eliminated. Then one chair is removed from the circle and the game repeats until there is one person left."
+        
+    },
+    {
+        "Name": "Ninja",
+        "Rating": "0",
+        "NumRatings": "4",
+        "GamePic": "resources/gamepic7.png",
+        "Details":[
+            "Outdoor / Indoor",
+            "Group Size 12+",
+            "Competitive Rating: ★★★★☆"
+        ],
+        "Filters":[
+            "outdoorandindoor"
+        ],
+        "Description": "Coming Soon..."
+        
+    },
+    {
+        "Name": "Paper-Craft Pictionary",
+        "Rating": "0",
+        "NumRatings": "4",
+        "GamePic": "resources/gamepic.png",
+        "Details":[
+            "Indoor",
+            "Group Size 12+",
+            "Requires: Pieces Of Paper, Pencils, Scissors, And Other Art Supplies",
+            "Competitive Rating: ★★☆☆☆"
+        ],
+        "Filters":[
+            "indoor"
+        ],
+        "Description": "Coming Soon..."
+        
+    },
+    {
+        "Name": "Pictionary",
+        "Rating": "0",
+        "NumRatings": "4",
+        "GamePic": "resources/gamepic.png",
+        "Details":[
+            "Indoor",
+            "Team Game",
+            "Group Size 10+",
+            "Requires: A Whiteboard",
+            "Competitive Rating: ★★☆☆☆"
+        ],
+        "Filters":[
+            "indoor",
+            "team"
+        ],
+        "Description": "Coming Soon..."
+        
+    },
+    {
+        "Name": "Red Light Green Light",
+        "Rating": "0",
+        "NumRatings": "4",
+        "GamePic": "resources/gamepic8.png",
+        "Details":[
+            "Outdoor",
+            "Group Size 16+",
+            "Competitive Rating: ★★★☆☆"
+        ],
+        "Filters":[
+            "outdoor"
+        ],
+        "Description": "Everyone lines up on one side of a long stretch. Then a leader stands on the side of the stretch and says Red Light or Green Light. If the leader says Green Light everyone runs to the end of the stretch, but if they say Red Light everyone has to stop, if they move at all afterwards the have to walk all the way back to the starting line. Then the leader will continue saying Red Light or Green Light and whoever gets to the finish line first wins."
+        
+    },
+    {
+        "Name": "Rock Paper Scissors",
+        "Rating": "0",
+        "NumRatings": "4",
+        "GamePic": "resources/gamepic.png",
+        "Details":[
+            "Outdoor / Indoor",
+            "Group Size 12+",
+            "Competitive Rating: ★★☆☆☆"
+        ],
+        "Filters":[
+            "outdoorandindoor"
+        ],
+        "Description": "Coming Soon..."
+        
+    },
+    {
+        "Name": "Scatter Ball",
+        "Rating": "0",
+        "NumRatings": "4",
+        "GamePic": "resources/gamepic.png",
+        "Details":[
+            "Outdoor",
+            "Group Size 14+",
+            "Requires: A Ball",
+            "Competitive Rating: ★★☆☆☆"
+        ],
+        "Filters":[
+            "outdoor",
+            "ball"
+        ],
+        "Description": "To start the game everyone says their name and then someone calls out a name and throws a ball up in the air, everyone runs as far as they can until the person who was called picks up the ball and says “Stop”. Then that person can take three steps if they choose, they then throw the ball at a person. If the person catches the ball they stay in and the one who through the ball is eliminated, however if the ball hits the person and they do not catch it they are eliminated, and the next person to say the name. (Please no head shots)"
+        
+    },
+    {
+        "Name": "Sharks And Minnows",
+        "Rating": "0",
+        "NumRatings": "4",
+        "GamePic": "resources/gamepic.png",
+        "Details":[
+            "Outdoor",
+            "Group Size 16+",
+            "Competitive Rating: ★★★★☆"
+        ],
+        "Filters":[
+            "outdoor"
+        ],
+        "Description": "Coming Soon..."
+        
+    },
+    {
+        "Name": "Sherlock",
+        "Rating": "0",
+        "NumRatings": "4",
+        "GamePic": "resources/gamepic9.png",
+        "Details":[
+            "Outdoor / Indoor",
+            "Group Size 14+",
+            "Competitive Rating: ★☆☆☆☆"
+        ],
+        "Filters":[
+            "outdoorandindoor"
+        ],
+        "Description": "Coming Soon..."
+        
+    },
+    {
+        "Name": "Signs",
+        "Rating": "0",
+        "NumRatings": "4",
+        "GamePic": "resources/gamepic.png",
+        "Details":[
+            "Outdoor / Indoor",
+            "Group Size 14+",
+            "Competitive Rating: ★☆☆☆☆"
+        ],
+        "Filters":[
+            "outdoorandindoor"
+        ],
+        "Description": "Coming Soon..."
+        
+    },
+    {
+        "Name": "Spoons",
+        "Rating": "0",
+        "NumRatings": "4",
+        "GamePic": "resources/gamepic15.png",
+        "Details":[
+            "Indoor",
+            "Group Size 8 - 12+ Per Group",
+            "Requires: Enough Spoons For Everyone",
+            "Competitive Rating: ★★★☆☆"
+        ],
+        "Filters":[
+            "indoor"
+        ],
+        "Description": "Coming Soon..."
+        
+    },
+    {
+        "Name": "Taco Cat Goat Cheese Pizza",
+        "Rating": "0",
+        "NumRatings": "4",
+        "GamePic": "resources/gamepic10.png",
+        "Details":[
+            "Indoor",
+            "Group Size 8+",
+            "Requires: The Taco Cat Goat Cheese Pizza Card Game",
+            "Competitive Rating: ★★★★☆"
+        ],
+        "Filters":[
+            "indoor"
+        ],
+        "Description": "Coming Soon..."
+        
+    },
+    {
+        "Name": "Tag",
+        "Rating": "0",
+        "NumRatings": "4",
+        "GamePic": "resources/gamepic.png",
+        "Details":[
+            "Outdoor",
+            "Infinite",
+            "Group Size 10+",
+            "Competitive Rating: ★★★☆☆"
+        ],
+        "Filters":[
+            "outdoor",
+            "infinite"
+        ],
+        "Description": "Someone is chosen to be It and everyone else spreads out. The person who is It then has to try and tap the other players to tag them. If someone gets tagged they become It and have to tag somebody else. (Tag backs can be allowed or not allowed)"
+        
+    },
+    {
+        "Name": "Telephone",
+        "Rating": "0",
+        "NumRatings": "4",
+        "GamePic": "resources/gamepic11.png",
+        "Details":[
+            "Outdoor / Indoor",
+            "Group Size 16+",
+            "Competitive Rating: ★☆☆☆☆"
+        ],
+        "Filters":[
+            "outdoorandindoor"
+        ],
+        "Description": "Everyone gets in a line (or circle) and the first person in line comes up with a phrase. The phrase is then whispered and passed on to each player until it gets to the end of the line. When it reaches the end the last person in line will say what they heard and find out it the phrase stayed the same."
+        
+    },
+    {
+        "Name": "The Balloon Stompin' Game",
+        "Rating": "0",
+        "NumRatings": "4",
+        "GamePic": "resources/gamepic.png",
+        "Details":[
+            "Indoor",
+            "Group Size 12+",
+            "Requires: Balloons And Strings For Each Player",
+            "Competitive Rating: ★★★★☆"
+        ],
+        "Filters":[
+            "indoor"
+        ],
+        "Description": "Coming Soon..."
+        
+    },
+    {
+        "Name": "The Blind Folded Noodle Game",
+        "Rating": "0",
+        "NumRatings": "4",
+        "GamePic": "resources/gamepic.png",
+        "Details":[
+            "Outdoor / Indoor",
+            "Group Size 10+",
+            "Requires: 1 Noodle, And 10+ Close Pins",
+            "Competitive Rating: ★★★☆☆"
+        ],
+        "Filters":[
+            "outdoorandindoor"
+        ],
+        "Description": "Coming Soon..."
+        
+    },
+    {
+        "Name": "The Garbage Can Game",
+        "Rating": "0",
+        "NumRatings": "4",
+        "GamePic": "resources/gamepic12.png",
+        "Details":[
+            "Outdoor / Indoor",
+            "Group Size 12+",
+            "Requires 1 Or More Garbage Can/s Or Similar Objects",
+            "Competitive Rating: ★★★★★"
+        ],
+        "Filters":[
+            "outdoorandindoor"
+        ],
+        "Description": "Everyone gets into a circle and 1 of more garbage can/s (or similar object/s) is placed in the center. Then everyone joins hands any tries to pull the group into the can/s. If somebody touches the garbage can/s in any way they are eliminated. And if two people let go of their hands they are both eliminated. The last person standing wins!"
+        
+    },
+    {
+        "Name": "The Name Calling Gun Game",
+        "Rating": "0",
+        "NumRatings": "4",
+        "GamePic": "resources/gamepic.png",
+        "Details":[
+            "Outdoor / Indoor",
+            "Group Size 16+",
+            "Competitive Rating: ★★★☆☆"
+        ],
+        "Filters":[
+            "outdoorandindoor"
+        ],
+        "Description": "Coming Soon..."
+        
+    },
+    {
+        "Name": "The Name Game",
+        "Rating": "0",
+        "NumRatings": "4",
+        "GamePic": "resources/gamepic.png",
+        "Details":[
+            "Outdoor / Indoor",
+            "Group Size 10+",
+            "Competitive Rating: ★☆☆☆☆"
+        ],
+        "Filters":[
+            "outdoorandindoor",
+            "gettoknowyou"
+        ],
+        "Description": "Coming Soon..."
+        
+    },
+    {
+        "Name": "Train Wreck",
+        "Rating": "0",
+        "NumRatings": "4",
+        "GamePic": "resources/gamepic.png",
+        "Details":[
+            "Indoor",
+            "Infinite",
+            "Group Size 16+",
+            "Competitive Rating: ★★★☆☆"
+        ],
+        "Filters":[
+            "indoor",
+            "infinite"
+        ],
+        "Description": "Everyone sits down in chairs in roughly a circle. Then to start someone gets up in the middle and says “if you like pizza” or something similar, and everyone for whom it applies gets up and switches spots (you can not move to the spot directly next to you). An optional rule is to make it so if someone says “Train Wreck” everyone has to get up and switch spots."
+        
+    },
+    {
+        "Name": "Twister",
+        "Rating": "0",
+        "NumRatings": "4",
+        "GamePic": "resources/gamepic16.png",
+        "Details":[
+            "Indoor",
+            "Group Size 4 - 6",
+            "Competitive Rating: ★★☆☆☆"
+        ],
+        "Filters":[
+            "indoor"
+        ],
+        "Description": "Everyone gets into groups of 3-5, then each person in the group thinks of 2 things about themselves that are true, and 1 thing that is not (but sounds like it is). Then the group takes turns telling their truths and lie and the rest of the group has to guess which one was the lie."
+        
+    },
+    {
+        "Name": "Two Truthes And A Lie",
+        "Rating": "0",
+        "NumRatings": "4",
+        "GamePic": "resources/gamepic.png",
+        "Details":[
+            "Indoor",
+            "Group Size 12+",
+            "Competitive Rating: ★☆☆☆☆"
+        ],
+        "Filters":[
+            "indoor",
+            "gettoknowyou"
+        ],
+        "Description": "Everyone gets into groups of 3-5, then each person in the group thinks of 2 things about themselves that are true, and 1 thing that is not (but sounds like it is). Then the group takes turns telling their truths and lie and the rest of the group has to guess which one was the lie."
+        
+    },
+    {
+        "Name": "Ultimate Frisbee",
+        "Rating": "0",
+        "NumRatings": "4",
+        "GamePic": "resources/gamepic.png",
+        "Details":[
+            "Outdoor",
+            "Group Size 16+",
+            "Requires: 1 Frisbee",
+            "Competitive Rating: ★★★★☆"
+        ],
+        "Filters":[
+            "outdoor"
+        ],
+        "Description": "Coming Soon..."
+        
+    },
+    {
+        "Name": "Zip Bong",
+        "Rating": "0",
+        "NumRatings": "4",
+        "GamePic": "resources/gamepic.png",
+        "Details":[
+            "Outdoor / Indoor",
+            "Group Size 14+",
+            "Competitive Rating: ★★★☆☆"
+        ],
+        "Filters":[
+            "outdoorandindoor"
+        ],
+        "Description": "Everyone forms a circle and one person starts of the game by saying Zip, which passes the responsibility on to the next person (person on the right). The next person then has the choice of either saying Zip or Bong. If they say Zip it goes on to the next person, if however they say Bong the order reverses and goes back to the previous person."
+    }
+
+
+
+]

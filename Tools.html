@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Youth Games - Tools</title>
+        <link rel="stylesheet" href="Styles.css">
+        <link rel="stylesheet" href="GamesStyle.css">
+        <link rel="stylesheet" href="ToolsStyle.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="icon" href="resources/YouthFireFavicon.png" type="icon">
+        <script src="Scripts.js" defer  ></script>
+    </head>
+    <body class="body" onload="SetUp()">
+
+        <!-- the sidebar and related elements -->
+        <nav class="sidebar" id="sidebar">
+            <!-- the top section of the sidebar -->
+            <div class="sidebar-top">
+                <div class="sidebarbtn">
+                    <i class="bx bx-expand"></i>
+                    <i class="bx bx-collapse"></i>
+                </div>
+
+                <ul class="SideList">
+                    <li class="SideBtn">
+                        <a href="index.html">
+                            <i class='bx bxs-home' ></i>
+                            <Span class="sidetext">Home Page</Span>
+                        </a>
+                    </li>
+                   
+                    <li class="SideBtn">
+                        <a href="Games.html">
+                            <i class='bx bxs-dice-3'></i>
+                            <Span class="sidetext">Games</Span>
+                        </a>
+                    </li>
+
+                    <li class="SideBtn">
+                        <a href="GameSurvey.html">
+                            <i class='bx bxs-message-detail' ></i>
+                            <Span class="sidetext">Game Survey</Span>
+                        </a>
+                    </li>
+
+                    <li class="SideBtn">      
+                        <a href="Tools.html">
+                            <i class='bx bxs-wrench' ></i>
+                            <Span class="sidetext">Tools</Span>
+                        </a>
+                    </li>
+
+                    <li class="SideBtn">      
+                        <a href="#">
+                            <i class='bx bxs-edit'></i>
+                            <Span class="sidetext">Change Log</Span>
+                        </a>
+                    </li>
+                </ul>
+            
+             </div>
+             <!-- the bottom section of the sidebar -->
+             <div class="sidebar-bottom">
+                <div class="settings-btn">
+                    <i class='bx bxs-cog' ></i>
+                </div>
+                
+                <div class="mode-switch">
+                    <i class='bx bxs-sun' ></i>
+                    <i class='bx bxs-moon' ></i>
+                </div> 
+            
+        </nav>
+
+        <div class="HeaderBar"> 
+
+            <div class="Icon">
+                <img src="resources/YouthFireLogo.png">
+            </div>
+
+        </div>
+
+        <div class="page">
+            <div class="tool-tab-box">
+
+                <button class="tool-tab" id="defaultOpen" onclick="OpenTab(event, 'game-randomizer')">
+                    <span>Game Randomizer</span>
+                </button>
+                <button class="tool-tab" onclick="OpenTab(event, 'music-stopper')">
+                    <span>Music Stopper</span>
+                </button>
+                <button class="tool-tab" onclick="OpenTab(event, 'pictionary-picker')">
+                    <span>Pictionary Picker</span>
+                </button>
+                <button class="tool-tab" onclick="OpenTab(event, 'team-selector')">
+                    <span>Team Selector</span>
+                </button>
+
+            </div>
+
+            <div class="tab-content-box" id="game-randomizer">
+                <button class="grnd-btn" onclick="randomGame(document.querySelector('.grnd-container'), true)">Random Game</button>
+                <div class="grnd-container">
+
+                </div>
+            </div>
+            <div class="tab-content-box" id="music-stopper">
+                <audio id="myAudio">
+                    
+                    <source id="audio-file" src="resources/Never Gonna Give You Up Instrumental.mp3" type="audio/mpeg">
+                    
+                    failed!
+
+                </audio>
+
+                <Button class="play-btn" onclick="PlayAudio()">
+                    <i class='bx bx-play'></i>
+                    <i class='bx bx-pause'></i>
+                </Button>
+
+                <div class="number-input" id="min-num">
+                    
+                    <div class="input minus1">
+                        <span >-</span>
+                    </div>
+                    <div class="number number1">
+                        <span >0</span>
+                    </div>
+                    <div class="input plus1">
+                        <span >+</span>
+                    </div>
+                </div>
+
+                <div class="number-input" id="max-num">
+                    
+                    <div class="input minus2">
+                        <span >-</span>
+                    </div>
+                    <div class="number number2">
+                        <span >0</span>
+                    </div>
+                    <div class="input plus2">
+                        <span >+</span>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-content-box" id="pictionary-picker">
+                hello
+            </div>
+            <div class="tab-content-box" id="team-selector">
+                aaaah
+            </div>
+    </body>
+</html>

@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+:root{
+    --Trans1: all 0.5s ease;
+    --Trans2: all 0.3s ease;
+    --TransLong: color 3s ease, background-color 3s ease;
+
+    --color-page: rgb(210, 210, 210);
+    --color-plane: rgb(255, 255, 255);
+    --color-plane-dark: rgb(234, 234, 234);
+    --color-text: rgb(0,0,0);
+    --color: rgb(193, 13, 8);
+    --color-dark: rgb(148, 13, 8);
+    --color-darker:  rgb(80, 13, 8);
+    --color-light: rgb(253, 184, 184);
+}
+
+.body{
+    background-color: var(--color-page);
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.darkMode{
+    --color-page: rgb(20, 20, 20);
+    --color-plane: rgb(53, 53, 53);
+    --color-plane-dark: rgb(45, 45, 45);
+    --color-text: rgb(255, 255, 255);
+    --color: rgb(100, 13, 8);
+    --color-dark: rgb(70, 13, 8);
+    --color-darker:  rgb(40, 13, 8);
+    --color-light: rgb(83, 55, 55);
+}
+
+.HeaderBar{
+    background-color: var(--color-dark);
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+    user-select: none;
+}
+
+.Icon{
+    margin-left: 12px;
+}
+
+.Icon img{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    width: 40px;
+}
+
+.Box{
+    background-color:white;
+    width: 200px;
+    height: 1000px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+}
+
+.sidebarbtn{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    left: 0;
+    top: 0;
+    width: 60px;
+    height: 60px;
+    background-color: var(--color-dark);
+    transition:var(--Trans1)
+}
+
+.sidebarbtn:hover{
+    background-color: var(--color);
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+    z-index: 11;
+    transition:var(--Trans1)
+}
+
+.sidebarbtn i{
+    font-size: 30px;
+    position: absolute;
+    margin: 0;
+    opacity: 0;
+    user-select: none;
+    color: var(--color-text);
+}
+
+.sidebarbtn .bx.bx-expand{
+    opacity: 1;
+}
+
+.sidebarbtn .bx.bx-collapse{
+    opacity: 0;
+}
+
+.sidebar.open .sidebarbtn .bx.bx-expand{
+    opacity: 0;
+    
+}
+
+.sidebar.open .sidebarbtn .bx.bx-collapse{
+    opacity: 1;
+    
+}
+
+/* ==== Side Bar ==== */
+
+.sidebar{
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+    background-color: var(--color-dark);
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    z-index: 3;
+    left: 0;
+    width: 60px;
+    height: 100%;
+    transition: var(--Trans1);
+    
+}
+.sidebar.open{
+    width: 250px;
+}
+
+.SideBtn a{
+    background: var(--color-dark);
+    height: 60px;
+    width: 100%;
+    font-size: 25px;
+    z-index: 4;
+    font-weight: 700;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    text-decoration: none;
+    
+    color: var(--color-text);
+    transition: background 0.5s ease;
+    
+}
+
+.SideBtn a:hover{
+    z-index: 5;
+    background: var(--color);
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+    transition: var(--Trans1);
+}
+
+.SideList{
+    position: relative;
+    top: 60px;
+    
+    
+}
+
+.SideBtn .sidetext{
+    opacity: 0;
+    position: fixed;
+    left: -100px;
+    transition: left 0.5s ease, opacity 0.5s ease;
+}
+
+.SideBtn i{
+    font-size: 30px;
+    position: relative;
+    left: 15px;
+}
+.sidebar.open .SideBtn .sidetext {
+    left: 60px;
+    opacity: 1;
+    transition: left 0.5s ease, opacity 0.5s ease;
+}
+
+.sidebar-bottom{
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+}
+/* === the light and dark mode switch ===*/
+.mode-switch{
+    width: 100%;
+    height: 60px;
+    border-radius: 10px;
+    position: relative;
+    z-index: 11;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-dark);
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+    transition: var(--Trans1);
+}
+
+.settings-btn{
+    width: 100%;
+    height: 60px;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+    z-index: 11;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-dark);
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+    transition: var(--Trans1);
+}
+
+.settings-btn:hover{
+    background-color: var(--color);
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+    transition: var(--Trans1);
+}
+
+.settings-btn .bx{
+    position: absolute;
+    font-size: 30px;
+    color: var(--color-text);
+}
+
+.mode-switch .bx{
+    position: absolute;
+    font-size: 30px;
+    color: var(--color-text);
+}
+
+.mode-switch .bxs-sun{
+    opacity: 0;
+}
+
+.mode-switch .bxs-moon{
+    opacity: 1;
+}
+
+.darkMode .bxs-sun{
+    opacity: 1;
+    
+}
+
+.darkMode .mode-switch .bxs-moon{
+    opacity: 0;
+    
+}
+
+.mode-switch:hover{
+    background-color: var(--color);
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+    transition: var(--Trans1);
+}
+
+::-webkit-scrollbar{
+    background-color: var(--color-dark);
+    width: 20px;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: var(--color);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+}
+
+::selection{
+    background: rgba(193, 13, 8, 0.5);
+}
+
+.page{
+    padding-left: 60px;
+    width: calc(100% - 60px);
+    height: 100%;
+    background-color: var(--color-page);
+}
+
+.page .headar-box{
+    width: calc(100% -60px);
+    height: 500px;
+    border-radius: 10px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+    background-color: var(--color-plane);
+}
+
+.page .headar-box h1{
+    font-size: 80px;
+    font-weight: 900;
+    color: var(--color-text);
+}
+.page .headar-box span{
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--color-text);
+}
+
+.page-footer{
+    width: calc(100% - 40px);
+    position: relative;
+    bottom: 0px;
+    height: 50px;
+    background-color: var(--color-light);
+    padding: 20px;
+}
+
+.page-footer span{
+    margin-left: 60px;
+    color: var(--color-text);
+    
+}
+
+.gameform{
+    width: 100%;
+    height: 650px;
+}

@@ -66,7 +66,7 @@ function SetUp(){
         document.getElementById("defaultOpen").click();
     }
     
-    if( localStorage.getItem("mode") == "true" || window.matchMedia('prefers-color-scheme: dark').matches){
+    if( localStorage.getItem("darkmode") == "true" || window.matchMedia('prefers-color-scheme: dark').matches){
         body.classList.toggle("darkMode", true);
     }
     else{
@@ -81,7 +81,7 @@ sidebarbtn.addEventListener("click", () =>{
 modeSwitch.addEventListener("click", () =>{
     body.classList.toggle("darkMode");
     let mode = body.classList.contains("darkMode");
-    localStorage.setItem("mode", mode)
+    localStorage.setItem("darkmode", mode)
 });
 //toggles the filter drop down on clicking the button.
 if(filterButton != null){
@@ -231,6 +231,16 @@ function addGames(){
     })
 }
 
+function addGameByInt(gameInt, container){
+    
+    fetch('./gameInfo.json') //fetches the JSON file that stores the info for the games.
+    .then(res => res.json())
+    .then(data =>{
+        
+        addGame(data[gameInt], container)
+    })
+}
+
 function addGame(index, container){
 
 
@@ -315,46 +325,50 @@ function OpenTab(evt, name){
 }
 
 function ActivateFilter(evt, value){
-    // Declare all variables
-    var i, tabs;
-  
-    tabs = document.getElementsByClassName("filter-drop-down-item");
 
-    for (i = 0; i < tabs.length; i++) {
-      tabs[i].classList.toggle("active", false);
-    }
+    if (filterBox.classList.contains("close")){
 
-    evt.currentTarget.classList.toggle("active", true);
-    let results = 0
-    if(value != "All"){
+    
+        var i, tabs;
 
-        
-        Cards.forEach(card =>{
-            if(card.filters != null){
-                card.element.classList.toggle("hide", true);
-                card.filters.forEach(filter =>{
-                    const isVisable = filter.toLowerCase() == value.toLowerCase();
-                    
-                    if(isVisable){
-                        card.element.classList.toggle("hide", false);
-                        results++;
-                    }
-                    
-                })
-               
-            }
-            else{
-                card.element.classList.toggle("hide", true);
-            }
+        tabs = document.getElementsByClassName("filter-drop-down-item");
+
+        for (i = 0; i < tabs.length; i++) {
+            tabs[i].classList.toggle("active", false);
+        }
+
+        evt.currentTarget.classList.toggle("active", true);
+        let results = 0
+        if(value != "All"){
+
             
-        })
-        searchRes.textContent = "Search Results " + results;
-    }
-    else{
-        Cards.forEach(card =>{
-            card.element.classList.toggle("hide", false);
-        })
-        searchRes.textContent = "";
+            Cards.forEach(card =>{
+                if(card.filters != null){
+                    card.element.classList.toggle("hide", true);
+                    card.filters.forEach(filter =>{
+                        const isVisable = filter.toLowerCase() == value.toLowerCase();
+                        
+                        if(isVisable){
+                            card.element.classList.toggle("hide", false);
+                            results++;
+                        }
+                        
+                    })
+                    
+                }
+                else{
+                    card.element.classList.toggle("hide", true);
+                }
+                
+            })
+            searchRes.textContent = "Search Results " + results;
+        }
+        else{
+            Cards.forEach(card =>{
+                card.element.classList.toggle("hide", false);
+            })
+            searchRes.textContent = "";
+        }
     }
 }
 

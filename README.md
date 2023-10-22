@@ -1,1 +1,1 @@
-# CalvaryCommunityYouthGames.github.io
+# CCYouthGames.github.io

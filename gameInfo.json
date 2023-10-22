@@ -561,7 +561,52 @@
             "event",
             "annual"
         ],
-        "Description": "In preparation for the game everyone lines up and is given a card, and depending on what that card is they are assigned a unique role to play. The roles are as following: Ace = Murderer, 10 = Romeo/Juliet, 9 of Spades = Cult Leader, All Other 9s = Cult Follower, Joker = Town Psycho, Queen = Medic, 1–8 = Innocent. The Murderers' goal is to eliminate everyone else while still keeping their role hidden. In order for the Murderers to kill another player they tap them on the shoulder, then the player they killed drops dead and can say nothing for the duration of the game. If somebody is a Romeo/Juliet and either of them dies they both perish “Dramatically”. If somebody is the Cult Leader and they die all of the Cult Followers die. The Town Psycho is a very unique role, during the voting time they may eliminate any player they choose, with the cost of their own life. The Medic can insure the safety of one person per round. Innocents can't do anything but avoid the Murderers.When the game starts the lights are turned off and everyone begins to wander around the building. If a dead body is found the person who found it yells “DEAD BODY!”, the lights are turned back on and everyone heads to the meeting room. Once in the room the role/s of the dead body/s are reveled, then a vote is taken to eliminate one or more people, in hopes of eliminating the Murderers. When the voting begins suspects are accused and a reason is given for the accusation. It is then the accused suspects turn to present their defense. After all accusations and defenses have been given, then the vote is taken. Then the game repeats until either the Murderers are eliminated or they win."
+        "Description": [
+            {
+                "Header": "Preparation",
+                "Text": "In preparation for the game everyone lines up and is given a card, and depending on what that card is they are assigned a unique role to play. "
+            },
+            {
+                "Header":"The Roles",
+                "List": [
+                    {
+                        "Text": "Ace = Murderer"
+                    },
+                    {
+                        "Text": "10 = Romeo/Juliet"
+                    },
+                    {
+                        "Text": "9 of Spades = Cult Leader"
+                    },
+                    {
+                        "Text": "All Other 9s = Cult Follower"
+                    },
+                    {
+                        "Text": "Joker = Town Psycho"
+                    },
+                    {
+                        "Text": "Queen = Medic"
+                    },
+                    {
+                        "Text": "1 to 8 = Innocent"
+                    }
+
+                ]
+            },
+            {
+                "Header": "About The Roles",
+                "Text": "The Murderers' goal is to eliminate everyone else while still keeping their role hidden. To kill a player the Murderers will walk up the the person they want to kill and tap them on the shoulder, then the player they killed drops dead and can say nothing for the duration of the game. If somebody is a Romeo/Juliet and either of them dies they both perish “Dramatically”. If somebody is the Cult Leader and they die all of the Cult Followers die “Dramatically”. The Town Psycho is a very unique role, during the voting time they may eliminate any player they choose, with the cost of their own life. The Medic can insure the safety of one person per round. Innocents can't do anything but avoid the Murderers and tell what they saw during the meeting time."
+            },
+            {
+                "Header": "Starting",
+                "Text": "When the game starts the lights are turned off and everyone begins to wander around the building. If a dead body is found the person who found it yells “DEAD BODY!”, the lights are turned back on and everyone heads to the meeting room. "
+            },
+            {
+                "Header": "In The Meeting Room",
+                "Text": "Once in the room the role/s of the dead body/s are reveled, then a vote is taken to eliminate one or more people, in hopes of eliminating the Murderers. When the voting begins suspects are accused (only 2 or 3 suspects can be accused per round) and a reason is given for the accusation. It is then the accused suspects turn to present their defense. After all accusations and defenses have been given, then the vote is taken and one or more players are eliminated. Then the game repeats until either the Murderers are eliminated or they win."
+            }
+            
+        ]
         
     },
     {
@@ -679,6 +724,42 @@
         "Filters":[
             "outdoor",
             "ball"
+        ],
+        "Description": "To start the game everyone says their name and then someone calls out a name and throws a ball up in the air, everyone runs as far as they can until the person who was called picks up the ball and says “Stop”. Then that person can take three steps if they choose, they then throw the ball at a person. If the person catches the ball they stay in and the one who through the ball is eliminated, however if the ball hits the person and they do not catch it they are eliminated, and the next person to say the name. (Please no head shots)"
+        
+    },
+    {
+        "Name": "Sean's Sword Drills: Nerf Edition",
+        "Rating": "0",
+        "NumRatings": "0",
+        "GamePic": "resources/gamepic.png",
+        "Details":[
+            "Outdoor",
+            "Group Size 14+",
+            "Requires: A Ball",
+            "Competitive Rating: ★★☆☆☆"
+        ],
+        "Filters":[
+            "seanssd",
+            "team"
+        ],
+        "Description": "To start the game everyone says their name and then someone calls out a name and throws a ball up in the air, everyone runs as far as they can until the person who was called picks up the ball and says “Stop”. Then that person can take three steps if they choose, they then throw the ball at a person. If the person catches the ball they stay in and the one who through the ball is eliminated, however if the ball hits the person and they do not catch it they are eliminated, and the next person to say the name. (Please no head shots)"
+        
+    },
+    {
+        "Name": "Sean's Sword Drills: Red Light, Green Light Edition",
+        "Rating": "0",
+        "NumRatings": "0",
+        "GamePic": "resources/gamepic.png",
+        "Details":[
+            "Outdoor",
+            "Group Size 14+",
+            "Requires: A Ball",
+            "Competitive Rating: ★★☆☆☆"
+        ],
+        "Filters":[
+            "seanssd",
+            "team"
         ],
         "Description": "To start the game everyone says their name and then someone calls out a name and throws a ball up in the air, everyone runs as far as they can until the person who was called picks up the ball and says “Stop”. Then that person can take three steps if they choose, they then throw the ball at a person. If the person catches the ball they stay in and the one who through the ball is eliminated, however if the ball hits the person and they do not catch it they are eliminated, and the next person to say the name. (Please no head shots)"
         

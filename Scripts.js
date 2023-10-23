@@ -29,8 +29,10 @@ const cardTemplate = elementFromHtml(`
                     <div class="bubble">
                         <span card-bubble>New!</span>
                     </div>
-                    <img class="gamePic" card-pic>
-                    <h1 class="gameName" card-name></h1>
+                    <div class="header-items">
+                        <img class="gamePic" card-pic>
+                        <h1 class="gameName" card-name></h1>
+                    </div>
                 </div>
             <div class="gameBoxBody">
                 <div class="rating-box">
@@ -243,7 +245,6 @@ function addGameByInt(gameInt, container){
 
 function addGame(index, container){
 
-
             const card = cardTemplate.content.cloneNode(true).children[0]
             //gets all the info for the game.
             const gameName = card.querySelector("[card-name]")
@@ -254,6 +255,7 @@ function addGame(index, container){
             const gamePic = card.querySelector("[card-pic]")
             const gameRating = card.querySelector("[card-rating]")
             const gameDescBox = card.querySelector(".card-desc")
+            const gameBoxHeader = card.querySelector(".gameBoxHeader")
 
             gameName.textContent = index.Name
             if (index.Bubble == null || index.Bubble == ""){
@@ -262,7 +264,23 @@ function addGame(index, container){
             else{
                 gameBubbleText.textContent = index.Bubble
             }
-            gamePic.src = index.GamePic
+
+            if (index.GamePic != null){
+                gamePic.src = index.GamePic
+            }
+            else{
+                gamePic.src = "resources/gamepic.png"
+            }
+
+            if (index.HeaderColor != null)
+            {
+                gameBoxHeader.style.backgroundColor = index.HeaderColor;
+                gameBubble.style.backgroundColor = index.HeaderColor;
+            }
+            else{
+                gameBoxHeader.style.backgroundColor = "#990b06";
+                gameBubble.style.backgroundColor = "#990b06";
+            }
             GetDesc(index.Description, gameDescBox)
             gameRating.textContent = index.NumRatings + " Ratings"
             GetRating(gameStars, index.Rating)

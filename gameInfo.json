@@ -2,8 +2,9 @@
     {
         "Name": "Angry Birds IRL*",
         "Bubble": "New!",
-        "Rating": "3",
-        "NumRatings": "4",
+        "Rating": "4",
+        "NumRatings": "2",
+        "HeaderColor": "#ff0000",
         "GamePic": "resources/gamepic4.png",
         "Details":[
             "Outdoor / Indoor",
@@ -42,8 +43,9 @@
     {
         "Name": "Assassin",
         "Bubble": "",
-        "Rating": "3",
-        "NumRatings": "4",
+        "Rating": "3.5",
+        "NumRatings": "2",
+        "HeaderColor": "#4d0000",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Outdoor / Indoor",
@@ -69,8 +71,8 @@
     {
         "Name": "Bippity Bop Bop",
         "Bubble": "",
-        "Rating": "2",
-        "NumRatings": "4",
+        "Rating": "1.5",
+        "NumRatings": "2",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Outdoor / Indoor",
@@ -86,8 +88,8 @@
     {
         "Name": "Bird Nests",
         "Bubble": "",
-        "Rating": "2.5",
-        "NumRatings": "4",
+        "Rating": "3",
+        "NumRatings": "2",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Outdoor / Indoor",
@@ -117,7 +119,7 @@
         "Name": "Black Magic",
         "Bubble": "",
         "Rating": "1.5",
-        "NumRatings": "4",
+        "NumRatings": "2",
         "HeaderColor": "#9e0096",
         "GamePic": "resources/gamepic13.png",
         "Details":[
@@ -134,8 +136,8 @@
     {
         "Name": "Blob Tag",
         "Bubble": "",
-        "Rating": "3",
-        "NumRatings": "4",
+        "Rating": "3.5",
+        "NumRatings": "2",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Outdoor",
@@ -151,7 +153,7 @@
     {
         "Name": "Capture The Flag*",
         "Rating": "5",
-        "NumRatings": "4",
+        "NumRatings": "2",
         "HeaderColor": "#050980",
         "GamePic": "resources/gamepic2.png",
         "Details":[
@@ -199,8 +201,8 @@
     },
     {
         "Name": "Capture The Flag Mini",
-        "Rating": "0",
-        "NumRatings": "4",
+        "Rating": "3.5",
+        "NumRatings": "2",
         "HeaderColor": "#800905",
         "GamePic": "resources/gamepic3.png",
         "Details":[
@@ -219,8 +221,8 @@
     },
     {
         "Name": "Charades",
-        "Rating": "0",
-        "NumRatings": "4",
+        "Rating": "2",
+        "NumRatings": "2",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Outdoor / Indoor",
@@ -244,9 +246,10 @@
     },
     {
         "Name": "Concentration",
-        "Rating": "0",
-        "NumRatings": "4",
-        "GamePic": "resources/gamepic.png",
+        "Rating": "2.5",
+        "NumRatings": "2",
+        "HeaderColor": "#2a0580",
+        "GamePic": "resources/gamepic21.png",
         "Details":[
             "Outdoor / Indoor",
             "Infinite",
@@ -290,9 +293,9 @@
     },
     {
         "Name": "Concentration 64",
-        "Rating": "0",
+        "Rating": "1.5",
         "Bubble": "New!",
-        "NumRatings": "4",
+        "NumRatings": "2",
         "HeaderColor": "#272727",
         "GamePic": "resources/gamepic18.png",
         "Details":[
@@ -311,8 +314,8 @@
     },
     {
         "Name": "Dodge Ball",
-        "Rating": "0",
-        "NumRatings": "4",
+        "Rating": "3",
+        "NumRatings": "2",
         "HeaderColor": "#899fff",
         "GamePic": "resources/gamepic14.png",
         "Details":[
@@ -329,8 +332,8 @@
     },
     {
         "Name": "Dragon Tail",
-        "Rating": "0",
-        "NumRatings": "4",
+        "Rating": "4.5",
+        "NumRatings": "2",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Outdoor",
@@ -348,8 +351,9 @@
     },
     {
         "Name": "Duck Duck Goose",
-        "Rating": "0",
-        "NumRatings": "4",
+        "Rating": "1.5",
+        "NumRatings": "2",
+        "HeaderColor": "#ffe74b",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Outdoor / Indoor",
@@ -366,8 +370,8 @@
     }, 
     {
         "Name": "Earthquake Eviction",
-        "Rating": "0",
-        "NumRatings": "4",
+        "Rating": "1",
+        "NumRatings": "2",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Outdoor",
@@ -384,9 +388,10 @@
     },
     {
         "Name": "Flip The Rug",
-        "Rating": "0",
-        "NumRatings": "4",
-        "GamePic": "resources/gamepic.png",
+        "Rating": "2",
+        "NumRatings": "2",
+        "HeaderColor": "#ac620b",
+        "GamePic": "resources/gamepic23.png",
         "Details":[
             "Indoor",
             "Group Size 16+",
@@ -401,8 +406,9 @@
     },
     {
         "Name": "Freeze Tag",
-        "Rating": "0",
-        "NumRatings": "4",
+        "Rating": "3.5",
+        "NumRatings": "2",
+        "HeaderColor": "#00abff",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Outdoor",
@@ -417,8 +423,8 @@
     },
     {
         "Name": "Fresher Tag",
-        "Rating": "0",
-        "NumRatings": "4",
+        "Rating": "4",
+        "NumRatings": "2",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Outdoor",
@@ -435,8 +441,8 @@
     },
     {
         "Name": "Frogger",
-        "Rating": "0",
-        "NumRatings": "4",
+        "Rating": "3.5",
+        "NumRatings": "2",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Outdoor / Indoor",
@@ -451,8 +457,8 @@
     },
     {
         "Name": "Heads Up 7up",
-        "Rating": "0",
-        "NumRatings": "4",
+        "Rating": "2",
+        "NumRatings": "2",
         "HeaderColor": "#07e03d",
         "GamePic": "resources/gamepic6.png",
         "Details":[
@@ -470,8 +476,8 @@
     },
     {
         "Name": "Hide And Seek",
-        "Rating": "0",
-        "NumRatings": "4",
+        "Rating": "3",
+        "NumRatings": "2",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Outdoor / Indoor",
@@ -486,8 +492,8 @@
     },
     {
         "Name": "Hide And Seek Base",
-        "Rating": "0",
-        "NumRatings": "4",
+        "Rating": "3.5",
+        "NumRatings": "2",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Outdoor / Indoor",
@@ -502,8 +508,8 @@
     },
     {
         "Name": "Human Knot",
-        "Rating": "0",
-        "NumRatings": "4",
+        "Rating": "2.5",
+        "NumRatings": "2",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Outdoor",
@@ -520,8 +526,8 @@
     },
     {
         "Name": "Infection Tag",
-        "Rating": "0",
-        "NumRatings": "4",
+        "Rating": "4",
+        "NumRatings": "2",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Outdoor",
@@ -536,8 +542,8 @@
     },
     {
         "Name": "Link Tag",
-        "Rating": "0",
-        "NumRatings": "4",
+        "Rating": "2",
+        "NumRatings": "2",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Outdoor",
@@ -552,8 +558,8 @@
     },
     {
         "Name": "Murder In The Dark*",
-        "Rating": "0",
-        "NumRatings": "4",
+        "Rating": "5",
+        "NumRatings": "2",
         "HeaderColor": "#474747",
         "GamePic": "resources/gamepic5.png",
         "Details":[
@@ -620,8 +626,8 @@
     },
     {
         "Name": "Musical Chairs",
-        "Rating": "0",
-        "NumRatings": "4",
+        "Rating": "2",
+        "NumRatings": "2",
         "HeaderColor": "#ff3a89",
         "GamePic": "resources/gamepic17.png",
         "Details":[
@@ -638,8 +644,8 @@
     },
     {
         "Name": "Ninja",
-        "Rating": "0",
-        "NumRatings": "4",
+        "Rating": "3.5",
+        "NumRatings": "2",
         "HeaderColor": "#374b00",
         "GamePic": "resources/gamepic20.png",
         "Details":[
@@ -664,8 +670,26 @@
     },
     {
         "Name": "Paper-Craft Pictionary",
-        "Rating": "0",
-        "NumRatings": "4",
+        "Rating": "2.5",
+        "NumRatings": "2",
+        "HeaderColor": "#7e7e7e",
+        "GamePic": "resources/gamepic22.png",
+        "Details":[
+            "Indoor",
+            "Group Size 12+",
+            "Requires: Pieces Of Paper, Pencils, Scissors, And Other Art Supplies",
+            "Competitive Rating: ★★☆☆☆"
+        ],
+        "Filters":[
+            "indoor"
+        ],
+        "Description": "Coming Soon..."
+        
+    },
+    {
+        "Name": "Picnic / Vacation",
+        "Rating": "1.5",
+        "NumRatings": "2",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Indoor",
@@ -681,8 +705,8 @@
     },
     {
         "Name": "Pictionary",
-        "Rating": "0",
-        "NumRatings": "4",
+        "Rating": "2",
+        "NumRatings": "2",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Indoor",
@@ -701,7 +725,7 @@
     {
         "Name": "Red Light Green Light",
         "Rating": "0",
-        "NumRatings": "4",
+        "NumRatings": "0",
         "HeaderColor": "#02fd08",
         "GamePic": "resources/gamepic8.png",
         "Details":[
@@ -717,8 +741,8 @@
     },
     {
         "Name": "Rock Paper Scissors",
-        "Rating": "0",
-        "NumRatings": "4",
+        "Rating": "1.5",
+        "NumRatings": "2",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Outdoor / Indoor",
@@ -759,8 +783,8 @@
     },
     {
         "Name": "Scatter Ball",
-        "Rating": "0",
-        "NumRatings": "4",
+        "Rating": "2",
+        "NumRatings": "2",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Outdoor",
@@ -776,7 +800,7 @@
         
     },
     {
-        "Name": "Sean's Sword Drills: Nerf Edition",
+        "Name": "SSD: Nerf Edition",
         "Rating": "0",
         "Bubble": "New!",
         "NumRatings": "0",
@@ -797,7 +821,7 @@
         
     },
     {
-        "Name": "Sean's Sword Drills: Red Light, Green Light Edition",
+        "Name": "SSD: Red Light, Green Light Edition",
         "Rating": "0",
         "Bubble": "New!",
         "NumRatings": "0",
@@ -819,8 +843,8 @@
     },
     {
         "Name": "Sharks And Minnows",
-        "Rating": "0",
-        "NumRatings": "4",
+        "Rating": "3.5",
+        "NumRatings": "2",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Outdoor",
@@ -835,9 +859,9 @@
     },
     {
         "Name": "Sherlock",
-        "Rating": "0",
+        "Rating": "2",
         "Bubble": "New!",
-        "NumRatings": "4",
+        "NumRatings": "2",
         "HeaderColor": "#714732",
         "GamePic": "resources/gamepic9.png",
         "Details":[
@@ -854,8 +878,8 @@
     },
     {
         "Name": "Signs",
-        "Rating": "0",
-        "NumRatings": "4",
+        "Rating": "2",
+        "NumRatings": "2",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Outdoor / Indoor",
@@ -870,8 +894,8 @@
     },
     {
         "Name": "Spoons",
-        "Rating": "0",
-        "NumRatings": "4",
+        "Rating": "2.5",
+        "NumRatings": "2",
         "HeaderColor": "#6478ba",
         "GamePic": "resources/gamepic15.png",
         "Details":[
@@ -888,8 +912,8 @@
     },
     {
         "Name": "Taco Cat Goat Cheese Pizza",
-        "Rating": "0",
-        "NumRatings": "4",
+        "Rating": "3",
+        "NumRatings": "2",
         "HeaderColor": "#fcff3d",
         "GamePic": "resources/gamepic10.png",
         "Details":[
@@ -906,8 +930,8 @@
     },
     {
         "Name": "Tag",
-        "Rating": "0",
-        "NumRatings": "4",
+        "Rating": "2.5",
+        "NumRatings": "2",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Outdoor",
@@ -924,8 +948,8 @@
     },
     {
         "Name": "Telephone",
-        "Rating": "0",
-        "NumRatings": "4",
+        "Rating": "2",
+        "NumRatings": "2",
         "HeaderColor": "#0db505",
         "GamePic": "resources/gamepic11.png",
         "Details":[
@@ -941,8 +965,8 @@
     },
     {
         "Name": "The Balloon Stompin' Game",
-        "Rating": "0",
-        "NumRatings": "4",
+        "Rating": "2.5",
+        "NumRatings": "2",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Indoor",
@@ -958,8 +982,8 @@
     },
     {
         "Name": "The Blind Folded Noodle Game",
-        "Rating": "0",
-        "NumRatings": "4",
+        "Rating": "4",
+        "NumRatings": "2",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Outdoor / Indoor",
@@ -975,8 +999,9 @@
     },
     {
         "Name": "The Garbage Can Game",
-        "Rating": "0",
-        "NumRatings": "4",
+        "Rating": "5",
+        "NumRatings": "2",
+        "HeaderColor": "#763900",
         "GamePic": "resources/gamepic12.png",
         "Details":[
             "Outdoor / Indoor",
@@ -992,8 +1017,8 @@
     },
     {
         "Name": "The Name Calling Gun Game",
-        "Rating": "0",
-        "NumRatings": "4",
+        "Rating": "3",
+        "NumRatings": "2",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Outdoor / Indoor",
@@ -1008,8 +1033,8 @@
     },
     {
         "Name": "The Name Game",
-        "Rating": "0",
-        "NumRatings": "4",
+        "Rating": "1",
+        "NumRatings": "2",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Outdoor / Indoor",
@@ -1025,8 +1050,8 @@
     },
     {
         "Name": "Train Wreck",
-        "Rating": "0",
-        "NumRatings": "4",
+        "Rating": "2",
+        "NumRatings": "2",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Indoor",
@@ -1039,12 +1064,11 @@
             "infinite"
         ],
         "Description": "Everyone sits down in chairs in roughly a circle. Then to start someone gets up in the middle and says “if you like pizza” or something similar, and everyone for whom it applies gets up and switches spots (you can not move to the spot directly next to you). An optional rule is to make it so if someone says “Train Wreck” everyone has to get up and switch spots."
-        
     },
     {
         "Name": "Twister",
-        "Rating": "0",
-        "NumRatings": "4",
+        "Rating": "1",
+        "NumRatings": "2",
         "HeaderColor": "#e5003d",
         "GamePic": "resources/gamepic16.png",
         "Details":[
@@ -1056,12 +1080,11 @@
             "indoor"
         ],
         "Description": "Everyone gets into groups of 3-5, then each person in the group thinks of 2 things about themselves that are true, and 1 thing that is not (but sounds like it is). Then the group takes turns telling their truths and lie and the rest of the group has to guess which one was the lie."
-        
     },
     {
         "Name": "Two Truthes And A Lie",
-        "Rating": "0",
-        "NumRatings": "4",
+        "Rating": "0.5",
+        "NumRatings": "2",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Indoor",
@@ -1073,12 +1096,11 @@
             "gettoknowyou"
         ],
         "Description": "Everyone gets into groups of 3-5, then each person in the group thinks of 2 things about themselves that are true, and 1 thing that is not (but sounds like it is). Then the group takes turns telling their truths and lie and the rest of the group has to guess which one was the lie."
-        
     },
     {
         "Name": "Ultimate Frisbee",
-        "Rating": "0",
-        "NumRatings": "4",
+        "Rating": "3",
+        "NumRatings": "2",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Outdoor",
@@ -1090,12 +1112,11 @@
             "outdoor"
         ],
         "Description": "Coming Soon..."
-        
     },
     {
         "Name": "Zip Bong",
-        "Rating": "0",
-        "NumRatings": "4",
+        "Rating": "2",
+        "NumRatings": "2",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Outdoor / Indoor",
@@ -1107,7 +1128,4 @@
         ],
         "Description": "Everyone forms a circle and one person starts of the game by saying Zip, which passes the responsibility on to the next person (person on the right). The next person then has the choice of either saying Zip or Bong. If they say Zip it goes on to the next person, if however they say Bong the order reverses and goes back to the previous person."
     }
-
-
-
 ]

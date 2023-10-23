@@ -92,32 +92,9 @@ if(filterButton != null){
     });
 }
 
-if(playBtn != null){
-playBtn.addEventListener("click", () =>{
-    playBtn.classList.toggle("playing");
-});
-}
 
-if(minusBtn1 != null){
-    minusBtn1.addEventListener("click", () =>{
-        SubtractInt(1, numberInput1, 0);
-    });
-}
-if(plusBtn1 != null){
-    plusBtn1.addEventListener("click", () =>{
-        AddInt(1, numberInput1, 99);
-    });
-}
-if(minusBtn2 != null){
-    minusBtn2.addEventListener("click", () =>{
-        SubtractInt(1, numberInput2, 0);
-    });
-}
-if(plusBtn2 != null){
-    plusBtn2.addEventListener("click", () =>{
-        AddInt(1, numberInput2, 99);
-    });
-}
+
+
 
 
 if(searchBar != null){
@@ -391,22 +368,64 @@ function ActivateFilter(evt, value){
 }
 
 //Music Stopper Code
-
+if(playBtn != null){
+    playBtn.addEventListener("click", () =>{
+        if (playBtn.classList.contains("playing")){
+            clearTimeout(playrnd)
+            audio.pause();
+            
+        }
+        else{
+            PlayAudio()
+        }
+        playBtn.classList.toggle("playing");
+        document.querySelector(".bxs-music").classList.toggle("bx-tada")
+       
+    });
+}
+//plays audio for a random amount of time between twn points
 function PlayAudio()
-{
-    let min = Number(body.querySelector(".number1 span").textContent)
-    let max = Number(body.querySelector(".number2 span").textContent)
-    const random = Math.floor(Math.random() * (max * 1000 - min * 1000 + 1) + min * 1000);
-    audio = document.getElementById("myAudio");
-    
-    audio.play();
-    
-    setTimeout( function (){
+{   
 
-        audio.pause();
-        playBtn.classList.toggle("playing", false);
-    },random)
-    
+        
+        let min = Number(body.querySelector(".number1 span").textContent)
+        let max = Number(body.querySelector(".number2 span").textContent)
+        const random = Math.floor(Math.random() * (max * 1000 - min * 1000 + 1) + min * 1000);
+        audio = document.getElementById("myAudio");
+        
+        audio.play();
+        
+        playrnd = setTimeout( function (){
+            audio.pause();
+            playBtn.classList.toggle("playing", false);
+            document.querySelector(".bxs-music").classList.toggle("bx-tada", false)
+        },random)
+}
+// handles the input for the plus and minus buttons on the music player
+if(minusBtn1 != null){
+    minusBtn1.addEventListener("click", () =>{
+        SubtractInt(1, numberInput1, 0);
+        
+    });
+}
+if(plusBtn1 != null){
+    plusBtn1.addEventListener("click", () =>{
+        AddInt(1, numberInput1, 99);
+        if (Number(numberInput2.textContent) < Number(numberInput1.textContent)) 
+        AddInt(1, numberInput2, 99);
+    });
+}
+if(minusBtn2 != null){
+    minusBtn2.addEventListener("click", () =>{
+        SubtractInt(1, numberInput2, 0);
+        if (Number(numberInput2.textContent) < Number(numberInput1.textContent)) 
+        SubtractInt(1, numberInput1, 0);
+    });
+}
+if(plusBtn2 != null){
+    plusBtn2.addEventListener("click", () =>{
+        AddInt(1, numberInput2, 99);
+    });
 }
 
 function AddInt(amount, element, maxValue){
@@ -417,6 +436,7 @@ function AddInt(amount, element, maxValue){
     element.textContent = num
     
 }
+
 function SubtractInt(amount, element, minValue){
     let num = Number(element.textContent)
     if(num > minValue){
@@ -425,4 +445,3 @@ function SubtractInt(amount, element, minValue){
     element.textContent = num
     
 }
-

@@ -236,7 +236,7 @@
 }
 
 .gameBoxBody{
-    padding: 20px;
+    padding: 10px;
 }
 .gameBox .header-items{
     display: flex;
@@ -267,9 +267,11 @@
     box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
     @media (max-width: 600px){
         width: 80px;
+        max-height: 80px;
     }
     @media (max-width: 400px){
         width: 60px;
+        max-height: 60px;
     }
 }
 .gameBox .bx{
@@ -372,13 +374,14 @@
 }
 
 .gameBox .card-desc-ul{
-    font-size: 15px;
-    margin-left: 20px;
+    margin-left: 15px;
     color: var(--color-text);
-    
 }
 
 .gameBox .card-desc-li{
     font-size: 15px;
     color: var(--color-text);
+    @media (max-width: 400px){
+        font-size: 12px;
+    }
 }

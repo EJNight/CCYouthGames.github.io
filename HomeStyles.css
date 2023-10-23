@@ -1,0 +1,79 @@
+.page .headar-box{
+    width: calc(100% -60px);
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+    background-image: url(resources/YouthFireLogoPanel3.png);
+    background-position: center;
+    @media(max-width: 605px){
+        height: 300px;
+    }
+    @media(max-width: 420px){
+        height: 200px;
+    }
+}
+
+.page .headar-box h1{
+    font-size: 80px;
+    font-weight: 900;
+    text-align: center;
+    @media(max-width: 605px){
+        font-size: 50px;
+    }
+    @media(max-width: 420px){
+        font-size: 35px;
+    }
+        
+    
+    color: var(--color-text);
+}
+.page .headar-box span{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    color: var(--color-text);
+    @media(max-width: 605px){
+        font-size: 30px;
+    }
+    @media(max-width: 420px){
+        font-size: 20px;
+    }
+}
+.gotm-text{
+    text-align: center;
+    font-size: 100px;
+    font-weight: 900;
+    margin-top: 20px;
+    color: var(--color-text);
+    @media(max-width: 700px){
+        font-size: 60px;
+    }
+    @media(max-width: 480px){
+        font-size: 40px;
+    }
+    @media(max-width: 350px){
+        font-size: 25px;
+    }
+}
+.bx-calendar{
+    font-size: 100px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: var(--color-text);
+    
+    @media(max-width: 350px){
+        font-size: 60px;
+    }
+}
+
+.gotmonth-header{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}

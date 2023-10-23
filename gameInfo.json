@@ -118,6 +118,7 @@
         "Bubble": "",
         "Rating": "1.5",
         "NumRatings": "4",
+        "HeaderColor": "#9e0096",
         "GamePic": "resources/gamepic13.png",
         "Details":[
             "Indoor",
@@ -151,6 +152,7 @@
         "Name": "Capture The Flag*",
         "Rating": "5",
         "NumRatings": "4",
+        "HeaderColor": "#050980",
         "GamePic": "resources/gamepic2.png",
         "Details":[
             "Outdoor",
@@ -199,6 +201,7 @@
         "Name": "Capture The Flag Mini",
         "Rating": "0",
         "NumRatings": "4",
+        "HeaderColor": "#800905",
         "GamePic": "resources/gamepic3.png",
         "Details":[
             "Outdoor",
@@ -288,8 +291,10 @@
     {
         "Name": "Concentration 64",
         "Rating": "0",
+        "Bubble": "New!",
         "NumRatings": "4",
-        "GamePic": "resources/gamepic.png",
+        "HeaderColor": "#272727",
+        "GamePic": "resources/gamepic18.png",
         "Details":[
             "Outdoor / Indoor",
             "Infinite",
@@ -298,7 +303,8 @@
         ],
         "Filters":[
             "outdoorandindoor",
-            "infinite"
+            "infinite",
+            "new"
         ],
         "Description": "Coming Soon..."
         
@@ -307,6 +313,7 @@
         "Name": "Dodge Ball",
         "Rating": "0",
         "NumRatings": "4",
+        "HeaderColor": "#899fff",
         "GamePic": "resources/gamepic14.png",
         "Details":[
             "Outdoor",
@@ -372,7 +379,7 @@
             "outdoor",
             "infinite"
         ],
-        "Description": "Coming Soon..."
+        "Description": "Everyone is divided into groups of 3 and each group forms a house shape (two players form the roof with their hands and the other stands in the middle, inside the house). There should be 1 person left over (not part of a house), and they will say either 'Earthquake' or 'Eviction'.  If they say 'Earthquake' every house falls apart and everyone has to find a new group of people to form a house with. If they say 'Eviction' only the people inside the houses have to switch places."
         
     },
     {
@@ -446,6 +453,7 @@
         "Name": "Heads Up 7up",
         "Rating": "0",
         "NumRatings": "4",
+        "HeaderColor": "#07e03d",
         "GamePic": "resources/gamepic6.png",
         "Details":[
             "Indoor",
@@ -546,6 +554,7 @@
         "Name": "Murder In The Dark*",
         "Rating": "0",
         "NumRatings": "4",
+        "HeaderColor": "#474747",
         "GamePic": "resources/gamepic5.png",
         "Details":[
             "Indoor",
@@ -613,7 +622,8 @@
         "Name": "Musical Chairs",
         "Rating": "0",
         "NumRatings": "4",
-        "GamePic": "resources/gamepic.png",
+        "HeaderColor": "#ff3a89",
+        "GamePic": "resources/gamepic17.png",
         "Details":[
             "Indoor",
             "Group Size 10+",
@@ -630,7 +640,8 @@
         "Name": "Ninja",
         "Rating": "0",
         "NumRatings": "4",
-        "GamePic": "resources/gamepic7.png",
+        "HeaderColor": "#374b00",
+        "GamePic": "resources/gamepic20.png",
         "Details":[
             "Outdoor / Indoor",
             "Group Size 12+",
@@ -639,7 +650,16 @@
         "Filters":[
             "outdoorandindoor"
         ],
-        "Description": "Coming Soon..."
+        "Description": [
+            {
+                "Header": "Ninja",
+                "Text": "Every gets into a circle, strikes a ninja pose, and then someone is chosen to start the game. When it is your turn you use your arms to swipe and try to hit one of the other players arms below the elbow (usually one of the players on either side of you), the person you swing at may also dodge. If someone's arm gets hit they have to have to keep that arm behind their back for the rest of the game. If both your arms are behind your back, then you are eliminated. The game moves in a clockwise rotation so the person to the left of you in the circle will have the next turn."
+            },
+            {
+                "Header": "Ultimate Ninja",
+                "Text": "Just like regular Ninja, but with both arms and legs... Idk you figure it out."
+            }
+        ]
         
     },
     {
@@ -682,6 +702,7 @@
         "Name": "Red Light Green Light",
         "Rating": "0",
         "NumRatings": "4",
+        "HeaderColor": "#02fd08",
         "GamePic": "resources/gamepic8.png",
         "Details":[
             "Outdoor",
@@ -707,7 +728,33 @@
         "Filters":[
             "outdoorandindoor"
         ],
-        "Description": "Coming Soon..."
+        "Description": [
+            {
+                "Header": "Main Game",
+                "Text": "Two people say 'Rock, Paper, Scissors' and then make a shape with their hand of either a rock, paper, or scissors. Depending on who played what you may win, lose, or it may be a draw."
+            },
+            {
+                "Header": "Plays",
+                "List": [
+                    {
+                        "Text": "Rock Beats Scissors"
+                    },
+                    {
+                        "Text": "Scissors Beats Paper"
+                    },
+                    {
+                        "Text": "Paper Beats Rock"
+                    },
+                    {
+                        "Text": "Everything Else Ends In A Draw"
+                    }
+                ]
+            },
+            {
+                "Header": "King Of The Mountain",
+                "Text": "The game can be played on a large scale as a king of the mountain style game. Everyone competes to get to the top spot."
+            }
+        ]
         
     },
     {
@@ -731,8 +778,10 @@
     {
         "Name": "Sean's Sword Drills: Nerf Edition",
         "Rating": "0",
+        "Bubble": "New!",
         "NumRatings": "0",
-        "GamePic": "resources/gamepic.png",
+        "HeaderColor": "#fc9438",
+        "GamePic": "resources/gamepic19.png",
         "Details":[
             "Outdoor",
             "Group Size 14+",
@@ -741,7 +790,8 @@
         ],
         "Filters":[
             "seanssd",
-            "team"
+            "team",
+            "new"
         ],
         "Description": "To start the game everyone says their name and then someone calls out a name and throws a ball up in the air, everyone runs as far as they can until the person who was called picks up the ball and says “Stop”. Then that person can take three steps if they choose, they then throw the ball at a person. If the person catches the ball they stay in and the one who through the ball is eliminated, however if the ball hits the person and they do not catch it they are eliminated, and the next person to say the name. (Please no head shots)"
         
@@ -749,8 +799,10 @@
     {
         "Name": "Sean's Sword Drills: Red Light, Green Light Edition",
         "Rating": "0",
+        "Bubble": "New!",
         "NumRatings": "0",
-        "GamePic": "resources/gamepic.png",
+        "HeaderColor": "#fc9438",
+        "GamePic": "resources/gamepic19.png",
         "Details":[
             "Outdoor",
             "Group Size 14+",
@@ -759,7 +811,8 @@
         ],
         "Filters":[
             "seanssd",
-            "team"
+            "team",
+            "new"
         ],
         "Description": "To start the game everyone says their name and then someone calls out a name and throws a ball up in the air, everyone runs as far as they can until the person who was called picks up the ball and says “Stop”. Then that person can take three steps if they choose, they then throw the ball at a person. If the person catches the ball they stay in and the one who through the ball is eliminated, however if the ball hits the person and they do not catch it they are eliminated, and the next person to say the name. (Please no head shots)"
         
@@ -783,7 +836,9 @@
     {
         "Name": "Sherlock",
         "Rating": "0",
+        "Bubble": "New!",
         "NumRatings": "4",
+        "HeaderColor": "#714732",
         "GamePic": "resources/gamepic9.png",
         "Details":[
             "Outdoor / Indoor",
@@ -791,7 +846,8 @@
             "Competitive Rating: ★☆☆☆☆"
         ],
         "Filters":[
-            "outdoorandindoor"
+            "outdoorandindoor",
+            "new"
         ],
         "Description": "Coming Soon..."
         
@@ -816,6 +872,7 @@
         "Name": "Spoons",
         "Rating": "0",
         "NumRatings": "4",
+        "HeaderColor": "#6478ba",
         "GamePic": "resources/gamepic15.png",
         "Details":[
             "Indoor",
@@ -833,6 +890,7 @@
         "Name": "Taco Cat Goat Cheese Pizza",
         "Rating": "0",
         "NumRatings": "4",
+        "HeaderColor": "#fcff3d",
         "GamePic": "resources/gamepic10.png",
         "Details":[
             "Indoor",
@@ -868,6 +926,7 @@
         "Name": "Telephone",
         "Rating": "0",
         "NumRatings": "4",
+        "HeaderColor": "#0db505",
         "GamePic": "resources/gamepic11.png",
         "Details":[
             "Outdoor / Indoor",
@@ -986,6 +1045,7 @@
         "Name": "Twister",
         "Rating": "0",
         "NumRatings": "4",
+        "HeaderColor": "#e5003d",
         "GamePic": "resources/gamepic16.png",
         "Details":[
             "Indoor",

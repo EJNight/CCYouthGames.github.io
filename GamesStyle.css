@@ -140,7 +140,7 @@
     
 }
 .filter-drop-down-box ul{
-    position: relative; 
+    position: relative;
     
     
 }
@@ -155,6 +155,7 @@
     list-style: none;
     transition: var(--Trans1);
     
+    
 }
 .filter-drop-down-box .filter-drop-down-item.active{
     background-color: var(--color);
@@ -165,6 +166,7 @@
 }
 .filter-box.close .filter-drop-down-box{
     opacity: 1;
+    
 }
 .filter-box.close .filter-drop-down-item{
     cursor: pointer;
@@ -181,6 +183,9 @@
 .container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    @media (min-width: 1600px){
+        grid-template-columns: repeat(auto-fit, minmax(800px, 1fr));
+    }
     @media (max-width: 500px){
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     }
@@ -201,17 +206,14 @@
 }
 .gameBoxHeader{
     position: relative;
-    min-height: 100px;
     height: fit-content;
     border-radius: 10px;
-    background-color: var(--color-light);
     padding: 20px;
     box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
 }
 .gameBox .bubble{
     width: 140px;
     height: 40px;
-    background-color: var(--color-light);
     position: absolute;
     display: flex;
     align-items: center;
@@ -219,6 +221,12 @@
     border-radius: 10px;
     top: -20px;
     left: 0px;
+    @media (max-width: 600px){
+        width: 120px;
+    }
+    @media (max-width: 400px){
+        width: 100px;
+    }
 }
 .gameBox .bubble span{
     font-size: 15px;
@@ -230,13 +238,17 @@
 .gameBoxBody{
     padding: 20px;
 }
+.gameBox .header-items{
+    display: flex;
+}
 
 .gameBox .gameName{
     font-size: 30px;
     word-wrap: break-word;
     font-weight: 800;
-    margin-left: 120px;
-    color: var(--color);
+    margin-left: 20px;
+    color: var(--color-text);
+    text-shadow: 5px 5px 5px rgba(0,0,0,0.1);
 
     @media (max-width: 500px){
         font-size: 20px;
@@ -249,10 +261,16 @@
 
 .gameBox .gamePic{
     width: 100px;
-    float: left;
+    max-height: 100px;
     position: relative;
     border-radius: 10px;
     box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+    @media (max-width: 600px){
+        width: 80px;
+    }
+    @media (max-width: 400px){
+        width: 60px;
+    }
 }
 .gameBox .bx{
     font-size: 20px;
@@ -305,7 +323,11 @@
 }
 .gameBox .detailsLI{
     margin-left: 22px;
+    font-size: 15px;
     color: var(--color-text);
+    @media (max-width: 400px){
+        font-size: 12px;
+    }
 }
 
 .gameBox .questionMark{
@@ -333,23 +355,30 @@
     font-size: 18px;
     
     color: var(--color-text);
+    @media (max-width: 600px){
+        font-size: 15px;
+    }
 }
 
 .gameBox .card-desc-text{
     
-    font-size: medium;
+    font-size: 15px;
     margin-bottom: 20px;
     color: var(--color-text);
+    @media (max-width: 400px){
+        font-size: 12px;
+    }
 
 }
 
 .gameBox .card-desc-ul{
-    font-size: medium;
+    font-size: 15px;
     margin-left: 20px;
     color: var(--color-text);
+    
 }
 
 .gameBox .card-desc-li{
-    font-size: medium;
+    font-size: 15px;
     color: var(--color-text);
 }

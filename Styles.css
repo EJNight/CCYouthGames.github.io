@@ -42,7 +42,7 @@
     background-color: var(--color-dark);
     text-align: center;
     width: 100%;
-    height: 60px;
+    height: 50px;
     box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
     user-select: none;
 }
@@ -53,9 +53,9 @@
 
 .Icon img{
     position: absolute;
-    right: 5px;
-    top: 5px;
-    width: 40px;
+    right: 7px;
+    top: 7px;
+    width: 30px;
 }
 
 .sidebarbtn{
@@ -68,8 +68,8 @@
     border-radius: 10px;
     left: 0;
     top: 0;
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     background-color: var(--color-dark);
     transition:var(--Trans1)
 }
@@ -120,18 +120,18 @@
     border-radius: 10px;
     z-index: 3;
     left: 0;
-    width: 60px;
+    width: 50px;
     height: 100%;
     transition: width 0.5s ease;
     
 }
 .sidebar.open{
-    width: 250px;
+    width: 200px;
 }
 
 .SideBtn a{
     background: var(--color-dark);
-    height: 60px;
+    height: 50px;
     width: 100%;
     font-size: 25px;
     z-index: 4;
@@ -140,9 +140,8 @@
     border-radius: 10px;
     align-items: center;
     text-decoration: none;
-    
-    color: var(--color-text);
     transition: background 0.5s ease;
+    color: var(--color-text);
     
 }
 
@@ -150,12 +149,12 @@
     z-index: 5;
     background: var(--color);
     box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
-    transition: var(--Trans1);
+    
 }
 
 .SideList{
     position: relative;
-    top: 60px;
+    top: 50px;
     
     
 }
@@ -170,7 +169,7 @@
 .SideBtn i{
     font-size: 30px;
     position: relative;
-    left: 15px;
+    left: 10px;
     transition: left 0.5s ease, opacity 0.5s ease;
 }
 .sidebar.open .SideBtn .sidetext {
@@ -187,7 +186,7 @@
 /* === the light and dark mode switch ===*/
 .mode-switch{
     width: 100%;
-    height: 60px;
+    height: 50px;
     border-radius: 10px;
     position: relative;
     z-index: 11;
@@ -202,7 +201,7 @@
 
 .settings-btn{
     width: 100%;
-    height: 60px;
+    height: 50px;
     border-radius: 10px;
     position: relative;
     cursor: pointer;
@@ -274,8 +273,8 @@
 }
 
 .page{
-    padding-left: 60px;
-    width: calc(100% - 60px);
+    padding-left: 50px;
+    width: calc(100% - 50px);
     height: 100%;
     background-color: var(--color-page);
 }

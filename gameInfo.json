@@ -80,7 +80,8 @@
             "Competitive Rating: ★★☆☆☆"
         ],
         "Filters":[
-            "outdoorandindoor"
+            "outdoorandindoor",
+            "noprep"
         ],
         "Description": "Everyone forms a circle with 1 person in the middle. The 1 in the middle steps up to someone and can say “Bippity Bop Bop” if the other person says bop before they finish they are safe and the 1 in the middle goes to someone else. If they say “Bippity Bop Bop” and the other person doesn't say anything then the 1 in the middle takes there place and they are now the one in the middle. If someone says bop at anytime and the 1 in the middle did NOT say “Bippity Bop Bop” then they swap spots with the one in the middle."
         
@@ -128,7 +129,8 @@
             "Competitive Rating: ★★☆☆☆"
         ],
         "Filters":[
-            "indoor"
+            "indoor",
+            "noprep"
         ],
         "Description": "???"
         
@@ -145,7 +147,8 @@
             "Competitive Rating: ★★★☆☆"
         ],
         "Filters":[
-            "outdoor"
+            "outdoor",
+            "noprep"
         ],
         "Description": "Like tag but when you get tagged you link up with the group that tagged you. If your group gets to 4 people you split into 2 groups of 2 people each. The game continues until there is only 1 person not In a group. The 1 who is left wins."
         
@@ -258,7 +261,8 @@
         ],
         "Filters":[
             "outdoorandindoor",
-            "infinite"
+            "infinite",
+            "noprep"
         ],
         "Description": [
             {
@@ -307,7 +311,8 @@
         "Filters":[
             "outdoorandindoor",
             "infinite",
-            "new"
+            "new",
+            "noprep"
         ],
         "Description": "Coming Soon..."
         
@@ -363,7 +368,8 @@
         ],
         "Filters":[
             "outdoorandindoor",
-            "infinite"
+            "infinite",
+            "noprep"
         ],
         "Description": "Everyone sits in a circle and one person gets up and walks around the circle tapping each person they pass saying “Duck” or “Goose” as they tap them. If they say “Goose” they start running around the circle and the person they tapped gets up and tries to tag them. If they run all the way round the circle and sit down in the empty spot before getting tagged they are safe and the one trying to tag them is it."
         
@@ -381,7 +387,8 @@
         ],
         "Filters":[
             "outdoor",
-            "infinite"
+            "infinite",
+            "noprep"
         ],
         "Description": "Everyone is divided into groups of 3 and each group forms a house shape (two players form the roof with their hands and the other stands in the middle, inside the house). There should be 1 person left over (not part of a house), and they will say either 'Earthquake' or 'Eviction'.  If they say 'Earthquake' every house falls apart and everyone has to find a new group of people to form a house with. If they say 'Eviction' only the people inside the houses have to switch places."
         
@@ -416,7 +423,8 @@
             "Competitive Rating: ★★★★☆"
         ],
         "Filters":[
-            "outdoor"
+            "outdoor",
+            "noprep"
         ],
         "Description": "Like tag but when you are tagged instead of becoming It, you are frozen until one of your team members tags you to unfreeze you. If the person who is It Freezes everyone they win."
         
@@ -434,7 +442,8 @@
         ],
         "Filters":[
             "outdoor",
-            "team"
+            "team",
+            "noprep"
         ],
         "Description": "Coming Soon..."
         
@@ -450,7 +459,8 @@
             "Competitive Rating: ★★☆☆☆"
         ],
         "Filters":[
-            "outdoorandindoor"
+            "outdoorandindoor",
+            "noprep"
         ],
         "Description": "Everyone stands in a circle and 1 person is chosen to stand in the middle. The person in the middle then leaves the room while the rest of the group chooses someone the be It. The middle person then comes back into the room and the game begins. The goal of the person in the middle is to figure out who of the group is It within 3 guesses, while the goal of the one who is It is the eliminate all standing players. They eliminate players by looking at the one they want to eliminate and sticking their tongue out (or by proforming any other recognizable action), the player will then fall to the floor dramatically."
         
@@ -469,7 +479,8 @@
         ],
         "Filters":[
             "indoor",
-            "infinite"
+            "infinite",
+            "noprep"
         ],
         "Description": "Every one sits down anywhere they like and then 7 people are chosen and come up in front of the rest of the group. Then everyone closes their eyes and puts their thumb up, and the 7 will walk around the room and tap on one person's thumb. The 7 then return to the middle, everyone opens their eyes, and those whos thumbs were tapped stand up. Then the ones who stood up guess who tapped their thumb, if they get it right they take the place in the 7 of the one tapped their thumb."
         
@@ -485,7 +496,8 @@
             "Competitive Rating: ★★☆☆☆"
         ],
         "Filters":[
-            "outdoorandindoor"
+            "outdoorandindoor",
+            "noprep"
         ],
         "Description": "Someone is chosen to be the seeker and then they start counting to some number (usually 30). Everyone else runs and tries to find a hiding spot. When the seeker has finished counting they can begin seeking. If a hider is spotted (optionally tagged also) they are eliminated, the last person to be found (or if they were never found) wins."
         
@@ -501,7 +513,8 @@
             "Competitive Rating: ★★☆☆☆"
         ],
         "Filters":[
-            "outdoorandindoor"
+            "outdoorandindoor",
+            "noprep"
         ],
         "Description": "Coming Soon..."
         
@@ -519,7 +532,8 @@
         ],
         "Filters":[
             "outdoor",
-            "team"
+            "team",
+            "noprep"
         ],
         "Description": "Everyone is divided into groups of about 12 people each and gets into circles. everyone links arms with someone else (in their own group), but not the people directly next to them. The groups must now use teamwork to undo the “Human Knot” they have made."
         
@@ -535,7 +549,8 @@
             "Competitive Rating: ★★★★★"
         ],
         "Filters":[
-            "outdoor"
+            "outdoor",
+            "noprep"
         ],
         "Description": "Someone is chosen to be “It” and everyone else has a few seconds to run. Then the person who is “It” tries to tag everyone else. If you get tagged, you are infected and are “It” also."
         
@@ -551,7 +566,8 @@
             "Competitive Rating: ★★★☆☆"
         ],
         "Filters":[
-            "outdoor"
+            "outdoor",
+            "noprep"
         ],
         "Description": "Everyone gets into groups of three and links arms except for one runner and one tagger. If the runner links arms with a group, the person on the opposite end of the group becomes the new runner (groups can only be three people). If the tagger tags the runner they swap roles. (tag backs are allowed and encouraged)"
         
@@ -654,7 +670,8 @@
             "Competitive Rating: ★★★★☆"
         ],
         "Filters":[
-            "outdoorandindoor"
+            "outdoorandindoor",
+            "noprep"
         ],
         "Description": [
             {
@@ -698,7 +715,8 @@
             "Competitive Rating: ★★☆☆☆"
         ],
         "Filters":[
-            "indoor"
+            "indoor",
+            "noprep"
         ],
         "Description": "Coming Soon..."
         
@@ -734,7 +752,8 @@
             "Competitive Rating: ★★★☆☆"
         ],
         "Filters":[
-            "outdoor"
+            "outdoor",
+            "noprep"
         ],
         "Description": "Everyone lines up on one side of a long stretch. Then a leader stands on the side of the stretch and says Red Light or Green Light. If the leader says Green Light everyone runs to the end of the stretch, but if they say Red Light everyone has to stop, if they move at all afterwards the have to walk all the way back to the starting line. Then the leader will continue saying Red Light or Green Light and whoever gets to the finish line first wins."
         
@@ -750,7 +769,8 @@
             "Competitive Rating: ★★☆☆☆"
         ],
         "Filters":[
-            "outdoorandindoor"
+            "outdoorandindoor",
+            "noprep"
         ],
         "Description": [
             {
@@ -852,7 +872,8 @@
             "Competitive Rating: ★★★★☆"
         ],
         "Filters":[
-            "outdoor"
+            "outdoor",
+            "noprep"
         ],
         "Description": "Coming Soon..."
         
@@ -871,7 +892,8 @@
         ],
         "Filters":[
             "outdoorandindoor",
-            "new"
+            "new",
+            "noprep"
         ],
         "Description": "Coming Soon..."
         
@@ -887,7 +909,8 @@
             "Competitive Rating: ★☆☆☆☆"
         ],
         "Filters":[
-            "outdoorandindoor"
+            "outdoorandindoor",
+            "noprep"
         ],
         "Description": "Coming Soon..."
         
@@ -941,7 +964,8 @@
         ],
         "Filters":[
             "outdoor",
-            "infinite"
+            "infinite",
+            "noprep"
         ],
         "Description": "Someone is chosen to be It and everyone else spreads out. The person who is It then has to try and tap the other players to tag them. If someone gets tagged they become It and have to tag somebody else. (Tag backs can be allowed or not allowed)"
         
@@ -958,7 +982,8 @@
             "Competitive Rating: ★☆☆☆☆"
         ],
         "Filters":[
-            "outdoorandindoor"
+            "outdoorandindoor",
+            "noprep"
         ],
         "Description": "Everyone gets in a line (or circle) and the first person in line comes up with a phrase. The phrase is then whispered and passed on to each player until it gets to the end of the line. When it reaches the end the last person in line will say what they heard and find out it the phrase stayed the same."
         
@@ -1026,7 +1051,8 @@
             "Competitive Rating: ★★★☆☆"
         ],
         "Filters":[
-            "outdoorandindoor"
+            "outdoorandindoor",
+            "noprep"
         ],
         "Description": "Coming Soon..."
         
@@ -1043,7 +1069,8 @@
         ],
         "Filters":[
             "outdoorandindoor",
-            "gettoknowyou"
+            "gettoknowyou",
+            "noprep"
         ],
         "Description": "Coming Soon..."
         
@@ -1061,7 +1088,8 @@
         ],
         "Filters":[
             "indoor",
-            "infinite"
+            "infinite",
+            "noprep"
         ],
         "Description": "Everyone sits down in chairs in roughly a circle. Then to start someone gets up in the middle and says “if you like pizza” or something similar, and everyone for whom it applies gets up and switches spots (you can not move to the spot directly next to you). An optional rule is to make it so if someone says “Train Wreck” everyone has to get up and switch spots."
     },
@@ -1093,7 +1121,8 @@
         ],
         "Filters":[
             "indoor",
-            "gettoknowyou"
+            "gettoknowyou",
+            "noprep"
         ],
         "Description": "Everyone gets into groups of 3-5, then each person in the group thinks of 2 things about themselves that are true, and 1 thing that is not (but sounds like it is). Then the group takes turns telling their truths and lie and the rest of the group has to guess which one was the lie."
     },
@@ -1124,7 +1153,8 @@
             "Competitive Rating: ★★★☆☆"
         ],
         "Filters":[
-            "outdoorandindoor"
+            "outdoorandindoor",
+            "noprep"
         ],
         "Description": "Everyone forms a circle and one person starts of the game by saying Zip, which passes the responsibility on to the next person (person on the right). The next person then has the choice of either saying Zip or Bong. If they say Zip it goes on to the next person, if however they say Bong the order reverses and goes back to the previous person."
     }

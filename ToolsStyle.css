@@ -59,16 +59,32 @@
 .tab-content-box{
     position: relative;
     display: none;
-    align-items: center;
-    justify-content: center;
-    width: calc(100% - 40px);
+    width: calc(100% - 80px);
     margin-left: 20px;
     margin-right: 20px;
+    margin-bottom: 20px;
     border-radius: 10px;
-    height: 545px;
+    height: 100%;
+    padding: 20px;
+    min-height: 100px;
     z-index: 2;
     box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
     background-color: var(--color-plane);
+}
+
+.tab-desc{
+    background-color: var(--color-plane-dark);
+    padding: 10px;
+    width: calc(100% - 20px);
+    border-radius: 10px;
+    color: var(--color-text);
+    font-size: 15;
+}
+.grnd-header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .grnd-btn{
     margin-bottom: 20px;
@@ -109,35 +125,40 @@
 }
 
 #music-stopper{
-    @media (max-width: 800px){
-        flex-direction: column;
-    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
-.play-btn{
+.audio-btn{
     background-color: var(--color-dark);
     border: none;
     outline: none;
     cursor: pointer;
-    width: 80px;
-    height: 80px;
+    width: 50px;
+    min-width: 50px;
+    height: 50px;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
-    
+    margin: 10px;
     transition: var(--Trans1);
-    
+}
+.audio-btn .bx{
+    color: var(--color-text);
 }
 
-.play-btn:hover{
+.audio-btn:hover{
     background-color: var(--color);
     transition: var(--Trans1);
 }
+
 .play-btn .bx{
-    color: var(--color-text);
     position: absolute;
-    font-size: 75px;
+    font-size: 40px;
 }
 
 .play-btn .bx-play{
@@ -153,10 +174,19 @@
     opacity: 1;
 }
 
+.refresh-btn .bx{
+    font-size: 30px;
+}
+.number-input-box{
+    display: flex;
+    @media (max-width: 700px){
+        flex-direction: column;
+    }
+}
 .number-input{
     
-    height: 80px;
-    margin: 20px;
+    height: 50px;
+    margin: 10px;
     border-radius: 10px;
     background-color: var(--color-dark);
     box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
@@ -165,15 +195,16 @@
     justify-content: center;
 }
 .number-input span{
-    font-size: 40px;
+    font-size: 20px;
     margin: 20px;
     user-select: none;
+    text-shadow: 5px 5px 5px rgba(0,0,0,0.1);
     color: var(--color-text);
 }
 .number-input .input{
     background-color: var(--color-dark);
     height: 100%;
-    width: 80px;
+    width: 50px;
     border-radius: 10px;
     transition: var(--Trans1);
     display: flex;
@@ -190,10 +221,54 @@
     box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
 }
 .number-input .number{
-    width: 80px;
+    width: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
     
 }
+
+.file-open-btn{
+    background-color: var(--color-dark);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+    margin: 10px;
+    transition: var(--Trans1);
+}
+
+.file-open-btn:hover{
+    background-color: var(--color);
+    transition: var(--Trans1);
+}
+
+.file-open-btn .bx{
+    position: absolute;
+    font-size: 25px;
+    
+}
+
+#upload{
+    display: none;
+}
+
+#file-name{
+    font-size: 20px;
+    overflow: hidden;
+    color: var(--color-text);
+}
+
+.play-buttons-box{
+    display: flex;
+    width: 100%;
+    margin-left: -20px;
+    align-items: center;
+    justify-content: left;
 }

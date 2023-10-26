@@ -1,3 +1,4 @@
+// define all variables.
 const body = document.querySelector(".body");
 sidebar = body.querySelector(".sidebar"),
 sidebarbtn = body.querySelector(".sidebarbtn"),
@@ -19,6 +20,12 @@ toolTab1 = body.querySelector("#tool-tab1");
 toolTab2 = body.querySelector("#tool-tab2");
 toolTab3 = body.querySelector("#tool-tab3");
 toolTab4 = body.querySelector("#tool-tab4");
+fileUpload = document.getElementById("upload");
+fileBtn = body.querySelector(".file-open-btn");
+audio = document.getElementById("my-audio");
+
+let audiofile;
+let playrnd;
 
 let Cards = [];
 
@@ -92,8 +99,11 @@ if(filterButton != null){
     });
 }
 
-
-
+if(fileBtn != null){
+    fileBtn.addEventListener("click", () =>{
+        fileUpload.click();
+    });
+}
 
 
 
@@ -299,31 +309,28 @@ function FindCommonColor(image){
 }
 
 function OpenTab(evt, name){
-    // Declare all variables
+    // Declare all variables.
     var i, tabcontent, tabs;
   
-    // Get all elements with class="tabcontent" and hide them
+    // Get all elements with class="tabcontent" and hide them.
     tabcontent = document.getElementsByClassName("tab-content-box");
     for (i = 0; i < tabcontent.length; i++) {
       tabcontent[i].style.display = "none";
     }
   
-    // Get all elements with class="tabs" and remove the class "active"
+    // Get all elements with class="tabs" and remove the class "active".
     tabs = document.getElementsByClassName("tool-tab");
     for (i = 0; i < tabs.length; i++) {
       tabs[i].classList.toggle("active", false);
     }
   
-    // Show the current tab, and add an "active" class to the button that opened the tab
+    // Show the current tab, and add an "active" class to the button that opened the tab.
     document.getElementById(name).style.display = "flex";
     evt.currentTarget.classList.toggle("active", true);
 }
 
 function ActivateFilter(evt, value){
-
     if (filterBox.classList.contains("close")){
-
-    
         var i, tabs;
 
         tabs = document.getElementsByClassName("filter-drop-down-item");
@@ -336,7 +343,6 @@ function ActivateFilter(evt, value){
         let results = 0
         if(value != "All"){
 
-            
             Cards.forEach(card =>{
                 if(card.filters != null){
                     card.element.classList.toggle("hide", true);
@@ -367,7 +373,7 @@ function ActivateFilter(evt, value){
     }
 }
 
-//Music Stopper Code
+//Music Stopper Code.
 if(playBtn != null){
     playBtn.addEventListener("click", () =>{
         if (playBtn.classList.contains("playing")){
@@ -383,25 +389,33 @@ if(playBtn != null){
        
     });
 }
-//plays audio for a random amount of time between twn points
-function PlayAudio()
-{   
 
-        
-        let min = Number(body.querySelector(".number1 span").textContent)
-        let max = Number(body.querySelector(".number2 span").textContent)
-        const random = Math.floor(Math.random() * (max * 1000 - min * 1000 + 1) + min * 1000);
-        audio = document.getElementById("myAudio");
-        
-        audio.play();
-        
-        playrnd = setTimeout( function (){
-            audio.pause();
-            playBtn.classList.toggle("playing", false);
-            document.querySelector(".bxs-music").classList.toggle("bx-tada", false)
-        },random)
+if(fileUpload != null){
+    fileUpload.addEventListener("change", () =>{
+        audio.src = URL.createObjectURL(fileUpload.files[0]);
+        clearTimeout(playrnd)
+        audio.pause();
+        playBtn.classList.toggle("playing", false);
+        document.getElementById("file-name").textContent = fileUpload.files[0].name
+    });
 }
-// handles the input for the plus and minus buttons on the music player
+//plays audio for a random amount of time between twn points.
+function PlayAudio()
+{       
+    
+    let min = Number(body.querySelector(".number1 span").textContent);
+    let max = Number(body.querySelector(".number2 span").textContent);
+    const random = Math.floor(Math.random() * (max * 1000 - min * 1000 + 1) + min * 1000);
+    
+    audio.play();
+    
+    playrnd = setTimeout( function (){
+        audio.pause();
+        playBtn.classList.toggle("playing", false);
+        document.querySelector(".bxs-music").classList.toggle("bx-tada", false);
+    },random)
+}
+// handles the input for the plus and minus buttons on the music player.
 if(minusBtn1 != null){
     minusBtn1.addEventListener("click", () =>{
         SubtractInt(1, numberInput1, 0);

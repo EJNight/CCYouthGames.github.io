@@ -10,7 +10,7 @@
         <script src="Scripts.js" defer  ></script>
             
     </head>
-    <body class="body" onload="addGames(), SetUp()">
+    <body class="body" onload="addGames(), ActivateFilter(event, 'All') , SetUp()">
 
         <!-- the sidebar and related elements -->
         <nav class="sidebar" id="sidebar">
@@ -24,7 +24,7 @@
                 <ul class="SideList">
                     <li class="SideBtn">
                         <a href="index.html">
-                            <i class='bx bxs-home' ></i>
+                            <i class='bx bxs-home'></i>
                             <Span class="sidetext">Home</Span>
                         </a>
                     </li>
@@ -99,7 +99,7 @@
                     <div class="filter-drop-down-box">
                         <ul>
                             <li>
-                                <div class="filter-drop-down-item" onclick="ActivateFilter(event, 'All')" >
+                                <div class="filter-drop-down-item" onload="ActivateFilter(event, 'All')", onclick="ActivateFilter(event, 'All')" >
                                     <span>All</span>
                                 </div>
                             </li>
@@ -172,11 +172,17 @@
             <div class="container">
             </div>
            
-
+            <div class="page-footer">
+                <span>2023 - Upper Room Youth Ministry</span>
+                <div class="credit">
+                    <i class='bx bxl-visual-studio' ></i>
+                    <span>Made Using Visual Stidio Code</span>
+                    <i class='bx bxl-github' ></i>
+                    <span>Hosted On GitHub</span>
+                </div>
+            </div>
         </div>
-        <div class="page-footer">
-            <span>2023 - Upper Room Youth Ministry</span>
-        </div>
+        
 
     </body>
 </html>

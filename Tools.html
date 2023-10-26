@@ -94,56 +94,75 @@
             </div>
 
             <div class="tab-content-box" id="game-randomizer">
-                <button class="grnd-btn" onclick="randomGame(document.querySelector('.grnd-container'), true)">Random Game</button>
+                <div class="grnd-header">
+                    <button class="grnd-btn" onclick="randomGame(document.querySelector('.grnd-container'), true)">Random Game</button>
+                </div>
                 <div class="grnd-container">
 
                 </div>
             </div>
             <div class="tab-content-box" id="music-stopper">
-                <audio id="myAudio">
-                    
-                    <source id="audio-file" src="resources/Never Gonna Give You Up Instrumental.mp3" type="audio/mpeg">
-                    
-                    failed!
+                <audio id="my-audio"></audio>
 
-                </audio>
-
-                <Button class="play-btn">
-                    <i class='bx bx-play'></i>
-                    <i class='bx bx-pause'></i>
-                </Button>
-
-                <div class="number-input" id="min-num">
-                    
-                    <div class="input minus1">
-                        <span >-</span>
-                    </div>
-                    <div class="number number1">
-                        <span >0</span>
-                    </div>
-                    <div class="input plus1">
-                        <span >+</span>
-                    </div>
+                <span class="tab-desc">A useful tool for games like Musical Chairs or Freeze Dance. Just set a Min and Max value and hit play and the Music Stoper will stop the music at a random point between the two values.</span>
+                <div class="play-buttons-box">
+                    <Button class="audio-btn play-btn" title="Play">
+                        <i class='bx bx-play'></i>
+                        <i class='bx bx-pause'></i>
+                    </Button>
+                    <Button class="audio-btn refresh-btn" title="Restart Audio">
+                        <i class='bx bx-refresh'></i>
+                    </Button>
+                    <Button class="audio-btn file-open-btn" title="Open Audio File">
+                        <i class='bx bxs-file-blank'></i>
+                        <input type="file", id="upload", accept="audio/*">
+                    </Button>
+                    <span id="file-name">no loaded file...</span>
                 </div>
+                
+                    <div class="number-input-box">
+                        <div class="number-input" id="min-num">
+                            <span>Min Value</span>
+                            <div class="input minus1">
+                                <span >-</span>
+                            </div>
+                            <div class="number number1">
+                                <span >0</span>
+                            </div>
+                            <div class="input plus1">
+                                <span >+</span>
+                            </div>
+                        </div>
 
-                <div class="number-input" id="max-num">
-                    
-                    <div class="input minus2">
-                        <span >-</span>
+                        <div class="number-input" id="max-num">
+                            <span>Max Value</span>
+                            <div class="input minus2">
+                                <span >-</span>
+                            </div>
+                            <div class="number number2">
+                                <span >0</span>
+                            </div>
+                            <div class="input plus2">
+                                <span >+</span>
+                            </div>
+                        </div>
                     </div>
-                    <div class="number number2">
-                        <span >0</span>
-                    </div>
-                    <div class="input plus2">
-                        <span >+</span>
-                    </div>
-                </div>
+                
             </div>
             <div class="tab-content-box" id="pictionary-picker">
                 
             </div>
             <div class="tab-content-box" id="team-selector">
                 
+            </div>
+            <div class="page-footer">
+                <span>2023 - Upper Room Youth Ministry</span>
+                <div class="credit">
+                    <i class='bx bxl-visual-studio' ></i>
+                    <span>Made Using Visual Stidio Code</span>
+                    <i class='bx bxl-github' ></i>
+                    <span>Hosted On GitHub</span>
+                </div>
             </div>
     </body>
 </html>

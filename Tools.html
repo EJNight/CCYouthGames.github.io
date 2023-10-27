@@ -105,18 +105,21 @@
                 <audio id="my-audio"></audio>
 
                 <span class="tab-desc">A useful tool for games like Musical Chairs or Freeze Dance. Just set a Min and Max value and hit play and the Music Stoper will stop the music at a random point between the two values.</span>
+                
                 <div class="play-buttons-box">
-                    <Button class="audio-btn play-btn" title="Play">
-                        <i class='bx bx-play'></i>
-                        <i class='bx bx-pause'></i>
-                    </Button>
-                    <Button class="audio-btn refresh-btn" title="Restart Audio">
-                        <i class='bx bx-refresh'></i>
-                    </Button>
-                    <Button class="audio-btn file-open-btn" title="Open Audio File">
-                        <i class='bx bxs-file-blank'></i>
-                        <input type="file", id="upload", accept="audio/*">
-                    </Button>
+                    <div class="play-buttons">
+                        <Button class="audio-btn play-btn" title="Play">
+                            <i class='bx bx-play'></i>
+                            <i class='bx bx-pause'></i>
+                        </Button>
+                        <Button class="audio-btn refresh-btn" title="Restart Audio">
+                            <i class='bx bx-refresh'></i>
+                        </Button>
+                        <Button class="audio-btn file-open-btn" title="Open Audio File">
+                            <i class='bx bxs-file-blank'></i>
+                            <input type="file", id="upload", accept="audio/*">
+                        </Button>
+                    </div>
                     <span id="file-name">no loaded file...</span>
                 </div>
                 
@@ -164,5 +167,7 @@
                     <span>Hosted On GitHub</span>
                 </div>
             </div>
+        </div>
+        
     </body>
 </html>

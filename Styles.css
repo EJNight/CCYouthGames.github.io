@@ -220,7 +220,6 @@
     align-items: center;
     justify-content: center;
     background-color: var(--color-dark);
-    box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
     transition: var(--Trans1);
 }
 

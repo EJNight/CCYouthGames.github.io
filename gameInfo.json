@@ -595,7 +595,7 @@
         "Description": [
             {
                 "Header": "Preparation",
-                "Text": "In preparation for the game everyone lines up and is given a card, and depending on what that card is they are assigned a unique role to play. "
+                "Text": "The leaders shuffle the cards and add cards based on the amount of players to balance the game. Then everyone lines up and is given a card, and depending on what that card is they are assigned a unique role to play."
             },
             {
                 "Header":"The Roles",
@@ -626,15 +626,15 @@
             },
             {
                 "Header": "About The Roles",
-                "Text": "The Murderers' goal is to eliminate everyone else while still keeping their role hidden. To kill a player the Murderers will walk up the the person they want to kill and tap them on the shoulder, then the player they killed drops dead and can say nothing for the duration of the game. If somebody is a Romeo/Juliet and either of them dies they both perish “Dramatically”. If somebody is the Cult Leader and they die all of the Cult Followers die “Dramatically”. The Town Psycho is a very unique role, during the voting time they may eliminate any player they choose, with the cost of their own life. The Medic can insure the safety of one person per round. Innocents can't do anything but avoid the Murderers and tell what they saw during the meeting time."
+                "Text": "The Murderers' goal is to eliminate everyone else while still keeping their role hidden. To kill a player the Murderers will walk up the the person they want to kill and tap them on the shoulder, then the player they killed drops dead and can say nothing for the duration of the game. If somebody is a Romeo/Juliet and either of them dies they both perish “Dramatically”. If somebody is the Cult Leader and they die all of the Cult Followers die “Dramatically”. The Town Psycho is a very unique role, during the voting time they may eliminate any player they choose, but with the cost of their own life. The Medic can insure the safety of one person per round. Innocents can't do anything but avoid the Murderers and tell what they saw in the meeting room."
             },
             {
-                "Header": "Starting",
+                "Header": "Lights Out!",
                 "Text": "When the game starts the lights are turned off and everyone begins to wander around the building. If a dead body is found the person who found it yells “DEAD BODY!”, the lights are turned back on and everyone heads to the meeting room. "
             },
             {
                 "Header": "In The Meeting Room",
-                "Text": "Once in the room the role/s of the dead body/s are reveled, then a vote is taken to eliminate one or more people, in hopes of eliminating the Murderers. When the voting begins suspects are accused (only 2 or 3 suspects can be accused per round) and a reason is given for the accusation. It is then the accused suspects turn to present their defense. After all accusations and defenses have been given, then the vote is taken and one or more players are eliminated. Then the game repeats until either the Murderers are eliminated or they win."
+                "Text": "Once in the room the role/s of the dead body/s are reveled, then a vote is taken to eliminate one or more people, in hopes of eliminating the Murderers. When the voting begins suspects are accused (only 2 or 3 suspects can be accused per round) and a reason is given for the accusation. It is then the accused suspects turn to present their defense. After all accusations and defenses have been given, then a vote is taken and one or more players are eliminated. Then the game repeats until either the Murderers are eliminated or they win."
             }
             
         ]

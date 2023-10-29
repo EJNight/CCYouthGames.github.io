@@ -287,10 +287,8 @@
     min-height: calc(100% - 50px);
     background-color: var(--color-page);
     position: absolute;
+    
 }
-
-
-
 .page-footer{
     width: calc(100% - 40px);
     position: relative;

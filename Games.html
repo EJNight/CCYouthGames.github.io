@@ -87,10 +87,10 @@
 
                 </div>
 
-                <div class="filter-box">
-                    <div class="filter-button-items">
+                <div class="drop-down filter-box">
+                    <div class="drop-down-items filter-button-items">
                         <span>filters</span>
-                        <div class="filter-button">
+                        <div class="drop-down-button filter-button">
                             <i class='bx bxs-chevron-down-circle'></i>
                             <i class='bx bxs-chevron-up-circle'></i>
                         </div>
@@ -99,7 +99,7 @@
                     <div class="filter-drop-down-box">
                         <ul>
                             <li>
-                                <div class="filter-drop-down-item" onload="ActivateFilter(event, 'All')", onclick="ActivateFilter(event, 'All')" >
+                                <div class="filter-drop-down-item" onload="ActivateFilter(event, 'all')", onclick="ActivateFilter(event, 'all')" >
                                     <span>All</span>
                                 </div>
                             </li>
@@ -163,12 +163,49 @@
                                     <span>Sean's Sword Drills</span>
                                 </div>
                             </li>
+                            <li>
+                                <div class="filter-drop-down-item" onclick="ActivateFilter(event, 'tag')">
+                                    <span>Tag Games</span>
+                                </div>
+                            </li>
                         </ul>
                     </div>
                 </div>
-                
+                <div class="drop-down sort-box">
+                    <div class="drop-down-items sort-button-items">
+                        <span>sort by</span>
+                        <div class="drop-down-button sort-button">
+                            <i class='bx bxs-chevron-down-circle'></i>
+                            <i class='bx bxs-chevron-up-circle'></i>
+                        </div>
+                    </div>
+                    <div class="sort-drop-down-box">
+                        <ul>
+                            <li>
+                                <div class="sort-drop-down-item" onclick="ActivateSort(event, 'az')">
+                                    <span>Alphabetical</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="sort-drop-down-item" onclick="ActivateSort(event, 'za')">
+                                    <span>Reverse Alphabetical </span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="sort-drop-down-item" onclick="ActivateSort(event, 'hrating')">
+                                    <span>Highest Rating</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="sort-drop-down-item" onclick="ActivateSort(event, 'lrating')">
+                                    <span>Lowest Rating</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            
+           
             <div class="container">
             </div>
            

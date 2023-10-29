@@ -2,7 +2,7 @@
     {
         "Name": "Angry Birds IRL*",
         "Bubble": "New!",
-        "Rating": "4",
+        "Rating": "7.5",
         "NumRatings": "2",
         "HeaderColor": "#ff0000",
         "GamePic": "resources/gamepic4.png",
@@ -43,7 +43,7 @@
     {
         "Name": "Assassin",
         "Bubble": "",
-        "Rating": "3.5",
+        "Rating": "8",
         "NumRatings": "2",
         "HeaderColor": "#4d0000",
         "GamePic": "resources/gamepic.png",
@@ -71,7 +71,7 @@
     {
         "Name": "Bippity Bop Bop",
         "Bubble": "",
-        "Rating": "1.5",
+        "Rating": "3.5",
         "NumRatings": "2",
         "GamePic": "resources/gamepic.png",
         "Details":[
@@ -89,7 +89,7 @@
     {
         "Name": "Bird Nests",
         "Bubble": "",
-        "Rating": "3",
+        "Rating": "6",
         "NumRatings": "2",
         "GamePic": "resources/gamepic.png",
         "Details":[
@@ -119,7 +119,7 @@
     {
         "Name": "Black Magic",
         "Bubble": "",
-        "Rating": "1.5",
+        "Rating": "3",
         "NumRatings": "2",
         "HeaderColor": "#9e0096",
         "GamePic": "resources/gamepic13.png",
@@ -138,7 +138,7 @@
     {
         "Name": "Blob Tag",
         "Bubble": "",
-        "Rating": "3.5",
+        "Rating": "7.5",
         "NumRatings": "2",
         "GamePic": "resources/gamepic.png",
         "Details":[
@@ -155,7 +155,7 @@
     },
     {
         "Name": "Capture The Flag*",
-        "Rating": "5",
+        "Rating": "10",
         "NumRatings": "2",
         "HeaderColor": "#050980",
         "GamePic": "resources/gamepic2.png",
@@ -204,7 +204,7 @@
     },
     {
         "Name": "Capture The Flag Mini",
-        "Rating": "3.5",
+        "Rating": "8.5",
         "NumRatings": "2",
         "HeaderColor": "#800905",
         "GamePic": "resources/gamepic3.png",
@@ -224,7 +224,7 @@
     },
     {
         "Name": "Charades",
-        "Rating": "2",
+        "Rating": "4.5",
         "NumRatings": "2",
         "GamePic": "resources/gamepic.png",
         "Details":[
@@ -249,7 +249,7 @@
     },
     {
         "Name": "Concentration",
-        "Rating": "2.5",
+        "Rating": "5",
         "NumRatings": "2",
         "HeaderColor": "#2a0580",
         "GamePic": "resources/gamepic21.png",
@@ -297,14 +297,13 @@
     },
     {
         "Name": "Concentration 64",
-        "Rating": "1.5",
+        "Rating": "3.5",
         "Bubble": "New!",
         "NumRatings": "2",
         "HeaderColor": "#272727",
         "GamePic": "resources/gamepic18.png",
         "Details":[
             "Outdoor / Indoor",
-            "Infinite",
             "Group Size 12+",
             "Competitive Rating: ★★☆☆☆"
         ],
@@ -319,7 +318,7 @@
     },
     {
         "Name": "Dodge Ball",
-        "Rating": "3",
+        "Rating": "6.5",
         "NumRatings": "2",
         "HeaderColor": "#899fff",
         "GamePic": "resources/gamepic14.png",
@@ -337,7 +336,7 @@
     },
     {
         "Name": "Dragon Tail",
-        "Rating": "4.5",
+        "Rating": "9",
         "NumRatings": "2",
         "GamePic": "resources/gamepic.png",
         "Details":[
@@ -356,7 +355,7 @@
     },
     {
         "Name": "Duck Duck Goose",
-        "Rating": "1.5",
+        "Rating": "3",
         "NumRatings": "2",
         "HeaderColor": "#ffe74b",
         "GamePic": "resources/gamepic.png",
@@ -376,7 +375,7 @@
     }, 
     {
         "Name": "Earthquake Eviction",
-        "Rating": "1",
+        "Rating": "2",
         "NumRatings": "2",
         "GamePic": "resources/gamepic.png",
         "Details":[
@@ -395,7 +394,7 @@
     },
     {
         "Name": "Flip The Rug",
-        "Rating": "2",
+        "Rating": "4",
         "NumRatings": "2",
         "HeaderColor": "#ac620b",
         "GamePic": "resources/gamepic23.png",
@@ -413,7 +412,7 @@
     },
     {
         "Name": "Freeze Tag",
-        "Rating": "3.5",
+        "Rating": "7",
         "NumRatings": "2",
         "HeaderColor": "#00abff",
         "GamePic": "resources/gamepic.png",
@@ -431,7 +430,7 @@
     },
     {
         "Name": "Fresher Tag",
-        "Rating": "4",
+        "Rating": "8",
         "NumRatings": "2",
         "GamePic": "resources/gamepic.png",
         "Details":[
@@ -450,7 +449,7 @@
     },
     {
         "Name": "Frogger",
-        "Rating": "3.5",
+        "Rating": "7.5",
         "NumRatings": "2",
         "GamePic": "resources/gamepic.png",
         "Details":[
@@ -467,7 +466,7 @@
     },
     {
         "Name": "Heads Up 7up",
-        "Rating": "2",
+        "Rating": "4",
         "NumRatings": "2",
         "HeaderColor": "#07e03d",
         "GamePic": "resources/gamepic6.png",
@@ -487,7 +486,7 @@
     },
     {
         "Name": "Hide And Seek",
-        "Rating": "3",
+        "Rating": "6",
         "NumRatings": "2",
         "GamePic": "resources/gamepic.png",
         "Details":[
@@ -504,7 +503,7 @@
     },
     {
         "Name": "Hide And Seek Base",
-        "Rating": "3.5",
+        "Rating": "7.5",
         "NumRatings": "2",
         "GamePic": "resources/gamepic.png",
         "Details":[
@@ -521,7 +520,7 @@
     },
     {
         "Name": "Human Knot",
-        "Rating": "2.5",
+        "Rating": "5.5",
         "NumRatings": "2",
         "GamePic": "resources/gamepic.png",
         "Details":[
@@ -540,7 +539,7 @@
     },
     {
         "Name": "Infection Tag",
-        "Rating": "4",
+        "Rating": "8",
         "NumRatings": "2",
         "GamePic": "resources/gamepic.png",
         "Details":[
@@ -557,7 +556,7 @@
     },
     {
         "Name": "Link Tag",
-        "Rating": "2",
+        "Rating": "4",
         "NumRatings": "2",
         "GamePic": "resources/gamepic.png",
         "Details":[
@@ -574,7 +573,7 @@
     },
     {
         "Name": "Murder In The Dark*",
-        "Rating": "5",
+        "Rating": "10",
         "NumRatings": "2",
         "HeaderColor": "#474747",
         "GamePic": "resources/gamepic5.png",
@@ -642,7 +641,7 @@
     },
     {
         "Name": "Musical Chairs",
-        "Rating": "2",
+        "Rating": "4.5",
         "NumRatings": "2",
         "HeaderColor": "#ff3a89",
         "GamePic": "resources/gamepic17.png",
@@ -660,7 +659,7 @@
     },
     {
         "Name": "Ninja",
-        "Rating": "3.5",
+        "Rating": "7.5",
         "NumRatings": "2",
         "HeaderColor": "#374b00",
         "GamePic": "resources/gamepic20.png",
@@ -687,7 +686,7 @@
     },
     {
         "Name": "Paper-Craft Pictionary",
-        "Rating": "2.5",
+        "Rating": "5.5",
         "NumRatings": "2",
         "HeaderColor": "#7e7e7e",
         "GamePic": "resources/gamepic22.png",
@@ -705,7 +704,7 @@
     },
     {
         "Name": "Picnic / Vacation",
-        "Rating": "1.5",
+        "Rating": "3",
         "NumRatings": "2",
         "GamePic": "resources/gamepic.png",
         "Details":[
@@ -723,7 +722,7 @@
     },
     {
         "Name": "Pictionary",
-        "Rating": "2",
+        "Rating": "4",
         "NumRatings": "2",
         "GamePic": "resources/gamepic.png",
         "Details":[
@@ -760,7 +759,7 @@
     },
     {
         "Name": "Rock Paper Scissors",
-        "Rating": "1.5",
+        "Rating": "3.5",
         "NumRatings": "2",
         "GamePic": "resources/gamepic.png",
         "Details":[
@@ -803,7 +802,7 @@
     },
     {
         "Name": "Scatter Ball",
-        "Rating": "2",
+        "Rating": "4.5",
         "NumRatings": "2",
         "GamePic": "resources/gamepic.png",
         "Details":[
@@ -837,8 +836,8 @@
             "team",
             "new"
         ],
-        "Description": "To start the game everyone says their name and then someone calls out a name and throws a ball up in the air, everyone runs as far as they can until the person who was called picks up the ball and says “Stop”. Then that person can take three steps if they choose, they then throw the ball at a person. If the person catches the ball they stay in and the one who through the ball is eliminated, however if the ball hits the person and they do not catch it they are eliminated, and the next person to say the name. (Please no head shots)"
-        
+        "Description": "Coming Soon..."
+    
     },
     {
         "Name": "SSD: Red Light, Green Light Edition",
@@ -858,12 +857,12 @@
             "team",
             "new"
         ],
-        "Description": "To start the game everyone says their name and then someone calls out a name and throws a ball up in the air, everyone runs as far as they can until the person who was called picks up the ball and says “Stop”. Then that person can take three steps if they choose, they then throw the ball at a person. If the person catches the ball they stay in and the one who through the ball is eliminated, however if the ball hits the person and they do not catch it they are eliminated, and the next person to say the name. (Please no head shots)"
+        "Description": "Coming Soon..."
         
     },
     {
         "Name": "Sharks And Minnows",
-        "Rating": "3.5",
+        "Rating": "7.5",
         "NumRatings": "2",
         "GamePic": "resources/gamepic.png",
         "Details":[
@@ -880,7 +879,7 @@
     },
     {
         "Name": "Sherlock",
-        "Rating": "2",
+        "Rating": "4",
         "Bubble": "New!",
         "NumRatings": "2",
         "HeaderColor": "#714732",
@@ -900,7 +899,7 @@
     },
     {
         "Name": "Signs",
-        "Rating": "2",
+        "Rating": "4.5",
         "NumRatings": "2",
         "GamePic": "resources/gamepic.png",
         "Details":[
@@ -917,7 +916,7 @@
     },
     {
         "Name": "Spoons",
-        "Rating": "2.5",
+        "Rating": "5",
         "NumRatings": "2",
         "HeaderColor": "#6478ba",
         "GamePic": "resources/gamepic15.png",
@@ -935,7 +934,7 @@
     },
     {
         "Name": "Taco Cat Goat Cheese Pizza",
-        "Rating": "3",
+        "Rating": "6",
         "NumRatings": "2",
         "HeaderColor": "#fcff3d",
         "GamePic": "resources/gamepic10.png",
@@ -953,7 +952,7 @@
     },
     {
         "Name": "Tag",
-        "Rating": "2.5",
+        "Rating": "5",
         "NumRatings": "2",
         "GamePic": "resources/gamepic.png",
         "Details":[
@@ -972,7 +971,7 @@
     },
     {
         "Name": "Telephone",
-        "Rating": "2",
+        "Rating": "4",
         "NumRatings": "2",
         "HeaderColor": "#0db505",
         "GamePic": "resources/gamepic11.png",
@@ -990,7 +989,7 @@
     },
     {
         "Name": "The Balloon Stompin' Game",
-        "Rating": "2.5",
+        "Rating": "5.5",
         "NumRatings": "2",
         "GamePic": "resources/gamepic.png",
         "Details":[
@@ -1007,7 +1006,7 @@
     },
     {
         "Name": "The Blind Folded Noodle Game",
-        "Rating": "4",
+        "Rating": "8",
         "NumRatings": "2",
         "GamePic": "resources/gamepic.png",
         "Details":[
@@ -1024,7 +1023,7 @@
     },
     {
         "Name": "The Garbage Can Game",
-        "Rating": "5",
+        "Rating": "10",
         "NumRatings": "2",
         "HeaderColor": "#763900",
         "GamePic": "resources/gamepic12.png",
@@ -1042,7 +1041,7 @@
     },
     {
         "Name": "The Name Calling Gun Game",
-        "Rating": "3",
+        "Rating": "6",
         "NumRatings": "2",
         "GamePic": "resources/gamepic.png",
         "Details":[
@@ -1059,7 +1058,7 @@
     },
     {
         "Name": "The Name Game",
-        "Rating": "1",
+        "Rating": "2.5",
         "NumRatings": "2",
         "GamePic": "resources/gamepic.png",
         "Details":[
@@ -1077,7 +1076,7 @@
     },
     {
         "Name": "Train Wreck",
-        "Rating": "2",
+        "Rating": "4",
         "NumRatings": "2",
         "GamePic": "resources/gamepic.png",
         "Details":[
@@ -1095,7 +1094,7 @@
     },
     {
         "Name": "Twister",
-        "Rating": "1",
+        "Rating": "2.5",
         "NumRatings": "2",
         "HeaderColor": "#e5003d",
         "GamePic": "resources/gamepic16.png",
@@ -1111,7 +1110,7 @@
     },
     {
         "Name": "Two Truthes And A Lie",
-        "Rating": "0.5",
+        "Rating": "1.5",
         "NumRatings": "2",
         "GamePic": "resources/gamepic.png",
         "Details":[
@@ -1128,7 +1127,7 @@
     },
     {
         "Name": "Ultimate Frisbee",
-        "Rating": "3",
+        "Rating": "6",
         "NumRatings": "2",
         "GamePic": "resources/gamepic.png",
         "Details":[
@@ -1144,7 +1143,7 @@
     },
     {
         "Name": "Zip Bong",
-        "Rating": "2",
+        "Rating": "4",
         "NumRatings": "2",
         "GamePic": "resources/gamepic.png",
         "Details":[

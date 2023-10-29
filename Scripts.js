@@ -8,6 +8,8 @@ searchBar = body.querySelector(".searchBar");
 searchRes = body.querySelector(".search-results");
 filterBox = body.querySelector(".filter-box");
 filterButton = body.querySelector(".filter-button");
+sortBox = body.querySelector(".sort-box");
+sortButton = body.querySelector(".sort-button");
 
 plusBtn1 = body.querySelector(".plus1");
 minusBtn1 = body.querySelector(".minus1");
@@ -26,6 +28,9 @@ audio = document.getElementById("my-audio");
 
 let audiofile;
 let playrnd;
+let search;
+let filter;
+let sort;
 
 let Cards = [];
 
@@ -99,6 +104,12 @@ if(filterButton != null){
     });
 }
 
+if(sortButton != null){
+    sortButton.addEventListener("click", () =>{
+        sortBox.classList.toggle("close");
+    });
+}
+
 if(fileBtn != null){
     fileBtn.addEventListener("click", () =>{
         fileUpload.click();
@@ -110,24 +121,70 @@ if(fileBtn != null){
 if(searchBar != null){
 //reads the searchbar and filters the games based off of the search. 
 searchBar.addEventListener("input", e =>{
-    const value = e.target.value.toLowerCase();
-    let results = 0;
-    //runs through all the Game Cards and hides the ones that do not apply to the search.
-    Cards.forEach(card =>{
-        const isVisable = card.name.toLowerCase().includes(value)
-        card.element.classList.toggle("hide", !isVisable)
-        if(isVisable){
-            results++;
-        }
-    })
-    searchRes.textContent = "Search Results " + results;
-    if(e.target.value == ""){
-        searchRes.textContent = ""
-    }
+    search = e.target.value;
+    FilterGames();
     
 })
 }
 
+function FilterGames(){
+    let results = 0;
+    var gameslist = [];
+    container.innerHTML = "";
+    fetch('./gameInfo.json') //fetches the JSON file that stores the info for the games.
+    .then(res => res.json())
+    .then(data =>{
+        data.forEach(game =>{
+            let containsSearch = true;
+            let containsFilter = false;
+
+            if(!game.Name.toLowerCase().includes(search) && search != null){
+                containsSearch = false;
+            }
+                
+            if (filter != null){
+                game.Filters.forEach(f => {
+                    if(f == filter.toLowerCase()){
+                        containsFilter = true;
+                    }
+                })
+            }
+            else{
+                containsFilter = true;
+            }
+
+            if(containsSearch && containsFilter){
+                gameslist.push(game);
+                results++;
+            }
+            if(search != null || filter != null){
+                searchRes.textContent = "search results " + results;
+            }
+            
+        })
+
+        //sorts the games
+        if(sort == "az"){
+            gameslist.sort();
+        }
+        if(sort == "za"){
+            gameslist.sort();
+            gameslist.reverse();
+        }
+        if(sort == "hrating"){
+            gameslist.sort((a, b) => Number(b.Rating) - Number(a.Rating))
+        }
+        if(sort == "lrating"){
+            gameslist.sort((a, b) => Number(a.Rating) - Number(b.Rating)) 
+        }
+        //add games
+        for (let i = 0; i < gameslist.length; i += 1){
+            addGame(gameslist[i], container);
+        }
+    })
+
+    
+}
 
 function elementFromHtml(html){
     const template = document.createElement("template");
@@ -138,22 +195,22 @@ function elementFromHtml(html){
 function GetRating(parent, rating){
     
     let index = 0;
-
+    rating = rating / 2;
     for(let i = 0; i < Math.floor(rating); i++){
         index++;
         const fstar = elementFromHtml(" <i class='bx bxs-star'></i>");
-        parent.appendChild(fstar)
+        parent.appendChild(fstar);
     }
 
     if(rating > index){
         index++;
         const hstar = elementFromHtml(" <i class='bx bxs-star-half'></i>");
-        parent.appendChild(hstar)
+        parent.appendChild(hstar);
     }
     
     for(let i = 0; i < 5 - index; i++){
         const star = elementFromHtml(" <i class='bx bx-star'></i>");
-        parent.appendChild(star)
+        parent.appendChild(star);
     }
     
 }
@@ -240,7 +297,7 @@ function addGame(index, container){
             const gameDetails = card.querySelector("[card-list]")
             const gameStars = card.querySelector("[card-stars]")
             const gamePic = card.querySelector("[card-pic]")
-            const gameRating = card.querySelector("[card-rating]")
+            const gameRatings = card.querySelector("[card-rating]")
             const gameDescBox = card.querySelector(".card-desc")
             const gameBoxHeader = card.querySelector(".gameBoxHeader")
 
@@ -269,7 +326,7 @@ function addGame(index, container){
                 gameBubble.style.backgroundColor = "#990b06";
             }
             GetDesc(index.Description, gameDescBox)
-            gameRating.textContent = index.NumRatings + " Ratings"
+            gameRatings.textContent = index.NumRatings + " Ratings"
             GetRating(gameStars, index.Rating)
             createList(gameDetails, index.Details)
             container.append(card)
@@ -288,7 +345,7 @@ function createList(list, data)
 }
 
 function randomGame(container, removeOld){
-    if(container.firstElementChild != null){
+    if(container.firstElementChild != null && removeOld){
         container.removeChild(container.firstElementChild)
     }
     
@@ -331,6 +388,7 @@ function OpenTab(evt, name){
 
 function ActivateFilter(evt, value){
     if (filterBox.classList.contains("close")){
+        
         var i, tabs;
 
         tabs = document.getElementsByClassName("filter-drop-down-item");
@@ -340,36 +398,28 @@ function ActivateFilter(evt, value){
         }
 
         evt.currentTarget.classList.toggle("active", true);
-        let results = 0
-        if(value != "All"){
-
-            Cards.forEach(card =>{
-                if(card.filters != null){
-                    card.element.classList.toggle("hide", true);
-                    card.filters.forEach(filter =>{
-                        const isVisable = filter.toLowerCase() == value.toLowerCase();
-                        
-                        if(isVisable){
-                            card.element.classList.toggle("hide", false);
-                            results++;
-                        }
-                        
-                    })
-                    
-                }
-                else{
-                    card.element.classList.toggle("hide", true);
-                }
-                
-            })
-            searchRes.textContent = "Search Results " + results;
+        if (value == "all"){
+            filter = null;
         }
         else{
-            Cards.forEach(card =>{
-                card.element.classList.toggle("hide", false);
-            })
-            searchRes.textContent = "";
+            filter = value;
         }
+        FilterGames();
+    }
+}
+
+function ActivateSort(evt, value){
+    if (sortBox.classList.contains("close")){
+        var i, tabs;
+
+        tabs = document.getElementsByClassName("sort-drop-down-item");
+        for (i = 0; i < tabs.length; i++) {
+            tabs[i].classList.toggle("active", false);
+        }
+
+        evt.currentTarget.classList.toggle("active", true);
+        sort = value;
+        FilterGames();
     }
 }
 

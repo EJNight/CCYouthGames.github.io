@@ -10,7 +10,7 @@
         <script src="Scripts.js" defer  ></script>
             
     </head>
-    <body class="body" onload="addGames(), ActivateFilter(event, 'All') , SetUp()">
+    <body class="body" onload="addGames(), SetUp()">
 
         <!-- the sidebar and related elements -->
         <nav class="sidebar" id="sidebar">
@@ -99,7 +99,7 @@
                     <div class="filter-drop-down-box">
                         <ul>
                             <li>
-                                <div class="filter-drop-down-item" onload="ActivateFilter(event, 'all')", onclick="ActivateFilter(event, 'all')" >
+                                <div id="filter-all" class="filter-drop-down-item", onclick="ActivateFilter(event, 'all')" >
                                     <span>All</span>
                                 </div>
                             </li>
@@ -182,7 +182,7 @@
                     <div class="sort-drop-down-box">
                         <ul>
                             <li>
-                                <div class="sort-drop-down-item" onclick="ActivateSort(event, 'az')">
+                                <div id="sort-az" class="sort-drop-down-item" onclick="ActivateSort(event, 'az')">
                                     <span>Alphabetical</span>
                                 </div>
                             </li>
@@ -199,6 +199,16 @@
                             <li>
                                 <div class="sort-drop-down-item" onclick="ActivateSort(event, 'lrating')">
                                     <span>Lowest Rating</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="sort-drop-down-item" onclick="ActivateSort(event, 'hcrating')">
+                                    <span>Highest Competitive Rating</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="sort-drop-down-item" onclick="ActivateSort(event, 'lcrating')">
+                                    <span>Lowest Competitive Rating</span>
                                 </div>
                             </li>
                         </ul>

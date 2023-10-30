@@ -2,8 +2,9 @@
     {
         "Name": "Angry Birds IRL*",
         "Bubble": "New!",
-        "Rating": "7.5",
-        "NumRatings": "2",
+        "Rating": "6.25",
+        "NumRatings": "4",
+        "CompetitiveRating": "3",
         "HeaderColor": "#ff0000",
         "GamePic": "resources/gamepic4.png",
         "Details":[
@@ -43,8 +44,9 @@
     {
         "Name": "Assassin",
         "Bubble": "",
-        "Rating": "8",
-        "NumRatings": "2",
+        "Rating": "6.4",
+        "NumRatings": "5",
+        "CompetitiveRating": "4",
         "HeaderColor": "#4d0000",
         "GamePic": "resources/gamepic.png",
         "Details":[
@@ -54,7 +56,8 @@
             "Competitive Rating: ★★★★☆"
         ],
         "Filters":[
-            "outdoorandindoor"
+            "outdoorandindoor",
+            "tag"
         ],
         "Description": [
             {
@@ -71,8 +74,9 @@
     {
         "Name": "Bippity Bop Bop",
         "Bubble": "",
-        "Rating": "3.5",
-        "NumRatings": "2",
+        "Rating": "4.25",
+        "NumRatings": "4",
+        "CompetitiveRating": "2",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Outdoor / Indoor",
@@ -89,8 +93,9 @@
     {
         "Name": "Bird Nests",
         "Bubble": "",
-        "Rating": "6",
+        "Rating": "5",
         "NumRatings": "2",
+        "CompetitiveRating": "3",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Outdoor / Indoor",
@@ -120,13 +125,14 @@
         "Name": "Black Magic",
         "Bubble": "",
         "Rating": "3",
-        "NumRatings": "2",
+        "NumRatings": "4",
+        "CompetitiveRating": "1",
         "HeaderColor": "#9e0096",
         "GamePic": "resources/gamepic13.png",
         "Details":[
             "Indoor",
             "Group Size 12+",
-            "Competitive Rating: ★★☆☆☆"
+            "Competitive Rating: ★☆☆☆☆"
         ],
         "Filters":[
             "indoor",
@@ -138,8 +144,9 @@
     {
         "Name": "Blob Tag",
         "Bubble": "",
-        "Rating": "7.5",
-        "NumRatings": "2",
+        "Rating": "6.25",
+        "NumRatings": "4",
+        "CompetitiveRating": "3",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Outdoor",
@@ -148,15 +155,17 @@
         ],
         "Filters":[
             "outdoor",
-            "noprep"
+            "noprep",
+            "tag"
         ],
         "Description": "Like tag but when you get tagged you link up with the group that tagged you. If your group gets to 4 people you split into 2 groups of 2 people each. The game continues until there is only 1 person not In a group. The 1 who is left wins."
         
     },
     {
         "Name": "Capture The Flag*",
-        "Rating": "10",
-        "NumRatings": "2",
+        "Rating": "9.4",
+        "NumRatings": "5",
+        "CompetitiveRating": "5",
         "HeaderColor": "#050980",
         "GamePic": "resources/gamepic2.png",
         "Details":[
@@ -204,8 +213,9 @@
     },
     {
         "Name": "Capture The Flag Mini",
-        "Rating": "8.5",
-        "NumRatings": "2",
+        "Rating": "7.2",
+        "NumRatings": "5",
+        "CompetitiveRating": "4",
         "HeaderColor": "#800905",
         "GamePic": "resources/gamepic3.png",
         "Details":[
@@ -224,8 +234,9 @@
     },
     {
         "Name": "Charades",
-        "Rating": "4.5",
-        "NumRatings": "2",
+        "Rating": "6.4",
+        "NumRatings": "5",
+        "CompetitiveRating": "3",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Outdoor / Indoor",
@@ -249,8 +260,9 @@
     },
     {
         "Name": "Concentration",
-        "Rating": "5",
-        "NumRatings": "2",
+        "Rating": "5.4",
+        "NumRatings": "5",
+        "CompetitiveRating": "2",
         "HeaderColor": "#2a0580",
         "GamePic": "resources/gamepic21.png",
         "Details":[
@@ -297,9 +309,10 @@
     },
     {
         "Name": "Concentration 64",
-        "Rating": "3.5",
+        "Rating": "5",
         "Bubble": "New!",
-        "NumRatings": "2",
+        "NumRatings": "5",
+        "CompetitiveRating": "2",
         "HeaderColor": "#272727",
         "GamePic": "resources/gamepic18.png",
         "Details":[
@@ -318,8 +331,9 @@
     },
     {
         "Name": "Dodge Ball",
-        "Rating": "6.5",
-        "NumRatings": "2",
+        "Rating": "5.2",
+        "NumRatings": "5",
+        "CompetitiveRating": "4",
         "HeaderColor": "#899fff",
         "GamePic": "resources/gamepic14.png",
         "Details":[
@@ -336,8 +350,9 @@
     },
     {
         "Name": "Dragon Tail",
-        "Rating": "9",
-        "NumRatings": "2",
+        "Rating": "6.5",
+        "NumRatings": "4",
+        "CompetitiveRating": "3",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Outdoor",
@@ -355,8 +370,9 @@
     },
     {
         "Name": "Duck Duck Goose",
-        "Rating": "3",
-        "NumRatings": "2",
+        "Rating": "4.2",
+        "NumRatings": "5",
+        "CompetitiveRating": "2",
         "HeaderColor": "#ffe74b",
         "GamePic": "resources/gamepic.png",
         "Details":[
@@ -368,15 +384,17 @@
         "Filters":[
             "outdoorandindoor",
             "infinite",
-            "noprep"
+            "noprep",
+            "tag"
         ],
         "Description": "Everyone sits in a circle and one person gets up and walks around the circle tapping each person they pass saying “Duck” or “Goose” as they tap them. If they say “Goose” they start running around the circle and the person they tapped gets up and tries to tag them. If they run all the way round the circle and sit down in the empty spot before getting tagged they are safe and the one trying to tag them is it."
         
     }, 
     {
         "Name": "Earthquake Eviction",
-        "Rating": "2",
-        "NumRatings": "2",
+        "Rating": "3",
+        "NumRatings": "4",
+        "CompetitiveRating": "2",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Outdoor",
@@ -395,7 +413,8 @@
     {
         "Name": "Flip The Rug",
         "Rating": "4",
-        "NumRatings": "2",
+        "NumRatings": "4",
+        "CompetitiveRating": "1",
         "HeaderColor": "#ac620b",
         "GamePic": "resources/gamepic23.png",
         "Details":[
@@ -412,26 +431,29 @@
     },
     {
         "Name": "Freeze Tag",
-        "Rating": "7",
-        "NumRatings": "2",
+        "Rating": "6.4",
+        "NumRatings": "5",
+        "CompetitiveRating": "3",
         "HeaderColor": "#00abff",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Outdoor",
             "Group Size 14+",
-            "Competitive Rating: ★★★★☆"
+            "Competitive Rating: ★★★☆☆"
         ],
         "Filters":[
             "outdoor",
-            "noprep"
+            "noprep",
+            "tag"
         ],
         "Description": "Like tag but when you are tagged instead of becoming It, you are frozen until one of your team members tags you to unfreeze you. If the person who is It Freezes everyone they win."
         
     },
     {
         "Name": "Fresher Tag",
-        "Rating": "8",
-        "NumRatings": "2",
+        "Rating": "7.67",
+        "NumRatings": "3",
+        "CompetitiveRating": "4",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Outdoor",
@@ -442,15 +464,17 @@
         "Filters":[
             "outdoor",
             "team",
-            "noprep"
+            "noprep",
+            "tag"
         ],
         "Description": "Coming Soon..."
         
     },
     {
         "Name": "Frogger",
-        "Rating": "7.5",
-        "NumRatings": "2",
+        "Rating": "7.67",
+        "NumRatings": "3",
+        "CompetitiveRating": "2",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Outdoor / Indoor",
@@ -466,8 +490,9 @@
     },
     {
         "Name": "Heads Up 7up",
-        "Rating": "4",
-        "NumRatings": "2",
+        "Rating": "5.25",
+        "NumRatings": "4",
+        "CompetitiveRating": "1",
         "HeaderColor": "#07e03d",
         "GamePic": "resources/gamepic6.png",
         "Details":[
@@ -486,8 +511,9 @@
     },
     {
         "Name": "Hide And Seek",
-        "Rating": "6",
-        "NumRatings": "2",
+        "Rating": "7.4",
+        "NumRatings": "5",
+        "CompetitiveRating": "2",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Outdoor / Indoor",
@@ -503,25 +529,28 @@
     },
     {
         "Name": "Hide And Seek Base",
-        "Rating": "7.5",
-        "NumRatings": "2",
+        "Rating": "7.8",
+        "NumRatings": "5",
+        "CompetitiveRating": "3",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Outdoor / Indoor",
             "Group Size 16+",
-            "Competitive Rating: ★★☆☆☆"
+            "Competitive Rating: ★★★☆☆"
         ],
         "Filters":[
             "outdoorandindoor",
-            "noprep"
+            "noprep",
+            "tag"
         ],
         "Description": "Coming Soon..."
         
     },
     {
         "Name": "Human Knot",
-        "Rating": "5.5",
-        "NumRatings": "2",
+        "Rating": "5.6",
+        "NumRatings": "5",
+        "CompetitiveRating": "2",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Outdoor",
@@ -539,8 +568,9 @@
     },
     {
         "Name": "Infection Tag",
-        "Rating": "8",
-        "NumRatings": "2",
+        "Rating": "6.6",
+        "NumRatings": "5",
+        "CompetitiveRating": "5",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Outdoor",
@@ -549,15 +579,17 @@
         ],
         "Filters":[
             "outdoor",
-            "noprep"
+            "noprep",
+            "tag"
         ],
         "Description": "Someone is chosen to be “It” and everyone else has a few seconds to run. Then the person who is “It” tries to tag everyone else. If you get tagged, you are infected and are “It” also."
         
     },
     {
         "Name": "Link Tag",
-        "Rating": "4",
-        "NumRatings": "2",
+        "Rating": "5.8",
+        "NumRatings": "5",
+        "CompetitiveRating": "3",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Outdoor",
@@ -566,7 +598,8 @@
         ],
         "Filters":[
             "outdoor",
-            "noprep"
+            "noprep",
+            "tag"
         ],
         "Description": "Everyone gets into groups of three and links arms except for one runner and one tagger. If the runner links arms with a group, the person on the opposite end of the group becomes the new runner (groups can only be three people). If the tagger tags the runner they swap roles. (tag backs are allowed and encouraged)"
         
@@ -574,7 +607,8 @@
     {
         "Name": "Murder In The Dark*",
         "Rating": "10",
-        "NumRatings": "2",
+        "NumRatings": "5",
+        "CompetitiveRating": "2",
         "HeaderColor": "#474747",
         "GamePic": "resources/gamepic5.png",
         "Details":[
@@ -584,7 +618,7 @@
             "Group Size 20+",
             "Played In The Dark",
             "Requires: 1 Deck Of Cards",
-            "Competitive Rating: ★★★☆☆"
+            "Competitive Rating: ★★☆☆☆"
         ],
         "Filters":[
             "indoor",
@@ -641,8 +675,9 @@
     },
     {
         "Name": "Musical Chairs",
-        "Rating": "4.5",
-        "NumRatings": "2",
+        "Rating": "6.4",
+        "NumRatings": "5",
+        "CompetitiveRating": "3",
         "HeaderColor": "#ff3a89",
         "GamePic": "resources/gamepic17.png",
         "Details":[
@@ -659,8 +694,9 @@
     },
     {
         "Name": "Ninja",
-        "Rating": "7.5",
-        "NumRatings": "2",
+        "Rating": "7.8",
+        "NumRatings": "5",
+        "CompetitiveRating": "4",
         "HeaderColor": "#374b00",
         "GamePic": "resources/gamepic20.png",
         "Details":[
@@ -686,8 +722,9 @@
     },
     {
         "Name": "Paper-Craft Pictionary",
-        "Rating": "5.5",
-        "NumRatings": "2",
+        "Rating": "6.4",
+        "NumRatings": "5",
+        "CompetitiveRating": "2",
         "HeaderColor": "#7e7e7e",
         "GamePic": "resources/gamepic22.png",
         "Details":[
@@ -704,14 +741,15 @@
     },
     {
         "Name": "Picnic / Vacation",
-        "Rating": "3",
-        "NumRatings": "2",
+        "Rating": "3.25",
+        "NumRatings": "4",
+        "CompetitiveRating": "1",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Indoor",
             "Group Size 12+",
             "Requires: Pieces Of Paper, Pencils, Scissors, And Other Art Supplies",
-            "Competitive Rating: ★★☆☆☆"
+            "Competitive Rating: ★☆☆☆☆"
         ],
         "Filters":[
             "indoor",
@@ -722,8 +760,9 @@
     },
     {
         "Name": "Pictionary",
-        "Rating": "4",
-        "NumRatings": "2",
+        "Rating": "5.4",
+        "NumRatings": "5",
+        "CompetitiveRating": "2",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Indoor",
@@ -743,6 +782,7 @@
         "Name": "Red Light Green Light",
         "Rating": "0",
         "NumRatings": "0",
+        "CompetitiveRating": "3",
         "HeaderColor": "#02fd08",
         "GamePic": "resources/gamepic8.png",
         "Details":[
@@ -759,8 +799,9 @@
     },
     {
         "Name": "Rock Paper Scissors",
-        "Rating": "3.5",
-        "NumRatings": "2",
+        "Rating": "4.2",
+        "NumRatings": "5",
+        "CompetitiveRating": "2",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Outdoor / Indoor",
@@ -802,8 +843,9 @@
     },
     {
         "Name": "Scatter Ball",
-        "Rating": "4.5",
-        "NumRatings": "2",
+        "Rating": "5",
+        "NumRatings": "3",
+        "CompetitiveRating": "2",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Outdoor",
@@ -823,13 +865,14 @@
         "Rating": "0",
         "Bubble": "New!",
         "NumRatings": "0",
+        "CompetitiveRating": "3",
         "HeaderColor": "#fc9438",
         "GamePic": "resources/gamepic19.png",
         "Details":[
             "Outdoor",
             "Group Size 14+",
             "Requires: A Ball",
-            "Competitive Rating: ★★☆☆☆"
+            "Competitive Rating: ★★★☆☆"
         ],
         "Filters":[
             "seanssd",
@@ -844,6 +887,7 @@
         "Rating": "0",
         "Bubble": "New!",
         "NumRatings": "0",
+        "CompetitiveRating": "2",
         "HeaderColor": "#fc9438",
         "GamePic": "resources/gamepic19.png",
         "Details":[
@@ -862,8 +906,9 @@
     },
     {
         "Name": "Sharks And Minnows",
-        "Rating": "7.5",
-        "NumRatings": "2",
+        "Rating": "7.4",
+        "NumRatings": "5",
+        "CompetitiveRating": "4",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Outdoor",
@@ -879,9 +924,10 @@
     },
     {
         "Name": "Sherlock",
-        "Rating": "4",
+        "Rating": "4.67",
         "Bubble": "New!",
-        "NumRatings": "2",
+        "NumRatings": "3",
+        "CompetitiveRating": "1",
         "HeaderColor": "#714732",
         "GamePic": "resources/gamepic9.png",
         "Details":[
@@ -899,8 +945,9 @@
     },
     {
         "Name": "Signs",
-        "Rating": "4.5",
-        "NumRatings": "2",
+        "Rating": "6",
+        "NumRatings": "4",
+        "CompetitiveRating": "1",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Outdoor / Indoor",
@@ -916,8 +963,9 @@
     },
     {
         "Name": "Spoons",
-        "Rating": "5",
-        "NumRatings": "2",
+        "Rating": "6.2",
+        "NumRatings": "5",
+        "CompetitiveRating": "3",
         "HeaderColor": "#6478ba",
         "GamePic": "resources/gamepic15.png",
         "Details":[
@@ -934,8 +982,9 @@
     },
     {
         "Name": "Taco Cat Goat Cheese Pizza",
-        "Rating": "6",
-        "NumRatings": "2",
+        "Rating": "7",
+        "NumRatings": "5",
+        "CompetitiveRating": "4",
         "HeaderColor": "#fcff3d",
         "GamePic": "resources/gamepic10.png",
         "Details":[
@@ -952,8 +1001,9 @@
     },
     {
         "Name": "Tag",
-        "Rating": "5",
-        "NumRatings": "2",
+        "Rating": "6",
+        "NumRatings": "5",
+        "CompetitiveRating": "3",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Outdoor",
@@ -964,15 +1014,17 @@
         "Filters":[
             "outdoor",
             "infinite",
-            "noprep"
+            "noprep",
+            "tag"
         ],
         "Description": "Someone is chosen to be It and everyone else spreads out. The person who is It then has to try and tap the other players to tag them. If someone gets tagged they become It and have to tag somebody else. (Tag backs can be allowed or not allowed)"
         
     },
     {
         "Name": "Telephone",
-        "Rating": "4",
-        "NumRatings": "2",
+        "Rating": "6.6",
+        "NumRatings": "5",
+        "CompetitiveRating": "1",
         "HeaderColor": "#0db505",
         "GamePic": "resources/gamepic11.png",
         "Details":[
@@ -989,8 +1041,9 @@
     },
     {
         "Name": "The Balloon Stompin' Game",
-        "Rating": "5.5",
-        "NumRatings": "2",
+        "Rating": "4.5",
+        "NumRatings": "4",
+        "CompetitiveRating": "4",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Indoor",
@@ -1006,8 +1059,9 @@
     },
     {
         "Name": "The Blind Folded Noodle Game",
-        "Rating": "8",
-        "NumRatings": "2",
+        "Rating": "6",
+        "NumRatings": "4",
+        "CompetitiveRating": "3",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Outdoor / Indoor",
@@ -1023,8 +1077,9 @@
     },
     {
         "Name": "The Garbage Can Game",
-        "Rating": "10",
-        "NumRatings": "2",
+        "Rating": "7.8",
+        "NumRatings": "5",
+        "CompetitiveRating": "5",
         "HeaderColor": "#763900",
         "GamePic": "resources/gamepic12.png",
         "Details":[
@@ -1040,9 +1095,10 @@
         
     },
     {
-        "Name": "The Name Calling Gun Game",
+        "Name": "Name Bang",
         "Rating": "6",
-        "NumRatings": "2",
+        "NumRatings": "4",
+        "CompetitiveRating": "3",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Outdoor / Indoor",
@@ -1058,8 +1114,9 @@
     },
     {
         "Name": "The Name Game",
-        "Rating": "2.5",
-        "NumRatings": "2",
+        "Rating": "5.5",
+        "NumRatings": "4",
+        "CompetitiveRating": "1",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Outdoor / Indoor",
@@ -1076,8 +1133,9 @@
     },
     {
         "Name": "Train Wreck",
-        "Rating": "4",
-        "NumRatings": "2",
+        "Rating": "6",
+        "NumRatings": "3",
+        "CompetitiveRating": "3",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Indoor",
@@ -1094,8 +1152,9 @@
     },
     {
         "Name": "Twister",
-        "Rating": "2.5",
-        "NumRatings": "2",
+        "Rating": "5",
+        "NumRatings": "5",
+        "CompetitiveRating": "2",
         "HeaderColor": "#e5003d",
         "GamePic": "resources/gamepic16.png",
         "Details":[
@@ -1110,8 +1169,9 @@
     },
     {
         "Name": "Two Truthes And A Lie",
-        "Rating": "1.5",
-        "NumRatings": "2",
+        "Rating": "5.6",
+        "NumRatings": "5",
+        "CompetitiveRating": "1",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Indoor",
@@ -1127,8 +1187,9 @@
     },
     {
         "Name": "Ultimate Frisbee",
-        "Rating": "6",
-        "NumRatings": "2",
+        "Rating": "5.6",
+        "NumRatings": "5",
+        "CompetitiveRating": "4",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Outdoor",
@@ -1143,8 +1204,9 @@
     },
     {
         "Name": "Zip Bong",
-        "Rating": "4",
-        "NumRatings": "2",
+        "Rating": "5.25",
+        "NumRatings": "4",
+        "CompetitiveRating": "3",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Outdoor / Indoor",

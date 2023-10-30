@@ -86,6 +86,9 @@ function SetUp(){
     else{
         body.classList.toggle("darkMode", false);
     }
+
+    ActivateFilter(null, 'all', true, document.getElementById('filter-all'))
+    ActivateSort(null, 'all', true, document.getElementById('sort-az'))
 }
 
 sidebarbtn.addEventListener("click", () =>{
@@ -157,18 +160,29 @@ function FilterGames(){
                 gameslist.push(game);
                 results++;
             }
-            if(search != null || filter != null){
+            if(search != null || filter != null && filter != "all"){
                 searchRes.textContent = "search results " + results;
+            }
+            else{
+                searchRes.textContent = ""
             }
             
         })
 
         //sorts the games
         if(sort == "az"){
-            gameslist.sort();
+            gameslist.sort(function(a, b) {
+                var textA = a.Name.toUpperCase();
+                var textB = b.Name.toUpperCase();
+                return (textA < textB) ? -1 : (textA > textB) ? 1 : 0;
+            });
         }
         if(sort == "za"){
-            gameslist.sort();
+            gameslist.sort(function(a, b) {
+                var textA = a.Name.toUpperCase();
+                var textB = b.Name.toUpperCase();
+                return (textA < textB) ? -1 : (textA > textB) ? 1 : 0;
+            });
             gameslist.reverse();
         }
         if(sort == "hrating"){
@@ -176,6 +190,12 @@ function FilterGames(){
         }
         if(sort == "lrating"){
             gameslist.sort((a, b) => Number(a.Rating) - Number(b.Rating)) 
+        }
+        if(sort == "hcrating"){
+            gameslist.sort((a, b) => Number(b.CompetitiveRating) - Number(a.CompetitiveRating))
+        }
+        if(sort == "lcrating"){
+            gameslist.sort((a, b) => Number(a.CompetitiveRating) - Number(b.CompetitiveRating)) 
         }
         //add games
         for (let i = 0; i < gameslist.length; i += 1){
@@ -386,9 +406,8 @@ function OpenTab(evt, name){
     evt.currentTarget.classList.toggle("active", true);
 }
 
-function ActivateFilter(evt, value){
-    if (filterBox.classList.contains("close")){
-        
+function ActivateFilter(evt, value, onload, element){
+    if (filterBox.classList.contains("close") || onload){
         var i, tabs;
 
         tabs = document.getElementsByClassName("filter-drop-down-item");
@@ -396,8 +415,13 @@ function ActivateFilter(evt, value){
         for (i = 0; i < tabs.length; i++) {
             tabs[i].classList.toggle("active", false);
         }
-
-        evt.currentTarget.classList.toggle("active", true);
+        if (evt != null){
+            evt.currentTarget.classList.toggle("active", true);
+        }
+        else{
+            element.classList.toggle("active", true);
+        }
+        
         if (value == "all"){
             filter = null;
         }
@@ -408,8 +432,8 @@ function ActivateFilter(evt, value){
     }
 }
 
-function ActivateSort(evt, value){
-    if (sortBox.classList.contains("close")){
+function ActivateSort(evt, value, onload, element){
+    if (sortBox.classList.contains("close") || onload){
         var i, tabs;
 
         tabs = document.getElementsByClassName("sort-drop-down-item");
@@ -417,7 +441,12 @@ function ActivateSort(evt, value){
             tabs[i].classList.toggle("active", false);
         }
 
-        evt.currentTarget.classList.toggle("active", true);
+        if (evt != null){
+            evt.currentTarget.classList.toggle("active", true);
+        }
+        else{
+            element.classList.toggle("active", true);
+        }
         sort = value;
         FilterGames();
     }

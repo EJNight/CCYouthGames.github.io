@@ -1,6 +1,3 @@
-.survey-question{
-    background-color: var(--color-plane);
-    height: 100px;
-    width: calc(100% - 40px);
-    margin: 20px;
+.survey-header{
+    padding: 20px;
 }

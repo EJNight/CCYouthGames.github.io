@@ -45,6 +45,7 @@ const cardTemplate = elementFromHtml(`
                         <img class="gamePic" card-pic>
                         <h1 class="gameName" card-name></h1>
                     </div>
+                    <div class="gameBoxHeader-shadow"></div>
                 </div>
             <div class="gameBoxBody">
                 <div class="rating-box">
@@ -87,8 +88,11 @@ function SetUp(){
         body.classList.toggle("darkMode", false);
     }
 
-    ActivateFilter(null, 'all', true, document.getElementById('filter-all'))
-    ActivateSort(null, 'all', true, document.getElementById('sort-az'))
+    if ( document.getElementById('filter-all') != null){
+        ActivateFilter(null, 'all', true, document.getElementById('filter-all'), false);
+        ActivateSort(null, 'az', true, document.getElementById('sort-az'), true);
+    }
+        
 }
 
 sidebarbtn.addEventListener("click", () =>{
@@ -131,9 +135,10 @@ searchBar.addEventListener("input", e =>{
 }
 
 function FilterGames(){
+    container.innerHTML = "";
     let results = 0;
     var gameslist = [];
-    container.innerHTML = "";
+    
     fetch('./gameInfo.json') //fetches the JSON file that stores the info for the games.
     .then(res => res.json())
     .then(data =>{
@@ -155,7 +160,6 @@ function FilterGames(){
             else{
                 containsFilter = true;
             }
-
             if(containsSearch && containsFilter){
                 gameslist.push(game);
                 results++;
@@ -287,7 +291,6 @@ function GetDesc(data, container){
 
 //adds the Game Cards to the list.
 function addGames(){
-
     fetch('./gameInfo.json') //fetches the JSON file that stores the info for the games.
     .then(res => res.json())
     .then(data =>{
@@ -320,6 +323,7 @@ function addGame(index, container){
             const gameRatings = card.querySelector("[card-rating]")
             const gameDescBox = card.querySelector(".card-desc")
             const gameBoxHeader = card.querySelector(".gameBoxHeader")
+            const gameBoxHeaderShadow = card.querySelector(".gameBoxHeader-shadow")
 
             gameName.textContent = index.Name
             if (index.Bubble == null || index.Bubble == ""){
@@ -338,10 +342,12 @@ function addGame(index, container){
 
             if (index.HeaderColor != null)
             {
+                gameBoxHeaderShadow.style.boxShadow = "0px 0px 300px" + index.HeaderColor
                 gameBoxHeader.style.backgroundColor = index.HeaderColor;
                 gameBubble.style.backgroundColor = index.HeaderColor;
             }
             else{
+                
                 gameBoxHeader.style.backgroundColor = "#990b06";
                 gameBubble.style.backgroundColor = "#990b06";
             }
@@ -406,7 +412,7 @@ function OpenTab(evt, name){
     evt.currentTarget.classList.toggle("active", true);
 }
 
-function ActivateFilter(evt, value, onload, element){
+function ActivateFilter(evt, value, onload, element, filtergames){
     if (filterBox.classList.contains("close") || onload){
         var i, tabs;
 
@@ -428,11 +434,13 @@ function ActivateFilter(evt, value, onload, element){
         else{
             filter = value;
         }
-        FilterGames();
+        if (filtergames){
+            FilterGames();
+        }
     }
 }
 
-function ActivateSort(evt, value, onload, element){
+function ActivateSort(evt, value, onload, element, filtergames){
     if (sortBox.classList.contains("close") || onload){
         var i, tabs;
 
@@ -448,7 +456,9 @@ function ActivateSort(evt, value, onload, element){
             element.classList.toggle("active", true);
         }
         sort = value;
-        FilterGames();
+        if (filtergames){
+            FilterGames();
+        }
     }
 }
 

@@ -543,7 +543,16 @@
             "noprep",
             "tag"
         ],
-        "Description": "Coming Soon..."
+        "Description": [
+            {
+                "Header": "Summery",
+                "Text": "Very similar to regular Hide And Seek, but once found the hiders have to return to the base without being tagged to win."
+            },
+            {
+                "Header": "Description",
+                "Text": "Someone is chosen to be the seeker, they pick a spot for the base and start counting at that location to some number (usually 30). Everyone else runs and tries to find a hiding spot. When the seeker has finished counting they can begin seeking. If a hider is found they (the hider) have to run back to the base, if they do the are safe and can not be tagged anymore. However if they get tagged before they reach the base they are eliminated."
+            }
+        ]
         
     },
     {
@@ -1062,6 +1071,7 @@
         "Rating": "6",
         "NumRatings": "4",
         "CompetitiveRating": "3",
+        "HeaderColor": "#ffad00",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Outdoor / Indoor",
@@ -1085,7 +1095,7 @@
         "Details":[
             "Outdoor / Indoor",
             "Group Size 12+",
-            "Requires 1 Or More Garbage Can/s Or Similar Objects",
+            "Requires: 1 Or More Garbage Can/s Or Similar Objects",
             "Competitive Rating: ★★★★★"
         ],
         "Filters":[
@@ -1168,7 +1178,7 @@
         "Description": "Everyone gets into groups of 3-5, then each person in the group thinks of 2 things about themselves that are true, and 1 thing that is not (but sounds like it is). Then the group takes turns telling their truths and lie and the rest of the group has to guess which one was the lie."
     },
     {
-        "Name": "Two Truthes And A Lie",
+        "Name": "Two Truths And A Lie",
         "Rating": "5.6",
         "NumRatings": "5",
         "CompetitiveRating": "1",
@@ -1218,5 +1228,36 @@
             "noprep"
         ],
         "Description": "Everyone forms a circle and one person starts of the game by saying Zip, which passes the responsibility on to the next person (person on the right). The next person then has the choice of either saying Zip or Bong. If they say Zip it goes on to the next person, if however they say Bong the order reverses and goes back to the previous person."
+    },
+    {
+        "Name": "Tic Tac Toe",
+        "Rating": "0",
+        "NumRatings": "0",
+        "CompetitiveRating": "2",
+        "HeaderColor": "#ae00ff",
+        "GamePic": "resources/gamepic24.png",
+        "Details":[
+            "Outdoor / Indoor",
+            "Group Size 14+",
+            "Requires: A Whiteboard",
+            "Competitive Rating: ★★★☆☆"
+        ],
+        "Filters":[
+            "indoor"
+        ],
+        "Description": [
+            {
+                "Header": "Tic Tac Toe",
+                "Text": ""
+            },
+            {
+                "Header": "Ultimate Tic Tac Toe",
+                "Text": ""
+            },
+            {
+                "Header": "Supreme Tic Tac Toe",
+                "Text": ""
+            }
+        ]
     }
 ]

@@ -44,8 +44,8 @@
     {
         "Name": "Assassin",
         "Bubble": "",
-        "Rating": "6.4",
-        "NumRatings": "5",
+        "Rating": "6.33",
+        "NumRatings": "6",
         "CompetitiveRating": "4",
         "HeaderColor": "#4d0000",
         "GamePic": "resources/gamepic.png",
@@ -77,6 +77,7 @@
         "Rating": "4.25",
         "NumRatings": "4",
         "CompetitiveRating": "2",
+        "HeaderColor": "#009983",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Outdoor / Indoor",
@@ -96,6 +97,7 @@
         "Rating": "5",
         "NumRatings": "2",
         "CompetitiveRating": "3",
+        "HeaderColor": "#a5c400",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Outdoor / Indoor",
@@ -136,7 +138,9 @@
         ],
         "Filters":[
             "indoor",
-            "noprep"
+            "noprep",
+            "think"
+
         ],
         "Description": "???"
         
@@ -163,8 +167,8 @@
     },
     {
         "Name": "Capture The Flag*",
-        "Rating": "9.4",
-        "NumRatings": "5",
+        "Rating": "8.67",
+        "NumRatings": "6",
         "CompetitiveRating": "5",
         "HeaderColor": "#050980",
         "GamePic": "resources/gamepic2.png",
@@ -234,8 +238,8 @@
     },
     {
         "Name": "Charades",
-        "Rating": "6.4",
-        "NumRatings": "5",
+        "Rating": "6.33",
+        "NumRatings": "6",
         "CompetitiveRating": "3",
         "GamePic": "resources/gamepic.png",
         "Details":[
@@ -244,7 +248,8 @@
             "Competitive Rating: ★★★☆☆"
         ],
         "Filters":[
-            "outdoorandindoor"
+            "outdoorandindoor",
+            "think"
         ],
         "Description": [
             {
@@ -260,8 +265,8 @@
     },
     {
         "Name": "Concentration",
-        "Rating": "5.4",
-        "NumRatings": "5",
+        "Rating": "5.83",
+        "NumRatings": "6",
         "CompetitiveRating": "2",
         "HeaderColor": "#2a0580",
         "GamePic": "resources/gamepic21.png",
@@ -274,7 +279,8 @@
         "Filters":[
             "outdoorandindoor",
             "infinite",
-            "noprep"
+            "noprep",
+            "think"
         ],
         "Description": [
             {
@@ -309,9 +315,9 @@
     },
     {
         "Name": "Concentration 64",
-        "Rating": "5",
+        "Rating": "5.5",
         "Bubble": "New!",
-        "NumRatings": "5",
+        "NumRatings": "6",
         "CompetitiveRating": "2",
         "HeaderColor": "#272727",
         "GamePic": "resources/gamepic18.png",
@@ -324,15 +330,16 @@
             "outdoorandindoor",
             "infinite",
             "new",
-            "noprep"
+            "noprep",
+            "think"
         ],
         "Description": "Coming Soon..."
         
     },
     {
         "Name": "Dodge Ball",
-        "Rating": "5.2",
-        "NumRatings": "5",
+        "Rating": "5.5",
+        "NumRatings": "6",
         "CompetitiveRating": "4",
         "HeaderColor": "#899fff",
         "GamePic": "resources/gamepic14.png",
@@ -353,6 +360,7 @@
         "Rating": "6.5",
         "NumRatings": "4",
         "CompetitiveRating": "3",
+        "HeaderColor": "#89002e",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Outdoor",
@@ -370,8 +378,8 @@
     },
     {
         "Name": "Duck Duck Goose",
-        "Rating": "4.2",
-        "NumRatings": "5",
+        "Rating": "4.67",
+        "NumRatings": "6",
         "CompetitiveRating": "2",
         "HeaderColor": "#ffe74b",
         "GamePic": "resources/gamepic.png",
@@ -395,6 +403,7 @@
         "Rating": "3",
         "NumRatings": "4",
         "CompetitiveRating": "2",
+        "HeaderColor": "#529768",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Outdoor",
@@ -431,8 +440,8 @@
     },
     {
         "Name": "Freeze Tag",
-        "Rating": "6.4",
-        "NumRatings": "5",
+        "Rating": "6.33",
+        "NumRatings": "6",
         "CompetitiveRating": "3",
         "HeaderColor": "#00abff",
         "GamePic": "resources/gamepic.png",
@@ -454,6 +463,7 @@
         "Rating": "7.67",
         "NumRatings": "3",
         "CompetitiveRating": "4",
+        "HeaderColor": "#80ecff",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Outdoor",
@@ -475,6 +485,7 @@
         "Rating": "7.67",
         "NumRatings": "3",
         "CompetitiveRating": "2",
+        "HeaderColor": "#94ff80",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Outdoor / Indoor",
@@ -511,9 +522,10 @@
     },
     {
         "Name": "Hide And Seek",
-        "Rating": "7.4",
-        "NumRatings": "5",
+        "Rating": "7.67",
+        "NumRatings": "6",
         "CompetitiveRating": "2",
+        "HeaderColor": "#0f5f00",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Outdoor / Indoor",
@@ -529,9 +541,10 @@
     },
     {
         "Name": "Hide And Seek Base",
-        "Rating": "7.8",
-        "NumRatings": "5",
+        "Rating": "7.83",
+        "NumRatings": "6",
         "CompetitiveRating": "3",
+        "HeaderColor": "#0a4000",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Outdoor / Indoor",
@@ -557,9 +570,10 @@
     },
     {
         "Name": "Human Knot",
-        "Rating": "5.6",
-        "NumRatings": "5",
+        "Rating": "6.33",
+        "NumRatings": "6",
         "CompetitiveRating": "2",
+        "HeaderColor": "#cca46e",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Outdoor",
@@ -570,15 +584,16 @@
         "Filters":[
             "outdoor",
             "team",
-            "noprep"
+            "noprep",
+            "think"
         ],
         "Description": "Everyone is divided into groups of about 12 people each and gets into circles. everyone links arms with someone else (in their own group), but not the people directly next to them. The groups must now use teamwork to undo the “Human Knot” they have made."
         
     },
     {
         "Name": "Infection Tag",
-        "Rating": "6.6",
-        "NumRatings": "5",
+        "Rating": "6.67",
+        "NumRatings": "6",
         "CompetitiveRating": "5",
         "GamePic": "resources/gamepic.png",
         "Details":[
@@ -596,8 +611,8 @@
     },
     {
         "Name": "Link Tag",
-        "Rating": "5.8",
-        "NumRatings": "5",
+        "Rating": "5.67",
+        "NumRatings": "6",
         "CompetitiveRating": "3",
         "GamePic": "resources/gamepic.png",
         "Details":[
@@ -616,7 +631,7 @@
     {
         "Name": "Murder In The Dark*",
         "Rating": "10",
-        "NumRatings": "5",
+        "NumRatings": "6",
         "CompetitiveRating": "2",
         "HeaderColor": "#474747",
         "GamePic": "resources/gamepic5.png",
@@ -684,8 +699,8 @@
     },
     {
         "Name": "Musical Chairs",
-        "Rating": "6.4",
-        "NumRatings": "5",
+        "Rating": "7.83",
+        "NumRatings": "6",
         "CompetitiveRating": "3",
         "HeaderColor": "#ff3a89",
         "GamePic": "resources/gamepic17.png",
@@ -743,7 +758,8 @@
             "Competitive Rating: ★★☆☆☆"
         ],
         "Filters":[
-            "indoor"
+            "indoor",
+            "sean"
         ],
         "Description": "Coming Soon..."
         
@@ -753,6 +769,7 @@
         "Rating": "3.25",
         "NumRatings": "4",
         "CompetitiveRating": "1",
+        "HeaderColor": "#ff6666",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Indoor",
@@ -762,15 +779,16 @@
         ],
         "Filters":[
             "indoor",
-            "noprep"
+            "noprep",
+            "think"
         ],
         "Description": "Coming Soon..."
         
     },
     {
         "Name": "Pictionary",
-        "Rating": "5.4",
-        "NumRatings": "5",
+        "Rating": "5.5",
+        "NumRatings": "6",
         "CompetitiveRating": "2",
         "GamePic": "resources/gamepic.png",
         "Details":[
@@ -808,8 +826,8 @@
     },
     {
         "Name": "Rock Paper Scissors",
-        "Rating": "4.2",
-        "NumRatings": "5",
+        "Rating": "4",
+        "NumRatings": "6",
         "CompetitiveRating": "2",
         "GamePic": "resources/gamepic.png",
         "Details":[
@@ -884,7 +902,7 @@
             "Competitive Rating: ★★★☆☆"
         ],
         "Filters":[
-            "seanssd",
+            "sean",
             "team",
             "new"
         ],
@@ -906,7 +924,7 @@
             "Competitive Rating: ★★☆☆☆"
         ],
         "Filters":[
-            "seanssd",
+            "sean",
             "team",
             "new"
         ],
@@ -915,9 +933,10 @@
     },
     {
         "Name": "Sharks And Minnows",
-        "Rating": "7.4",
-        "NumRatings": "5",
+        "Rating": "7.17",
+        "NumRatings": "6",
         "CompetitiveRating": "4",
+        "HeaderColor": "#405780",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Outdoor",
@@ -947,7 +966,8 @@
         "Filters":[
             "outdoorandindoor",
             "new",
-            "noprep"
+            "noprep",
+            "think"
         ],
         "Description": "Coming Soon..."
         
@@ -965,15 +985,16 @@
         ],
         "Filters":[
             "outdoorandindoor",
-            "noprep"
+            "noprep",
+            "think"
         ],
         "Description": "Coming Soon..."
         
     },
     {
         "Name": "Spoons",
-        "Rating": "6.2",
-        "NumRatings": "5",
+        "Rating": "6.17",
+        "NumRatings": "6",
         "CompetitiveRating": "3",
         "HeaderColor": "#6478ba",
         "GamePic": "resources/gamepic15.png",
@@ -991,8 +1012,8 @@
     },
     {
         "Name": "Taco Cat Goat Cheese Pizza",
-        "Rating": "7",
-        "NumRatings": "5",
+        "Rating": "7.33",
+        "NumRatings": "6",
         "CompetitiveRating": "4",
         "HeaderColor": "#fcff3d",
         "GamePic": "resources/gamepic10.png",
@@ -1010,8 +1031,8 @@
     },
     {
         "Name": "Tag",
-        "Rating": "6",
-        "NumRatings": "5",
+        "Rating": "5.67",
+        "NumRatings": "6",
         "CompetitiveRating": "3",
         "GamePic": "resources/gamepic.png",
         "Details":[
@@ -1031,8 +1052,8 @@
     },
     {
         "Name": "Telephone",
-        "Rating": "6.6",
-        "NumRatings": "5",
+        "Rating": "6.5",
+        "NumRatings": "6",
         "CompetitiveRating": "1",
         "HeaderColor": "#0db505",
         "GamePic": "resources/gamepic11.png",
@@ -1087,8 +1108,8 @@
     },
     {
         "Name": "The Garbage Can Game",
-        "Rating": "7.8",
-        "NumRatings": "5",
+        "Rating": "7.83",
+        "NumRatings": "6",
         "CompetitiveRating": "5",
         "HeaderColor": "#763900",
         "GamePic": "resources/gamepic12.png",
@@ -1109,6 +1130,7 @@
         "Rating": "6",
         "NumRatings": "4",
         "CompetitiveRating": "3",
+        "HeaderColor": "#ff4a00",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Outdoor / Indoor",
@@ -1117,7 +1139,8 @@
         ],
         "Filters":[
             "outdoorandindoor",
-            "noprep"
+            "noprep",
+            "think"
         ],
         "Description": "Coming Soon..."
         
@@ -1136,7 +1159,8 @@
         "Filters":[
             "outdoorandindoor",
             "gettoknowyou",
-            "noprep"
+            "noprep",
+            "think"
         ],
         "Description": "Coming Soon..."
         
@@ -1162,8 +1186,8 @@
     },
     {
         "Name": "Twister",
-        "Rating": "5",
-        "NumRatings": "5",
+        "Rating": "5.33",
+        "NumRatings": "6",
         "CompetitiveRating": "2",
         "HeaderColor": "#e5003d",
         "GamePic": "resources/gamepic16.png",
@@ -1179,9 +1203,10 @@
     },
     {
         "Name": "Two Truths And A Lie",
-        "Rating": "5.6",
-        "NumRatings": "5",
+        "Rating": "6.16",
+        "NumRatings": "6",
         "CompetitiveRating": "1",
+        "HeaderColor": "#310054",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Indoor",
@@ -1197,8 +1222,8 @@
     },
     {
         "Name": "Ultimate Frisbee",
-        "Rating": "5.6",
-        "NumRatings": "5",
+        "Rating": "5.33",
+        "NumRatings": "6",
         "CompetitiveRating": "4",
         "GamePic": "resources/gamepic.png",
         "Details":[
@@ -1225,13 +1250,15 @@
         ],
         "Filters":[
             "outdoorandindoor",
-            "noprep"
+            "noprep",
+            "think"
         ],
         "Description": "Everyone forms a circle and one person starts of the game by saying Zip, which passes the responsibility on to the next person (person on the right). The next person then has the choice of either saying Zip or Bong. If they say Zip it goes on to the next person, if however they say Bong the order reverses and goes back to the previous person."
     },
     {
         "Name": "Tic Tac Toe",
         "Rating": "0",
+        "Bubble": "New!",
         "NumRatings": "0",
         "CompetitiveRating": "2",
         "HeaderColor": "#ae00ff",
@@ -1243,12 +1270,14 @@
             "Competitive Rating: ★★★☆☆"
         ],
         "Filters":[
-            "indoor"
+            "indoor",
+            "think",
+            "new"
         ],
         "Description": [
             {
                 "Header": "Tic Tac Toe",
-                "Text": ""
+                "Text": "A 3 by 3 grid is drawn on a whiteboard or a peice of paper and two players take turns drawing Xs and Os in the grid, the first person to get 3 in a row wins."
             },
             {
                 "Header": "Ultimate Tic Tac Toe",

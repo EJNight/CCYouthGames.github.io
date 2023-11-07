@@ -99,73 +99,78 @@
                     <div class="filter-drop-down-box">
                         <ul>
                             <li>
-                                <div id="filter-all" class="filter-drop-down-item", onclick="ActivateFilter(event, 'all')" >
+                                <div id="filter-all" class="filter-drop-down-item", onclick="ActivateFilter(event, 'all', false, null, true)" >
                                     <span>All</span>
                                 </div>
                             </li>
                             <li>
-                                <div class="filter-drop-down-item" onclick="ActivateFilter(event, 'outdoor')" >
+                                <div class="filter-drop-down-item" onclick="ActivateFilter(event, 'outdoor', false, null, true)" >
                                     <span>Outdoor</span>
                                 </div>
                             </li>
                             <li>
-                                <div class="filter-drop-down-item" onclick="ActivateFilter(event, 'indoor')">
+                                <div class="filter-drop-down-item" onclick="ActivateFilter(event, 'indoor', false, null, true)">
                                     <span>Indoor</span>
                                 </div>
                             </li>
                             <li>
-                                <div class="filter-drop-down-item" onclick="ActivateFilter(event, 'outdoorandindoor')">
+                                <div class="filter-drop-down-item" onclick="ActivateFilter(event, 'outdoorandindoor', false, null, true)">
                                     <span>Outdoor / Indoor</span>
                                 </div>
                             </li>
                             <li>
-                                <div class="filter-drop-down-item" onclick="ActivateFilter(event, 'event')">
+                                <div class="filter-drop-down-item" onclick="ActivateFilter(event, 'event', false, null, true)">
                                     <span>Event Games</span>
                                 </div>
                             </li>
                             <li>
-                                <div class="filter-drop-down-item" onclick="ActivateFilter(event, 'team')">
+                                <div class="filter-drop-down-item" onclick="ActivateFilter(event, 'team', false, null, true)">
                                     <span>Team Games</span>
                                 </div>
                             </li>
                             <li>
-                                <div class="filter-drop-down-item" onclick="ActivateFilter(event, 'new')">
+                                <div class="filter-drop-down-item" onclick="ActivateFilter(event, 'new', false, null, true)">
                                     <span>New Games</span>
                                 </div>
                             </li>
                             <li>
-                                <div class="filter-drop-down-item" onclick="ActivateFilter(event, 'noprep')">
+                                <div class="filter-drop-down-item" onclick="ActivateFilter(event, 'noprep', false, null, true)">
                                     <span>No Preperation</span>
                                 </div>
                             </li>
                             <li>
-                                <div class="filter-drop-down-item" onclick="ActivateFilter(event, 'infinite')">
+                                <div class="filter-drop-down-item" onclick="ActivateFilter(event, 'infinite', false, null, true)">
                                     <span>Infinite</span>
                                 </div>
                             </li>
                             <li>
-                                <div class="filter-drop-down-item" onclick="ActivateFilter(event, 'ball')">
+                                <div class="filter-drop-down-item" onclick="ActivateFilter(event, 'ball', false, null, true)">
                                     <span>Played With A Ball</span>
                                 </div>
                             </li>
                             <li>
-                                <div class="filter-drop-down-item" onclick="ActivateFilter(event, 'annual')">
+                                <div class="filter-drop-down-item" onclick="ActivateFilter(event, 'annual', false, null, true)">
                                     <span>Annual Games</span>
                                 </div>
                             </li>
                             <li>
-                                <div class="filter-drop-down-item" onclick="ActivateFilter(event, 'gettoknowyou')">
+                                <div class="filter-drop-down-item" onclick="ActivateFilter(event, 'gettoknowyou', false, null, true)">
                                     <span>Get To Know You</span>
                                 </div>
                             </li>
                             <li>
-                                <div class="filter-drop-down-item" onclick="ActivateFilter(event, 'seanssd')">
-                                    <span>Sean's Sword Drills</span>
+                                <div class="filter-drop-down-item" onclick="ActivateFilter(event, 'sean', false, null, true)">
+                                    <span>Sean Originals</span>
                                 </div>
                             </li>
                             <li>
-                                <div class="filter-drop-down-item" onclick="ActivateFilter(event, 'tag')">
+                                <div class="filter-drop-down-item" onclick="ActivateFilter(event, 'tag', false, null, true)">
                                     <span>Tag Games</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="filter-drop-down-item" onclick="ActivateFilter(event, 'think', false, null, true)">
+                                    <span>Thinking Games</span>
                                 </div>
                             </li>
                         </ul>
@@ -182,32 +187,32 @@
                     <div class="sort-drop-down-box">
                         <ul>
                             <li>
-                                <div id="sort-az" class="sort-drop-down-item" onclick="ActivateSort(event, 'az')">
+                                <div id="sort-az" class="sort-drop-down-item" onclick="ActivateSort(event, 'az', false, null, true)">
                                     <span>Alphabetical</span>
                                 </div>
                             </li>
                             <li>
-                                <div class="sort-drop-down-item" onclick="ActivateSort(event, 'za')">
+                                <div class="sort-drop-down-item" onclick="ActivateSort(event, 'za', false, null, true)">
                                     <span>Reverse Alphabetical </span>
                                 </div>
                             </li>
                             <li>
-                                <div class="sort-drop-down-item" onclick="ActivateSort(event, 'hrating')">
+                                <div class="sort-drop-down-item" onclick="ActivateSort(event, 'hrating', false, null, true)">
                                     <span>Highest Rating</span>
                                 </div>
                             </li>
                             <li>
-                                <div class="sort-drop-down-item" onclick="ActivateSort(event, 'lrating')">
+                                <div class="sort-drop-down-item" onclick="ActivateSort(event, 'lrating', false, null, true)">
                                     <span>Lowest Rating</span>
                                 </div>
                             </li>
                             <li>
-                                <div class="sort-drop-down-item" onclick="ActivateSort(event, 'hcrating')">
+                                <div class="sort-drop-down-item" onclick="ActivateSort(event, 'hcrating', false, null, true)">
                                     <span>Highest Competitive Rating</span>
                                 </div>
                             </li>
                             <li>
-                                <div class="sort-drop-down-item" onclick="ActivateSort(event, 'lcrating')">
+                                <div class="sort-drop-down-item" onclick="ActivateSort(event, 'lcrating', false, null, true)">
                                     <span>Lowest Competitive Rating</span>
                                 </div>
                             </li>

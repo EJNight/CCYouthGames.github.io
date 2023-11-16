@@ -130,6 +130,7 @@
         "NumRatings": "4",
         "CompetitiveRating": "1",
         "HeaderColor": "#9e0096",
+        "HeaderColor2": "#000000",
         "GamePic": "resources/gamepic13.png",
         "Details":[
             "Indoor",
@@ -171,6 +172,7 @@
         "NumRatings": "6",
         "CompetitiveRating": "5",
         "HeaderColor": "#050980",
+        "HeaderColor2": "#800905",
         "GamePic": "resources/gamepic2.png",
         "Details":[
             "Outdoor",
@@ -221,6 +223,7 @@
         "NumRatings": "5",
         "CompetitiveRating": "4",
         "HeaderColor": "#800905",
+        "HeaderColor2": "#050980",
         "GamePic": "resources/gamepic3.png",
         "Details":[
             "Outdoor",
@@ -573,7 +576,8 @@
         "Rating": "6.33",
         "NumRatings": "6",
         "CompetitiveRating": "2",
-        "HeaderColor": "#cca46e",
+        "HeaderColor": "#ffd8a5",
+        "HeaderColor2": "#311f06",
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Outdoor",
@@ -634,11 +638,14 @@
         "NumRatings": "6",
         "CompetitiveRating": "2",
         "HeaderColor": "#474747",
+        "HeaderColor2": "#000000",
         "GamePic": "resources/gamepic5.png",
+        "Bubble": "Top Rated!",
         "Details":[
             "Indoor",
             "Event",
             "Annual ",
+            "Top Rated",
             "Group Size 20+",
             "Played In The Dark",
             "Requires: 1 Deck Of Cards",
@@ -702,7 +709,8 @@
         "Rating": "7.83",
         "NumRatings": "6",
         "CompetitiveRating": "3",
-        "HeaderColor": "#ff3a89",
+        "HeaderColor2": "#ff3a89",
+        "HeaderColor": "#990b06",
         "GamePic": "resources/gamepic17.png",
         "Details":[
             "Indoor",
@@ -810,7 +818,8 @@
         "Rating": "0",
         "NumRatings": "0",
         "CompetitiveRating": "3",
-        "HeaderColor": "#02fd08",
+        "HeaderColor2": "#02fd08",
+        "HeaderColor": "#ff0000",
         "GamePic": "resources/gamepic8.png",
         "Details":[
             "Outdoor",
@@ -832,7 +841,7 @@
         "GamePic": "resources/gamepic.png",
         "Details":[
             "Outdoor / Indoor",
-            "Group Size 12+",
+            "Group Size 2",
             "Competitive Rating: ★★☆☆☆"
         ],
         "Filters":[
@@ -1265,6 +1274,51 @@
         "GamePic": "resources/gamepic24.png",
         "Details":[
             "Outdoor / Indoor",
+            "Group Size 2",
+            "Requires: A Whiteboard",
+            "Competitive Rating: ★★★☆☆"
+        ],
+        "Filters":[
+            "indoor",
+            "think",
+            "new"
+        ],
+        "Description": "A 3 by 3 grid is drawn on a whiteboard or a peice of paper and two players take turns drawing in the grid. One person draws Xs, and the other draws Os, the first person to get 3 in a row wins."
+
+    },
+    {
+        "Name": "Ultimate Tic Tac Toe",
+        "Rating": "0",
+        "Bubble": "New!",
+        "NumRatings": "0",
+        "CompetitiveRating": "2",
+        "HeaderColor": "#9000d3",
+        "HeaderColor2": "#20002f",
+        "GamePic": "resources/gamepic25.png",
+        "Details":[
+            "Outdoor / Indoor",
+            "Group Size 8+",
+            "Requires: A Whiteboard",
+            "Team Game",
+            "Competitive Rating: ★★★☆☆"
+        ],
+        "Filters":[
+            "indoor",
+            "think",
+            "new"
+        ],
+        "Description": "A 3 by 3 grid of Tic Tac Toe grids (a 9 by 9 grid) is drawn on a whiteboard. The first team can play in any one of the 9 tic tac toe grids, and the square they draw in determines where team 2 goes "
+    },
+    {
+        "Name": "Supreme Tic Tac Toe",
+        "Rating": "0",
+        "Bubble": "New!",
+        "NumRatings": "0",
+        "CompetitiveRating": "2",
+        "HeaderColor": "#ae00ff",
+        "GamePic": "resources/gamepic24.png",
+        "Details":[
+            "Outdoor / Indoor",
             "Group Size 14+",
             "Requires: A Whiteboard",
             "Competitive Rating: ★★★☆☆"
@@ -1274,19 +1328,6 @@
             "think",
             "new"
         ],
-        "Description": [
-            {
-                "Header": "Tic Tac Toe",
-                "Text": "A 3 by 3 grid is drawn on a whiteboard or a peice of paper and two players take turns drawing Xs and Os in the grid, the first person to get 3 in a row wins."
-            },
-            {
-                "Header": "Ultimate Tic Tac Toe",
-                "Text": ""
-            },
-            {
-                "Header": "Supreme Tic Tac Toe",
-                "Text": ""
-            }
-        ]
+        "Description": "Coming Soon..."
     }
 ]

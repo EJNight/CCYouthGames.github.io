@@ -38,9 +38,6 @@ const cardTemplate = elementFromHtml(`
     <template cardTemplate>
             <div class="gameBox">
                 <div class="gameBoxHeader">
-                    <div class="bubble">
-                        <span card-bubble>New!</span>
-                    </div>
                     <div class="header-items">
                         <img class="gamePic" card-pic>
                         <h1 class="gameName" card-name></h1>
@@ -50,7 +47,8 @@ const cardTemplate = elementFromHtml(`
             <div class="gameBoxBody">
                 <div class="rating-box">
                     <i class='bx bxs-star'></i>
-                    <span class="rating">Rating</span><br>
+                    <span class="rating">Rating</span>
+                    <span class="rating-num">10</span><br>
                     <div class="ratings-box">
                         <div class="star-box" card-stars></div>
                         <span class="ratings" card-rating>Ratings</span><br>
@@ -122,8 +120,6 @@ if(fileBtn != null){
         fileUpload.click();
     });
 }
-
-
 
 if(searchBar != null){
 //reads the searchbar and filters the games based off of the search. 
@@ -219,14 +215,12 @@ function elementFromHtml(html){
 function GetRating(parent, rating){
     
     let index = 0;
-    rating = rating / 2;
-    for(let i = 0; i < Math.floor(rating); i++){
+    for(let i = 0; i < Math.round(rating / 2); i++){
         index++;
         const fstar = elementFromHtml(" <i class='bx bxs-star'></i>");
         parent.appendChild(fstar);
     }
-
-    if(rating > index){
+    if(Math.round(rating) > index * 2){
         index++;
         const hstar = elementFromHtml(" <i class='bx bxs-star-half'></i>");
         parent.appendChild(hstar);
@@ -314,24 +308,19 @@ function addGame(index, container){
 
             const card = cardTemplate.content.cloneNode(true).children[0]
             //gets all the info for the game.
-            const gameName = card.querySelector("[card-name]")
-            const gameBubbleText = card.querySelector("[card-bubble]")
-            const gameBubble = card.querySelector(".bubble")
-            const gameDetails = card.querySelector("[card-list]")
-            const gameStars = card.querySelector("[card-stars]")
-            const gamePic = card.querySelector("[card-pic]")
-            const gameRatings = card.querySelector("[card-rating]")
-            const gameDescBox = card.querySelector(".card-desc")
-            const gameBoxHeader = card.querySelector(".gameBoxHeader")
-            const gameBoxHeaderShadow = card.querySelector(".gameBoxHeader-shadow")
+            const gameName = card.querySelector("[card-name]");
+            const gameBubbleText = card.querySelector("[card-bubble]");
+            //const gameBubble = card.querySelector(".bubble");
+            const gameDetails = card.querySelector("[card-list]");
+            const gameStars = card.querySelector("[card-stars]");
+            const gamePic = card.querySelector("[card-pic]");
+            const gameRatingNum = card.querySelector(".rating-num");
+            const gameRatings = card.querySelector("[card-rating]");
+            const gameDescBox = card.querySelector(".card-desc");
+            const gameBoxHeader = card.querySelector(".gameBoxHeader");
+            const gameBoxHeaderShadow = card.querySelector(".gameBoxHeader-shadow");
 
             gameName.textContent = index.Name
-            if (index.Bubble == null || index.Bubble == ""){
-                gameBubble.remove();
-            }
-            else{
-                gameBubbleText.textContent = index.Bubble
-            }
 
             if (index.GamePic != null){
                 gamePic.src = index.GamePic
@@ -342,17 +331,20 @@ function addGame(index, container){
 
             if (index.HeaderColor != null)
             {
-                gameBoxHeaderShadow.style.boxShadow = "0px 0px 300px" + index.HeaderColor
+                //gameBox.style.backgroudImage = "linear-gradient(to bottom right, red, yellow)";
+                gameBoxHeaderShadow.style.boxShadow = "0px 0px 300px" + index.HeaderColor;
                 gameBoxHeader.style.backgroundColor = index.HeaderColor;
-                gameBubble.style.backgroundColor = index.HeaderColor;
+                gameBoxHeader.style.backgroundImage = "linear-gradient(to bottom right,"+index.HeaderColor+", "+index.HeaderColor2+")";
+                //gameBubble.style.backgroundColor = index.HeaderColor;
             }
             else{
-                
+                gameBoxHeaderShadow.style.boxShadow = "0px 0px 300px" + "#990b06";
                 gameBoxHeader.style.backgroundColor = "#990b06";
-                gameBubble.style.backgroundColor = "#990b06";
+                //gameBubble.style.backgroundColor = "#990b06";
             }
             GetDesc(index.Description, gameDescBox)
             gameRatings.textContent = index.NumRatings + " Ratings"
+            gameRatingNum.textContent = index.Rating;
             GetRating(gameStars, index.Rating)
             createList(gameDetails, index.Details)
             container.append(card)

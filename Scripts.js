@@ -142,8 +142,10 @@ function FilterGames(){
             let containsSearch = true;
             let containsFilter = false;
 
-            if(!game.Name.toLowerCase().includes(search.toLowerCase()) && search != null){
-                containsSearch = false;
+            if ( search != null){
+                if(!game.Name.toLowerCase().includes(search.toLowerCase())){
+                    containsSearch = false;
+                }
             }
                 
             if (filter != null){

@@ -110,11 +110,11 @@
         "Description": [
             {
                 "Header": "Preparation",
-                "Text": "Everyone finds a partner (boys with boys and girls with girls) and gets into 2 circles, an outer circle 'The Nests', and an inner circle 'The Birds'. One Partner will be in the outer circle and the other will be in the inner circle."
+                "Text": "Everyone finds a partner (boys with boys and girls with girls) and gets into 2 circles, an outer circle 'The Perches', and an inner circle 'The Birdies'. One Partner will be in the outer circle and the other will be in the inner circle."
             },
             {
                 "Header": "Main Game",
-                "Text": "Someone starts playing music and both circles start walking in opposite rotation. When the music stops everyone has to find their partner, and 'The Birds' have to sit on the knee of 'The Nests'."
+                "Text": "Someone starts playing music and both circles start walking in opposite rotation. When the music stops everyone has to find their partner, and 'The Birdies' have to sit on the knee of 'The Perches'."
             },
             {
                 "Header": "Elimination",
@@ -709,8 +709,8 @@
         "Rating": "7.83",
         "NumRatings": "6",
         "CompetitiveRating": "3",
-        "HeaderColor2": "#ff3a89",
-        "HeaderColor": "#990b06",
+        "HeaderColor": "#ff3a89",
+        "HeaderColor2": "#990b06",
         "GamePic": "resources/gamepic17.png",
         "Details":[
             "Indoor",

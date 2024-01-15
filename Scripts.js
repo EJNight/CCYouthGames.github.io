@@ -90,6 +90,7 @@ function SetUp(){
         ActivateFilter(null, 'all', true, document.getElementById('filter-all'), false);
         ActivateSort(null, 'az', true, document.getElementById('sort-az'), true);
     }
+    scrollFunction()
         
 }
 
@@ -141,12 +142,12 @@ function FilterGames(){
         data.forEach(game =>{
             let containsSearch = true;
             let containsFilter = false;
-
             if ( search != null){
                 if(!game.Name.toLowerCase().includes(search.toLowerCase())){
                     containsSearch = false;
                 }
             }
+                
                 
             if (filter != null){
                 game.Filters.forEach(f => {
@@ -384,6 +385,21 @@ function FindCommonColor(image){
     console.log(image.getImageData())
 
 }
+let topBtn = document.getElementById("top-btn-box");
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+    topBtn.style.display = "flex";
+  } else {
+    topBtn.style.display = "none";
+  }
+}
+
+function goToTop(){
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
 
 function OpenTab(evt, name){
     // Declare all variables.
@@ -541,4 +557,204 @@ function SubtractInt(amount, element, minValue){
     }
     element.textContent = num
     
+}
+
+function randomVerse(element){
+    const Books = [
+        "Genesis",
+        "Exodus",
+        "Leviticus",
+        "Numbers",
+        "Deuteronomy",
+        "Joshua",
+        "Judges",
+        "Ruth",
+        "1 Samuel",
+        "2 Samuel",
+        "1 Kings",
+        "2 Kings",
+        "1 Chronicles",
+        "2 Chronicles",
+        "Ezra",
+        "Nehemiah",
+        "Esther",
+        "Job",
+        "Psalms",
+        "Proverbs",
+        "Ecclesiastes",
+        "Song Of Songs",
+        "Isaiah",
+        "Jeremiah",
+        "Lamentations",
+        "Ezekiel",
+        "Daniel",
+        "Hosea",
+        "Joel",
+        "Amos",
+        "Obadiah",
+        "Jonah",
+        "Micah",
+        "Nahum",
+        "Habakkuk",
+        "Zephaniah",
+        "Haggai",
+        "Zechariah",
+        "Malachi",
+        "Matthew",
+        "Mark",
+        "Luke",
+        "John",
+        "Acts",
+        "Romans",
+        "1 Corinthians",
+        "2 Corinthians",
+        "Galatians",
+        "Ephesians",
+        "Philippians",
+        "Colossians",
+        "1 Thessalonians",
+        "2 Thessalonians",
+        "1 Timothy",
+        "2 Timothy",
+        "Titus",
+        "Philemon",
+        "Hebrews",
+        "James",
+        "1 Peter",
+        "2 Peter",
+        "1 John",
+        "2 John",
+        "3 John",
+        "Jude",
+        "Revelation",
+    ];
+    const ChapterCounts = [
+        "50",
+        "40",
+        "27",
+        "36",
+        "34",
+        "24",
+        "21",
+        "4",
+        "31",
+        "24",
+        "22",
+        "25",
+        "29",
+        "36",
+        "10",
+        "13",
+        "10",
+        "42",
+        "150",
+        "31",
+        "12",
+        "8",
+        "66",
+        "52",
+        "5",
+        "48",
+        "12",
+        "14",
+        "3",
+        "9",
+        "1",
+        "4",
+        "7",
+        "3",
+        "3",
+        "3",
+        "2",
+        "14",
+        "4",
+        "28",
+        "16",
+        "24",
+        "21",
+        "28",
+        "16",
+        "16",
+        "13",
+        "6",
+        "6",
+        "4",
+        "4",
+        "5",
+        "3",
+        "6",
+        "4",
+        "3",
+        "1",
+        "13",
+        "5",
+        "5",
+        "3",
+        "5",
+        "1",
+        "1",
+        "1",
+        "22"
+    ];
+    const VerseCounts = [
+        [
+            "31",
+            "25",
+            "24",
+            "26",
+            "32",
+            "22",
+            "24",
+            "22",
+            "29",
+            "32",
+            "32",
+            "20",
+            "18",
+            "24",
+            "21",
+            "16",
+            "27",
+            "33",
+            "38",
+            "18",
+            "34",
+            "24",
+            "20",
+            "67",
+            "34",
+            "35",
+            "46",
+            "22",
+            "35",
+            "43",
+            "55",
+            "32",
+            "20",
+            "31",
+            "29",
+            "43",
+            "36",
+            "30",
+            "23",
+            "23",
+            "57",
+            "38",
+            "34",
+            "28",
+            "34",
+            "31",
+            "22",
+            "33",
+            "26"
+        ],
+        [
+
+        ],
+    ]
+    let random = Math.floor(Math.random() * 66)
+    let randomBook = Books[random];
+    let randomChapter = Math.floor(Math.random() * ChapterCounts[random] + 1)
+    let randomVerse = Math.floor(Math.random() * VerseCounts[random][randomChapter] + 1)
+    element.textContent = randomBook + "  " + randomChapter + " : " + randomVerse;
 }
